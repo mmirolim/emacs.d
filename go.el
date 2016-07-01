@@ -2,9 +2,10 @@
 (require 'go-eldoc)
 (require 'yasnippet)
 (require 'flycheck)
+(require 'go-direx)
 
 ; Go Oracle
-(load-file "~/go/src/golang.org/x/tools/cmd/oracle/oracle.el")
+(load-file "~/go/src/golang.org/x/tools/cmd/guru/go-guru.el")
 ; Goflymake
 (add-to-list 'load-path "~/go/src/github.com/dougm/goflymake")
 (require 'go-flymake)
