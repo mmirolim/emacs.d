@@ -1,8 +1,14 @@
 (require 'go-mode)
+(require 'go-eldoc)
+(require 'yasnippet)
+(require 'flycheck)
+(require 'go-direx)
+
 ; Go Oracle
-(load-file "~/go/src/golang.org/x/tools/cmd/oracle/oracle.el")
+(load-file "~/go/src/golang.org/x/tools/cmd/guru/go-guru.el")
 ; Goflymake
 (add-to-list 'load-path "~/go/src/github.com/dougm/goflymake")
+(require 'go-flymake)
 ; Golint
 (add-to-list 'load-path (concat (getenv "GOPATH")
 "/src/github.com/golang/lint/misc/emacs"))
@@ -30,8 +36,10 @@
 (add-hook 'go-mode-hook (lambda ()
 	(set (make-local-variable 'company-backends) '(company-go))
 	(company-mode)))
+(add-hook 'go-mode-hook 'go-eldoc-setup)
 (setq company-tooltip-limit 20)                      ; bigger popup window
 (setq company-idle-delay .3)                         ; decrease delay before autocompletion popup shows
 (setq company-echo-delay 0)                          ; remove annoying blinking
 (setq company-begin-commands '(self-insert-command)) ; start autocompletion only after typing
-(require 'go-flymake)
+(yas-reload-all)
+(add-hook 'go-mode-hook 'yas-minor-mode)
