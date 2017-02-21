@@ -11,7 +11,7 @@
  '(markdown-command "markdown2-3.4")
  '(package-selected-packages
    (quote
-    (go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru go-rename gotest go-eldoc undo-tree tuareg scala-mode2 rust-mode neotree markdown-mode lua-mode js3-mode goto-chg fsharp-mode flycheck-ocaml f ensime company-go caml auto-complete))))
+    (go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru go-rename gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode js3-mode goto-chg f ensime company-go caml auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
