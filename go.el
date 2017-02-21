@@ -1,13 +1,17 @@
 (require 'go-mode)
+(require 'go-guru)
 (require 'go-eldoc)
 (require 'yasnippet)
 (require 'flycheck)
 (require 'go-direx)
 
-; Go Oracle
-(load-file "~/go/src/golang.org/x/tools/cmd/guru/go-guru.el")
+
+;; TODO should be able to get from ENV but does not work
+(setenv "GOPATH" "/home/me/go")
+(setq exec-path (append exec-path '("/home/me/go/bin")))
+
 ; Goflymake
-(add-to-list 'load-path "~/go/src/github.com/dougm/goflymake")
+(add-to-list 'load-path (concat (getenv "GOPATH") "/src/github.com/dougm/goflymake"))
 (require 'go-flymake)
 ; Golint
 (add-to-list 'load-path (concat (getenv "GOPATH")
