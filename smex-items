@@ -1,21 +1,23 @@
 
 ;; ----- smex-history -----
 (
+ git-status
+ comment-region
+ compose-region
  cider-report-bug
  vc-region-history
  rectangle-mark-mode
- git-status
  load-file
- package-show-package-list
- cd
 )
 
 ;; ----- smex-data -----
 (
  (load-file . 2)
  (package-show-package-list . 1)
- (git-status . 1)
+ (git-status . 3)
  (rectangle-mark-mode . 5)
  (vc-region-history . 1)
  (cider-report-bug . 1)
+ (compose-region . 1)
+ (comment-region . 1)
 )
