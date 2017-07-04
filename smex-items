@@ -1,23 +1,64 @@
 
 ;; ----- smex-history -----
 (
- git-status
+ describe-font
+ revert-buffer
+ mc/mark-next-like-this
+ goto-last-change
+ rgrep
+ mc/mark-all-like-this
  comment-region
- compose-region
- cider-report-bug
- vc-region-history
- rectangle-mark-mode
- load-file
 )
 
 ;; ----- smex-data -----
 (
  (load-file . 2)
- (package-show-package-list . 1)
- (git-status . 3)
+ (package-show-package-list . 2)
+ (git-status . 5)
  (rectangle-mark-mode . 5)
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 1)
+ (comment-region . 24)
+ (start-kbd-macro . 1)
+ (golint . 3)
+ (go-mode-menu . 1)
+ (menu-bar-open . 4)
+ (imenu . 3)
+ (shell . 16)
+ (goto-last-change . 84)
+ (goto-last-change-reverse . 8)
+ (go-test-current-file . 1)
+ (go-rename . 13)
+ (go-set-project . 2)
+ (revert-buffer . 113)
+ (go-direx-pop-to-buffer . 5)
+ (go-direx-switch-to-buffer . 3)
+ (speedbar . 1)
+ (set-rectangular-region-anchor . 2)
+ (dired-toggle-read-only . 1)
+ (mc/mark-all-like-this . 10)
+ (diff . 13)
+ (indent-rigidly . 1)
+ (mc/mark-next-lines . 2)
+ (mc/mark-next-like-this . 351)
+ (json-pretty-print . 14)
+ (cvs-checkout . 1)
+ (grep . 4)
+ (uncomment-region . 12)
+ (smerge-mode . 3)
+ (smerge-next . 82)
+ (smerge-resolve . 1)
+ (smerge-keep-other . 174)
+ (smerge-keep-base . 1)
+ (smerge-keep-mine . 9)
+ (superword-mode . 2)
+ (upcase-word . 2)
+ (markdown-preview . 12)
+ (rgrep . 3)
+ (godoc . 1)
+ (go-errcheck . 1)
+ (list-packages . 1)
+ (org-todo-yesterday . 1)
+ (describe-font . 1)
 )

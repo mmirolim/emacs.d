@@ -1,3 +1,7 @@
+;;; mmirolim_config --- Summary custom emacs configuration
+;;; Commentary:
+;;; Mostly used for golang development
+;;; Code:
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -8,10 +12,9 @@
  '(display-time-mode t)
  '(help-at-pt-display-when-idle (quote (flymake-overlay)) nil (help-at-pt))
  '(help-at-pt-timer-delay 0.9)
- ;;(markdown-command "markdown2-3.4")
  '(package-selected-packages
    (quote
-    (yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru go-rename gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company-go caml auto-complete))))
+    (flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru go-rename gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company-go caml auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -21,8 +24,6 @@
 ;; turn off alarm bell
 (setq ring-bell-function 'ignore)
 (require 'package)
-(push '("marmalade" . "http://marmalade-repo.org/packages/")
-	package-archives)
 (push '("melpa" . "http://melpa.milkbox.net/packages/")
 	package-archives)
 (package-initialize)
@@ -36,4 +37,5 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+;;; .emacs ends here
  
