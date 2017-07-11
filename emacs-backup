@@ -14,7 +14,8 @@
  '(help-at-pt-timer-delay 0.9)
  '(package-selected-packages
    (quote
-    (flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru go-rename gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company-go caml auto-complete))))
+    (flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company-go caml auto-complete)))
+ '(plantuml-jar-path "/usr/share/java/plantuml.jar"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,6 +29,8 @@
 	package-archives)
 (package-initialize)
 (show-paren-mode 1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
 (load "~/.emacs.d/go.el")
 (load "~/.emacs.d/clj.el")
 (global-set-key [f8] 'neotree-toggle)
@@ -37,5 +40,10 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+(global-set-key (kbd "M-p") 'ace-window)
+;; plantuml configuration
+;; Enable plantuml-mode for PlantUML files
+(add-to-list 'auto-mode-alist '("\\.plantuml\\'" . plantuml-mode))
+(add-to-list 'auto-mode-alist '("\\BUILD\\'" . python-mode))
 ;;; .emacs ends here
  

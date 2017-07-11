@@ -1,0 +1,38 @@
+(x-display-mm-width)
+(x-display-mm-height)
+(x-display-screens)
+(x-display-list)
+(x-display-monitor-attributes-list)
+(x-display-list)
+(x-display-screens)
+(x-display-mm-height)
+(x-display-mm-width)
+(set-fontset-font 1)
+ls
+cat mirolim.pem 
+rm mirolim.pem 
+ls
+(display-about-screen)
+(display-mm-width)
+(display-multi-font-p)
+ls
+(expand-file-name buffer-file-truename)
+(pwd)
+(pwd buffer-file-truename)
+cd go/src/github.com/medesk/go/apps/web
+ls
+pwd
+plantuml
+plantuml puml-test.plantuml 
+ls
+ls img/
+plantuml --help
+(display-screens)
+(display-mm-width)
+(display-mm-height)
+(display-screens)
+(display-graphic-p)
+(display-mm-height)
+(display-mm-height)
+(display-mm-height)
+(display-mm-width)

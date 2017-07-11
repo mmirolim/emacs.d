@@ -1,53 +1,53 @@
 
 ;; ----- smex-history -----
 (
- describe-font
- revert-buffer
- mc/mark-next-like-this
- goto-last-change
- rgrep
- mc/mark-all-like-this
+ plantuml-preview
+ uncomment-region
  comment-region
+ python-mode
+ eshell
+ package-show-package-list
+ shell
 )
 
 ;; ----- smex-data -----
 (
  (load-file . 2)
- (package-show-package-list . 2)
+ (package-show-package-list . 6)
  (git-status . 5)
  (rectangle-mark-mode . 5)
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 24)
+ (comment-region . 25)
  (start-kbd-macro . 1)
  (golint . 3)
  (go-mode-menu . 1)
  (menu-bar-open . 4)
  (imenu . 3)
- (shell . 16)
- (goto-last-change . 84)
+ (shell . 24)
+ (goto-last-change . 88)
  (goto-last-change-reverse . 8)
  (go-test-current-file . 1)
- (go-rename . 13)
+ (go-rename . 44)
  (go-set-project . 2)
- (revert-buffer . 113)
+ (revert-buffer . 127)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
  (set-rectangular-region-anchor . 2)
  (dired-toggle-read-only . 1)
- (mc/mark-all-like-this . 10)
- (diff . 13)
+ (mc/mark-all-like-this . 17)
+ (diff . 15)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 351)
- (json-pretty-print . 14)
+ (mc/mark-next-like-this . 418)
+ (json-pretty-print . 15)
  (cvs-checkout . 1)
  (grep . 4)
- (uncomment-region . 12)
+ (uncomment-region . 13)
  (smerge-mode . 3)
- (smerge-next . 82)
+ (smerge-next . 102)
  (smerge-resolve . 1)
  (smerge-keep-other . 174)
  (smerge-keep-base . 1)
@@ -55,10 +55,25 @@
  (superword-mode . 2)
  (upcase-word . 2)
  (markdown-preview . 12)
- (rgrep . 3)
+ (rgrep . 5)
  (godoc . 1)
  (go-errcheck . 1)
  (list-packages . 1)
  (org-todo-yesterday . 1)
- (describe-font . 1)
+ (describe-font . 4)
+ (windmove-right . 2)
+ (windmove-left . 1)
+ (windmove-down . 1)
+ (move-to-window-line . 1)
+ (move-to-window-line-top-bottom . 1)
+ (package-list-packages . 3)
+ (lgrep . 1)
+ (subword-capitalize . 1)
+ (eshell . 4)
+ (shell-command . 1)
+ (package-autoremove . 1)
+ (plantuml-mode . 3)
+ (plantuml-preview . 5)
+ (customize-variable . 1)
+ (python-mode . 1)
 )
