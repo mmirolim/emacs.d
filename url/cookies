@@ -3,7 +3,7 @@
 
 (setq url-cookie-storage
  '(("godoc.org"
-  [url-cookie "GODOC_ORG_SESSION_ID" "add06c41f22c828a" "Thu, 22 Jun 2017 19:50:57 GMT" "/" "godoc.org" nil]))
+  [url-cookie "GODOC_ORG_SESSION_ID" "06c5e135aa976631" "Mon, 17 Jul 2017 09:19:56 GMT" "/github.com/lib/" "godoc.org" nil]))
 )
 (setq url-cookie-secure-storage
  'nil)

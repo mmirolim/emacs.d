@@ -36,3 +36,22 @@ plantuml --help
 (display-mm-height)
 (display-mm-height)
 (display-mm-width)
+ls
+go run index.go
+cd ..
+go run 
+go run model/
+go run main.go
+ls
+(def hello msg)
+(defun hello msg )
+whoiam
+su
+ls
+whoami
+ls
+echo *.go
+tree
+tree *.go
+tree . *.go
+ls

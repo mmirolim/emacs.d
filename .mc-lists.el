@@ -3,11 +3,27 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	coffee-dedent-line-backspace
+	electric-newline-and-maybe-indent
+	electric-pair-delete-pair
+	forward-sentence
+	indent-for-tab-command
+	kill-region
 	query-replace
+	upcase-region
+	yaml-electric-dash-and-dot
 	))
 
 (setq mc/cmds-to-run-once
       '(
+	abbrev-prefix-mark
+	ace-window
+	end-of-buffer
+	end-of-defun
+	find-file
+	ido-find-file
 	markdown-exdent-or-delete
 	smex
+	typescript-insert-and-indent
+	yaml-electric-backspace
 	))
