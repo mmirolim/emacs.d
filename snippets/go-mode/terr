@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: test error
+# key: terr
+# --
+if $1 != $2 {
+   t.Errorf("expected value %+v, got %+v", $2, $1)
+}
