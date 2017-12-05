@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
+ goto-last-change
+ mc/mark-next-like-this
+ revert-buffer
  rgrep
  mc/edit-lines
- mc/mark-next-like-this
- package-list-packages
- revert-buffer
  magit-status
- goto-last-change
 )
 
 ;; ----- smex-data -----
@@ -26,12 +26,12 @@
  (menu-bar-open . 4)
  (imenu . 3)
  (shell . 27)
- (goto-last-change . 109)
+ (goto-last-change . 110)
  (goto-last-change-reverse . 8)
  (go-test-current-file . 1)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 225)
+ (revert-buffer . 228)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -41,7 +41,7 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 763)
+ (mc/mark-next-like-this . 765)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 11)
+ (package-list-packages . 14)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 5)
