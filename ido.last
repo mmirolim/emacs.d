@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" . "integrations/")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" . "configuration/")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" . "enterprise/")
+ ("/home/me/medesk/src/demoxy/" . "build/")
+ ("/home/me/medesk/src/api.medesk.md/go/apps/" . "agents/")
+ ("/home/me/medesk/src/api.medesk.md/go/" . "apps/")
  ("/home/me/medesk/src/api.medesk.md/docker/" . "debian-jessie/")
  ("/home/me/medesk/src/api.medesk.md/gulp-out/tests/" . "rest/")
  ("/home/me/medesk/src/api.medesk.md/gulp-out/" . "mongo/")
@@ -9,7 +15,7 @@
  ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/" . "calendar/")
  ("/home/me/medesk/src/api.medesk.md/src/tests/" . "rest/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/x/" . "slots/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/" . "partners/")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/" . "enterprises/")
  ("/home/me/medesk/src/api.medesk.md/src/" . "routes/")
  ("/home/me/medesk/src/api.medesk.md/" . "src/")
  ("/home/me/medesk/src/" . "api.medesk.md/")
@@ -19,11 +25,17 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/me/medesk/src/api.medesk.md/src/routes/partners/"
- "/home/me/medesk/src/api.medesk.md/src/schemas/"
  "/home/me/medesk/src/api.medesk.md/src/"
+ "/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/"
  "/home/me/medesk/src/api.medesk.md/src/mongo/"
  "/home/me/medesk/src/api.medesk.md/"
+ "/home/me/medesk/src/demoxy/build/"
+ "/home/me/medesk/src/demoxy/"
+ "/home/me/medesk/src/api.medesk.md/go/apps/agents/"
+ "/home/me/medesk/src/api.medesk.md/go/apps/web/"
+ "/home/me/medesk/src/api.medesk.md/src/scripts/"
+ "/home/me/medesk/src/api.medesk.md/src/routes/partners/"
+ "/home/me/medesk/src/api.medesk.md/src/schemas/"
  "/home/me/medesk/src/api.medesk.md/src/routes/payments/"
  "/home/me/medesk/src/api.medesk.md/src/platform/"
  "/home/me/medesk/src/api.medesk.md/src/routes/notifications/"
@@ -38,65 +50,88 @@
  "/home/me/medesk/src/api.medesk.md/demoxy/"
  "/home/me/medesk/src/api.medesk.md/src/routes/memberships/"
  "/home/me/medesk/src/api.medesk.md/gulp-out/tests/rest/"
- "/home/me/medesk/src/demoxy/"
  "/home/me/medesk/src/api.medesk.md/src/routes/x/slots/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "index.ts"
- "x.yml"
  "server.coffee"
- "model-calendar-event.coffee"
- "model-calendar.ts"
- "model-partner.ts"
- "tsconfig.json"
- "environment.ts"
- "mongo.ts"
- "index.coffee"
+ "index.ts"
+ "model-integration-order.ts"
+ "README.md"
+ "all.json"
+ "pom.xml"
+ "Procfile"
+ "compose-core.yml"
+ "handlers.go"
+ "mongo.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/me/medesk/src/api.medesk.md/src/schemas/" (23078 32994 88579 432000) "reports.yml" "all.json" "all.yml" "js4/" "tags.yml" "calendars.yml" "./" "protocols.yml" "catalogs.yml" "Makefile" "subscriptions.yml" "payments.yml" "x.yml" "enterprise.yml" "memberships.yml" "SchemasToExport.mk" "pricelist.yml" "blob.yml" "patients.yml" "ts/" "partners.yml~" "../" "track.yml" "auth.yml" "BUILD" "types.yml" "invoices.yml" "assistants.yml" "roles.yml" "partners.yml" "stats.yml" "accounts.yml")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/" (23127 18731 621977 523000) ".#index.ts" "index.ts" "#index.ts#" "./" "../" "cyp/")
 
- ("/home/me/medesk/src/api.medesk.md/src/" (23078 32384 973164 808000) "web.js" "server.coffee" "tests/" "proc/" "cron/" "./" "proto/" "filters.coffee" "reports/" "es/" "observations/" "schemas/" "#wss.ts#" "#server.coffee#" "cli.ts" "worker.ts" "mappers.services.coffee" "api.ts" "config/" "commons/" "mongo/" "../" "srvcs/" "server-utils.ts" "locales/" "bin/" "calendar.coffee" "schemas.yaml" "scripts/" "typings/" "queue.coffee" "libs/" "platform/" "neo4j/" "filters.services.coffee" "routes/")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" (22986 29323 452802 508000) "integrations/" "./" "reports/" "contracts/" "observations/" "branches/" "warehouse/" "serviceLogs/" "places/" "../" "protocols/" "catalogs/" "programs/" "agents/" "offers/" "pricelist/" "roles/")
 
- ("/home/me/medesk/src/api.medesk.md/src/routes/partners/" (23078 32239 801838 412000) "index.ts" "./" "index.ts~" "../")
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" (23061 21778 924201 468000) "index.ts" "./" "configuration/" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" (23101 5732 754948 219000) "index.ts" "./" "enterprise/" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/" (23127 18402 642219 767000) "bazel-out/" "WORKSPACE" "root.mak" "run-tests.sh~" "Procfile" "tsfmt.json" ".dockerignore" "dockerfile-api-dev" "pricelist_vita_med.csv" "README.md" "./" "proto/" "onePriceCode.csv" "pricelist-tab.csv~" "compose-core.yml" "shell-vars.sh" ".settings/" "templ.yaml" "perf.js~" "signup-enter.csv" "bazel-api.medesk.md/" "Makefile" "npm-test.sh" "compose-local-db.yml" "tsconfig.my.json~" "compose-dev-api.yml~" "enter.csv" "compose-core-build.yml~" "signup-enter.csv~" "bazel-genfiles/" "shell-api-env.sh~" "gulpfile.coffee" "compose-test.yml~" "newnodecodes.csv~" "tsd.json" "docker/" "db-init.sh" "shell-tabs.sh" "bazel-testlogs/" ".vscode/" "compose-dev-api.yml" "bench.js~" "buildspec.yml" "npm-apidocs.sh" "shell-tabs-linux.sh" "dockerfile-api" "head.mak" "duplicatesLogin.js~" "Dokerfile~" "bazel-bin/" "gulpfile.js" "build-support/" "allIdsToUpdateUsername.js~" "node_modules/" "src/" "postman/" "app.json" ".git/" "coffeelint.json" "shell-rename.sh" ".tsfmt.json~" "tmp/" "lowerupdate.out" "loginsToUpdate.js~" "../" "UpdateHistoryForDevs.md" ".envrc" "BUILD" "newnodecodes.csv" "gulp-out/" ".ebextensions/" ".jshintrc" "LICENSE" "api-docs/" ".gitignore" "#allIdsToUpdateUsername.js#" "package.json" "tsconfig.json" "dockerfile-api-dev~" "proxy.local.yml" "npm-debug.log" "bazel/" "go/" "duplicatesLastSeen.js~" "build/" "npm-shrinkwrap.json" "shell-api-env.sh" "tools/" "CHANGES.md" "docs/" "demoxy/" "pricelist-tab.csv" "tatus")
+
+ ("/home/me/medesk/src/api.medesk.md/src/" (23127 18402 626219 730000) "web.js" "server.coffee" "tests/" ".#worker.ts" "proc/" "cron/" "./" "proto/" "filters.coffee" "reports/" "es/" "observations/" "schemas/" "#wss.ts#" "#server.coffee#" "cli.ts" "worker.ts" "#worker.ts#" "mappers.services.coffee" "api.ts" "config/" "commons/" "mongo/" "../" "srvcs/" "server-utils.ts" "locales/" "bin/" "calendar.coffee" "schemas.yaml" "scripts/" "typings/" "queue.coffee" "libs/" "platform/" "neo4j/" "filters.services.coffee" "routes/")
+
+ ("/home/me/medesk/src/api.medesk.md/src/mongo/" (23127 18402 628219 734000) "model-negotiation.js" "model-template.ts" "model-enterprise-tools.ts" "model-offer.js" "model-searchdataexport.ts" "./" "model-protocol.ts" "model-searchpage.ts" "model-calendar.ts" "model-visit.ts" "model-contract.ts" "model-salary-bonus.ts" "model-partner.ts~" "model-task-record.ts" "model-enterprise-store.coffee" "model-hook.ts" "model-risklist/" "model-counter.ts" "model-record.ts" "model-pricelist.ts" "model-task.ts" "model-profile-tools.ts" "schema-visit.js" "plugins/" "model-ehr/" "model-membership-tools.ts" "commons.coffee" "model-stats.ts" "model-composition.ts" "model-report.ts" "model-record-path.ts" "model-notification.coffee" "model-blob.js" "model-profile.coffee" "model-ins-program.js" "index.coffee" "model-commit.coffee" "model-notification-sms.ts" "schema-es-group.js" "model-partner.ts" "model-integration-order.ts" "model-warehouse/" "model-authorization.coffee" "model-service.coffee" "model-cache.js" "model-request-verify-email.coffee" "model-membership.coffee" "../" "model-profile-store.coffee" "model-patient.ts" "model-request-reset-password.coffee" "model-security-group.coffee" "schemas.ts" "model-attachment.js" "model-notification-email.ts" "model-role.coffee" "model-subscription.coffee" "model-ins-program-reserve.js" "model-insurance.coffee" "model-calendar-event.coffee" "model-membership-store.coffee" "model-assigned-service.ts" "model-integration.ts" "model-authorization-tools.ts" "model-place.coffee" "model-request-invite.coffee" "model-job.ts" "model-composition-tools.ts" "model-enterprise.coffee" "model-log-service-provided.js" "model-blob-upload.js" "model-log-service-provided-tools.ts" "model-observation.ts" "schema-tag.coffee")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/x/slots/" (23101 5732 757948 227000) "index.ts" "./" "../")
+
+ ("/home/me/medesk/src/api.medesk.md/gulp-out/tests/rest/" (23101 13057 536644 150000) "res-profile.js" "res-insurance-program.js" "res-payments.js" "./" "res-calendar.js" "header-x-md-date.js" "res-warehouse.js" "res-stats.js" "res-drug.js" "res-accounts.js" "res-membership.js" "commons.js" "res-enterprise.js" "res-pricelist.js" "res-search.js" "res-agents.js" "res-notifications.js" "res-hooks.js" "res-private-enterprise.js" "res-x-slots.js" "res-catalogs.js" "pipeline.js" "res-assignments.js" "res-attachment.js" "res-tasks.js" "res-reports.js" "res-patient-neo4j.js" "res-blob.js" "res-contracts.js" "res-mkb10.js" "res-protocol.js" "res-invoices.js" "res-auth.js" "res-visits-private.js" "res-stats20.js" "res-composition-visits.js" "../" "res-queue.js" "res-stillalive.js" "res-patient.js" "res-visits.js" "res-partners.js" "res-offer.js" "res-commits.js" "res-composition-private.js" "res-composition-archs.js" "res-usecase-subscribe-clinic.js" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-subscription.js" "res-composition.js" "res-event-visit-neo4j.js")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/memberships/" (23101 5732 754948 219000) "index.ts" "./" "commons.coffee" "membership/" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/gulp-out/mongo/" (23101 13057 520644 109000) "model-negotiation.js" "model-offer.js" "model-template.js" "model-partner.js" "model-enterprise-tools.js" "./" "model-profile.js" "model-calendar-event.js" "model-hook.js" "model-request-reset-password.js" "model-report.js" "model-security-group.js" "model-salary-bonus.js" "model-patient.js" "model-risklist/" "model-integration-order.js" "model-membership.js" "model-calendar.js" "commons.js" "model-insurance.js" "model-authorization-tools.js" "schema-visit.js" "model-stats.js" "plugins/" "model-membership-tools.js" "model-ehr/" "model-composition-tools.js" "model-role.js" "model-blob.js" "model-task.js" "model-authorization.js" "model-ins-program.js" "model-visit.js" "model-searchpage.js" "model-enterprise-store.js" "model-record-path.js" "schema-es-group.js" "model-warehouse/" "model-service.js" "model-job.js" "model-composition.js" "model-membership-store.js" "model-log-service-provided-tools.js" "schema-tag.js" "model-notification-email.js" "model-searchdataexport.js" "model-cache.js" "../" "schemas.js" "model-enterprise.js" "model-task-record.js" "model-record.js" "model-attachment.js" "model-notification.js" "model-contract.js" "model-ins-program-reserve.js" "index.js" "model-profile-tools.js" "model-profile-store.js" "model-request-verify-email.js" "model-assigned-service.js" "model-place.js" "model-request-invite.js" "model-pricelist.js" "model-notification-sms.js" "model-observation.js" "model-counter.js" "model-integration.js" "model-log-service-provided.js" "model-blob-upload.js" "model-protocol.js" "model-subscription.js" "model-commit.js")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/" (23095 45991 466789 184000) "index.ts" "./" "events/" "#tools.ts#" ".#tools.ts" "../" "schemas.yaml" "tools.ts")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/events/" (23101 5732 754948 219000) "index.ts" "./" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/src/tests/rest/" (23101 5746 905987 823000) "res-catalogs.ts" "res-stats20.ts" "res-accounts.ts" "res-insurance-program.js" "./" "res-calendar.js" "header-x-md-date.js" "res-x-slots.ts" "res-usecase-subscribe-clinic.ts" "res-tasks.ts" "res-warehouse.ts" "res-drug.js" "commons.js" "res-pricelist.ts" "res-search.js" "res-auth.ts" "res-event-visit-neo4j.ts" "res-private-enterprise.js" "res-subscription.ts" "res-attachment.js" "res-patient.ts" "res-payments.ts" "res-reports.js" "res-blob.js" "test_file.txt" "res-contracts.js" "res-composition-archs.ts" "res-mkb10.js" "res-protocol.js" "types.d.ts" "res-enterprise.ts" "res-visits.ts" "res-visits-private.js" "res-assignments.ts" "res-profile.ts" "res-composition-visits.js" "../" "pipeline.ts" "res-queue.js" "res-stillalive.js" "res-partners.ts" "res-hooks.ts" "res-agents.ts" "res-offer.js" "res-partners.ts~" "res-commits.js" "res-composition-private.js" "res-stats.ts" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-membership.ts" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-invoices.ts" "res-composition.js" "res-notifications.ts" "res-patient-neo4j.ts")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/events/" (23101 5732 754948 219000) "index.ts" "./" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/notifications/" (23101 5746 903987 818000) "index.ts" "./" "../" "schemas.yaml")
+
+ ("/home/me/medesk/src/api.medesk.md/src/platform/" (23101 5746 903987 818000) "index.ts" "messages.ts" "currency.ts" "./" "metrics.ts" "tz.ts" "core.ts" "mongo.ts" "#mongo.ts#" "country.ts" "redis.ts" "httpDomains.ts" "express.ts" "market.ts" "consts.ts" "#types.ts#" "ccc.ts" "../" "reports.ts" "types.ts" "sysEnterprises.ts" "record.ts" "environment.ts" "domains.ts" "lang.ts" "sysProfiles.ts" "template.ts" "integrations.ts" "onboarding.ts")
+
+ ("/home/me/medesk/src/api.medesk.md/src/routes/partners/" (23101 13471 479572 121000) "index.ts" "./" "index.ts~" "../")
+
+ ("/home/me/medesk/src/demoxy/build/" (23125 13250 218021 990000) "web.js" "all.json" "./" "es/" "server.js" "config/" "commons/" "mongo/" "../" "package.json" "libs/" "npm-shrinkwrap.json" "tools/" "routes/")
+
+ ("/home/me/medesk/src/demoxy/" (23125 16055 364389 937000) "Procfile" "./" "mesa_prod.env" "cert/" "conf/" "dockerfile-demoxy~" "node_modules/" "src/" "pom.xml" ".git/" "docker-demoxy~" "tmp/" "../" "dist/" ".gitignore" ".dockerignore~" ".env" "README" "build/")
+
+ ("/home/me/medesk/src/api.medesk.md/go/apps/agents/" (23101 5732 736948 168000) "handlers.go" "./" "catalog.go" "Makefile" "handlers_test.go" "mongo.go" "main.go" "../" "errors.go" "BUILD" "req/")
+
+ ("/home/me/medesk/src/api.medesk.md/go/apps/web/" (23049 28392 436681 793000) "README.md" "hook_signup.go~" "./" "listentrpise-subscribed.csv~" "httpModels/" "Makefile" "schemas/" "plans.go" "handlers/" "mw/" "x.go" "goapp" "web" "link_info_generated.go" "main.go" "assets/" "../" "x_test.go" "BUILD" "cmd/" "x_test.go~" ".gitignore" "hook_signup.go" "subscriptions2.go" "README.md~" "handlersttpModels/")
+
+ ("/home/me/medesk/src/api.medesk.md/go/apps/" (23035 17377 896980 352000) "./" "stats/" "roistat/" "importer/" "pbx/" "web/" "subsworker/" "go-gitver/" "proxy/" "scheduler/" "sms/" "../" "subscriptions/" "mdas/" "labs/" "agents/" "activator/" "json2go/" "admin-tools/")
+
+ ("/home/me/medesk/src/api.medesk.md/go/" (22986 29323 406802 377000) "./" "apps/" "actors/" "src/" "../" "bin/" "libs/" "docs/")
+
+ ("/home/me/" (23124 36123 609616 310000) "creds" "pprof/" ".gimp-2.8/" ".v8flags.6.1.534.42.ab86a1e1ef70dff97959067b723c5c24.json" "Arduino/" ".bashrc" ".v8flags.4.5.103.45.ab86a1e1ef70dff97959067b723c5c24.json" "clj/" ".dbshell" "Downloads/" ".nvm/" ".vim/" ".ICEauthority" ".node-gyp/" "./" "js/" "News/" ".bazel/" ".config/" ".m2/" ".keys/" ".bash_history" "Public/" ".bash_logout" ".wget-hsts" "bintray-sbt-rpm.repo" ".emacs" ".npm/" ".3T/" ".gnome/" ".Rhistory" ".esd_auth" "apps/" "Documents/" ".oracle_jre_usage/" "creds~" "Videos/" ".v8flags.4.5.103.45.me.json" ".gitkraken/" "scheme/" "docker/" "Templates/" ".lesshst" ".ilg-config" ".cache/" ".viminfo" "env/" ".docker/" ".bashrc~" ".node_repl_history" "python/" ".wallpapoz/" ".ivy2/" ".jssc/" ".rnd" ".thunderbird/" ".gnome2_private/" "neo4j.conf" "R/" ".thumbnails/" ".gnome2/" "lib/" ".#errneo.json" ".charles/" ".mozilla/" ".netrc" ".arduino15/" "Music/" ".gnupg/" ".aws/" ".scala_history" "cuda-workspace/" ".rstudio-desktop/" ".mongorc.js" "../" ".bash_profile" ".bash_profile~" ".sbt/" ".v8flags.6.1.534.42.me.json" ".lein/" "medesk/" "bin/" ".nv/" ".emacs~" "PlayOnLinux's virtual drives/" ".emacs.d/" ".gitconfig" ".wine/" ".PlayOnLinux/" ".ssh/" "Desktop/" ".swt/" "ru.app.medesk.md.ssl/" "t.sh" ".gitconfig~" ".fonts/" ".eclipse/" ".nvidia-settings-rc" ".java/" ".ecr/" "go/" ".charles.config" ".python_history" "Pictures/" ".pki/" ".local/" "docs/")
+
+ ("/home/me/medesk/src/api.medesk.md/src/scripts/" (23101 5746 905987 823000) "visitTagsSyncScript.ts" "importPatients/" "enterpriseMigrate.ts" "./" "allUsernamesToLower.ts~" "patchProfilesUsernameToLowercase.ts~" "stats-loader.ts" "chore_enterprise_set_pbx.coffee" "disprogMigrate.ts" "getProfileConflicts.ts" "patientSetArchivedByToRemoved.ts~" "collect_devices.coffee" "data/" "drugs.ts" "setPrescriptionIds.ts" "restoreNode.ts" "removeNullVisits.ts" "visitTagsMigrate.ts" "demo-db.coffee" "anonacc.ts" "eventDates.ts" "updateRoundConfig.ts" "commons.coffee" "redisSysProfilesClean.ts" "db-init.coffee" "repairTemplates.ts" "profileMigrate.ts" "remove-contracts.coffee" "neoplay.ts" "smsStats.ts" "apigwdoc.peg" "chore_toggle_auth.coffee" "patientSetArchivedByToRemoved.ts" "voxImplant.ts" "pricelistCodeUpdate.ts" "updateRecordPaths.ts" "getProfilesConflictAfterLowercase.ts" "updateCompositions.ts" "repairServiceLogs.ts" "setVisitPlaces.ts" "updateLoginsToLowercase.ts" "prepare_accounts.ts" "restoreRelation.ts" "pbx.sh" "restoreMembership.ts" "contractAcl.ts" "apidoc.ts" "../" "compositionAcl.ts" "pbx-setup.ts" "repairRDSStats.ts" "restoreOther.ts" "migrateVisits.ts" "reindex.ts" "redisClear.ts" "neo4j-schema.ts" "db-update-shell.coffee" "updateLoginsToLowercase.ts~" "patientMigrate.ts" "migrateSubsc.ts" "dbinitPromise.coffee" "restoreState.ts" "subsMerge.ts" "updateEventsAndVisits.ts" "signUp.js" "recalculateInvoices.ts" "subsMergeStart.coffee" "patientsImport.ts" "patientSync.ts")
+
+ ("/home/me/medesk/src/api.medesk.md/src/schemas/" (23101 12556 978301 189000) "reports.yml" "all.json" "all.yml" "js4/" "tags.yml" "calendars.yml" "./" "protocols.yml" "catalogs.yml" "Makefile" "subscriptions.yml" "payments.yml" "x.yml" "enterprise.yml" "memberships.yml" "SchemasToExport.mk" "pricelist.yml" "blob.yml" "patients.yml" "ts/" "partners.yml~" "../" "track.yml" "auth.yml" "BUILD" "types.yml" "invoices.yml" "assistants.yml" "roles.yml" "partners.yml" "stats.yml" "accounts.yml")
+
+ ("/home/me/medesk/src/" (23099 55389 808632 705000) "./" "check-bazel/" "api.medesk.md/" "SRVC_Pbx/" "me" "i.wiki/" "Me" "SRVC_Templating/" "file" "../" "pack-env/" "demoxy/")
 
  ("/home/me/medesk/src/api.medesk.md/src/routes/payments/" (23078 31519 633213 129000) "index.ts" "./" "../" "schemas.yaml")
 
- ("/home/me/medesk/src/api.medesk.md/" (23078 31471 29102 544000) "bazel-out/" "WORKSPACE" "root.mak" "run-tests.sh~" "Procfile" ".dockerignore" "dockerfile-api-dev" "pricelist_vita_med.csv" "README.md" "./" "proto/" "onePriceCode.csv" "pricelist-tab.csv~" "compose-core.yml" "shell-vars.sh" ".settings/" "templ.yaml" "perf.js~" "signup-enter.csv" "bazel-api.medesk.md/" "Makefile" "npm-test.sh" "compose-local-db.yml" "compose-dev-api.yml~" "enter.csv" "compose-core-build.yml~" "signup-enter.csv~" "bazel-genfiles/" "shell-api-env.sh~" "gulpfile.coffee" "compose-test.yml~" "newnodecodes.csv~" "tsd.json" "docker/" "db-init.sh" "shell-tabs.sh" "bazel-testlogs/" ".vscode/" "compose-dev-api.yml" "bench.js~" "buildspec.yml" "npm-apidocs.sh" "shell-tabs-linux.sh" "dockerfile-api" "head.mak" "duplicatesLogin.js~" "Dokerfile~" "bazel-bin/" "gulpfile.js" "build-support/" "allIdsToUpdateUsername.js~" ".#tsconfig.json" "node_modules/" "src/" "postman/" "app.json" ".git/" "coffeelint.json" "shell-rename.sh" "tmp/" "lowerupdate.out" "loginsToUpdate.js~" "../" "UpdateHistoryForDevs.md" ".envrc" "BUILD" "newnodecodes.csv" "gulp-out/" ".ebextensions/" ".jshintrc" "LICENSE" "api-docs/" ".gitignore" "#allIdsToUpdateUsername.js#" "package.json" "tsconfig.json" "dockerfile-api-dev~" "proxy.local.yml" "npm-debug.log" "bazel/" "go/" "duplicatesLastSeen.js~" "build/" "npm-shrinkwrap.json" "shell-api-env.sh" "tools/" "CHANGES.md" "docs/" "demoxy/" "pricelist-tab.csv" "tatus")
-
- ("/home/me/medesk/src/api.medesk.md/src/platform/" (23078 30899 446802 79000) "index.ts" "messages.ts" "currency.ts" "./" "metrics.ts" "tz.ts" "core.ts" "mongo.ts" "country.ts" "redis.ts" "httpDomains.ts" "express.ts" "market.ts" "consts.ts" "#types.ts#" "ccc.ts" "../" "reports.ts" "types.ts" "sysEnterprises.ts" "record.ts" "environment.ts" "domains.ts" "lang.ts" "sysProfiles.ts" "template.ts" "integrations.ts" "onboarding.ts")
-
  ("/home/me/medesk/src/api.medesk.md/src/typings/" (23078 23870 761723 556000) "imagemagick/" "form-data/" "chai-subset/" "./" "chai-as-promised/" "semver/" "redis/" "request/" "mongodb/" "body-parser/" "lodash/" "lru-cache/" "moment/" "path-to-regexp/" "mongoose/" "express/" "pg/" "supertest/" "hat/" "superagent/" "log4js/" "chai-things/" "q/" "aws-sdk/" "async/" "../" "chai/" "medesk-config.d.ts" "mongo.d.ts" "mime/" "mocha/" "node_redis/" "redlock/" "ws/" "moment-timezone/" "tsd.d.ts" "request-promise/" "node/" "legacy.d.ts.bak" "ms/" "supertest-as-promised/" "elasticsearch/" "through2/")
-
- ("/home/me/medesk/src/api.medesk.md/src/mongo/" (23078 27034 618926 776000) "model-negotiation.js" "model-template.ts" "model-enterprise-tools.ts" "model-offer.js" "model-searchdataexport.ts" "./" "model-protocol.ts" "model-searchpage.ts" "model-calendar.ts" "model-visit.ts" "model-contract.ts" "model-salary-bonus.ts" "model-partner.ts~" "model-task-record.ts" "model-enterprise-store.coffee" "model-hook.ts" "model-risklist/" "model-counter.ts" "model-record.ts" "model-pricelist.ts" "model-task.ts" "model-profile-tools.ts" "schema-visit.js" "plugins/" "model-ehr/" "model-membership-tools.ts" "commons.coffee" "model-stats.ts" "model-composition.ts" "model-report.ts" "model-record-path.ts" "model-notification.coffee" "model-blob.js" "model-profile.coffee" "model-ins-program.js" "index.coffee" "model-commit.coffee" "model-notification-sms.ts" "schema-es-group.js" "model-partner.ts" "model-integration-order.ts" "model-warehouse/" "model-authorization.coffee" "model-service.coffee" "model-cache.js" "model-request-verify-email.coffee" "model-membership.coffee" "../" "model-profile-store.coffee" "model-patient.ts" "model-request-reset-password.coffee" "model-security-group.coffee" "schemas.ts" "model-attachment.js" "model-notification-email.ts" "model-role.coffee" "model-subscription.coffee" "model-ins-program-reserve.js" "model-insurance.coffee" "model-calendar-event.coffee" "model-membership-store.coffee" "model-assigned-service.ts" "model-integration.ts" "model-authorization-tools.ts" "model-place.coffee" "model-request-invite.coffee" "model-job.ts" "model-composition-tools.ts" "model-enterprise.coffee" "model-log-service-provided.js" "model-blob-upload.js" "model-log-service-provided-tools.ts" "model-observation.ts" "schema-tag.coffee")
 
  ("/home/me/medesk/src/api.medesk.md/src/routes/" (23078 26799 142522 974000) "client/" "tasks/" "patients/" "visits/" "./" "stats/" "repl/" "attachments/" "hooks/" "reports/" "accounts/" "search/" "profiles/" "patient/" "partners/" "verifyEmail/" "client-staging/" "compositions/" "assignments/" "auth/" "enterprises/" "patient-staging/" "commits/" "subscriptions2/" "demo/" "userContent/" "assets/" "calendars/" "../" "tasks2/" "subscriptions/" "memberships/" "routeCommons.ts" "insurances/" "protocols/" "schemas.yaml" "blobs/" "invoices/" "notifications/" "otf/" "payments/" "prescriptions/" "catalogs/" "x/" "track/" "negotiations/" "client-beta/")
 
- ("/home/me/medesk/src/api.medesk.md/src/routes/notifications/" (23078 23870 760723 554000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/x/slots/" (23061 21789 206227 306000) "index.ts" "./" "../")
-
- ("/home/me/medesk/src/demoxy/" (23061 38298 475711 410000) "Procfile" "tests/" ".dockerignore" "README.md" "./" "shell-vars.sh" "move_data.sh" "os/" "gulpfile.coffee" "shell-tabs.sh" ".vscode/" "updates.json" "gulpfile.js" "dockerfile-demoxy~" "node_modules/" "src/" "postman/" ".git/" "docker-demoxy~" "es_update.sh" "coffeelint.json" "shell-rename.sh" "tmp/" "../" "dist/" ".gitignore" ".dockerignore~" "dockerfile-demoxy" "package.json" "tsconfig.json" "build/" "npm-shrinkwrap.json")
-
- ("/home/me/medesk/src/api.medesk.md/gulp-out/tests/rest/" (23068 8407 135996 658000) "res-profile.js" "res-insurance-program.js" "res-payments.js" "./" "res-calendar.js" "header-x-md-date.js" "res-warehouse.js" "res-stats.js" "res-drug.js" "res-accounts.js" "res-membership.js" "commons.js" "res-enterprise.js" "res-pricelist.js" "res-search.js" "res-agents.js" "res-hooks.js" "res-private-enterprise.js" "res-x-slots.js" "res-catalogs.js" "pipeline.js" "res-assignments.js" "res-attachment.js" "res-tasks.js" "res-reports.js" "res-patient-neo4j.js" "res-blob.js" "res-contracts.js" "res-mkb10.js" "res-protocol.js" "res-invoices.js" "res-auth.js" "res-visits-private.js" "res-composition-visits.js" "../" "res-queue.js" "res-stillalive.js" "res-patient.js" "res-visits.js" "res-offer.js" "res-commits.js" "res-composition-private.js" "res-composition-archs.js" "res-usecase-subscribe-clinic.js" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-subscription.js" "res-composition.js" "res-event-visit-neo4j.js")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/memberships/" (23078 23870 759723 552000) "index.ts" "./" "commons.coffee" "membership/" "../" "schemas.yaml")
-
  ("/home/me/medesk/src/api.medesk.md/docker/" (23078 23870 744723 528000) "./" "dockerfile-node" "debian-jessie/" "../" "#dockerfile-node#")
-
- ("/home/me/medesk/src/api.medesk.md/gulp-out/mongo/" (23068 8407 114996 588000) "model-negotiation.js" "model-offer.js" "model-template.js" "model-enterprise-tools.js" "./" "model-profile.js" "model-calendar-event.js" "model-hook.js" "model-request-reset-password.js" "model-report.js" "model-security-group.js" "model-salary-bonus.js" "model-patient.js" "model-risklist/" "model-integration-order.js" "model-membership.js" "model-calendar.js" "commons.js" "model-insurance.js" "model-authorization-tools.js" "schema-visit.js" "model-stats.js" "plugins/" "model-membership-tools.js" "model-ehr/" "model-composition-tools.js" "model-role.js" "model-blob.js" "model-task.js" "model-authorization.js" "model-ins-program.js" "model-visit.js" "model-searchpage.js" "model-enterprise-store.js" "model-record-path.js" "schema-es-group.js" "model-warehouse/" "model-service.js" "model-job.js" "model-composition.js" "model-membership-store.js" "model-log-service-provided-tools.js" "schema-tag.js" "model-notification-email.js" "model-searchdataexport.js" "model-cache.js" "../" "schemas.js" "model-enterprise.js" "model-task-record.js" "model-record.js" "model-attachment.js" "model-notification.js" "model-contract.js" "model-ins-program-reserve.js" "index.js" "model-profile-tools.js" "model-profile-store.js" "model-request-verify-email.js" "model-assigned-service.js" "model-place.js" "model-request-invite.js" "model-pricelist.js" "model-notification-sms.js" "model-observation.js" "model-counter.js" "model-integration.js" "model-log-service-provided.js" "model-blob-upload.js" "model-protocol.js" "model-subscription.js" "model-commit.js")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/events/" (23078 23870 758723 551000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/tests/rest/" (23078 23870 761723 556000) "res-catalogs.ts" "res-accounts.ts" "res-insurance-program.js" "./" "res-calendar.js" "header-x-md-date.js" "res-x-slots.ts" "res-usecase-subscribe-clinic.ts" "res-tasks.ts" "res-warehouse.ts" "res-drug.js" "commons.js" "res-pricelist.ts" "res-search.js" "res-auth.ts" "res-event-visit-neo4j.ts" "res-private-enterprise.js" "res-subscription.ts" "res-attachment.js" "res-patient.ts" "res-payments.ts" "res-reports.js" "res-blob.js" "test_file.txt" "res-contracts.js" "res-composition-archs.ts" "res-mkb10.js" "res-protocol.js" "types.d.ts" "res-enterprise.ts" "res-visits.ts" "res-visits-private.js" "res-assignments.ts" "res-profile.ts" "res-composition-visits.js" "../" "pipeline.ts" "res-queue.js" "res-stillalive.js" "res-hooks.ts" "res-agents.ts" "res-offer.js" "res-commits.js" "res-composition-private.js" "res-stats.ts" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-membership.ts" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-invoices.ts" "res-composition.js" "res-notifications.ts" "res-patient-neo4j.ts")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/events/" (23078 23870 758723 551000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/" (23076 13415 615569 221000) "pprof/" ".gimp-2.8/" ".v8flags.6.1.534.42.ab86a1e1ef70dff97959067b723c5c24.json" "Arduino/" ".bashrc" ".v8flags.4.5.103.45.ab86a1e1ef70dff97959067b723c5c24.json" "clj/" ".dbshell" "Downloads/" ".nvm/" ".vim/" ".ICEauthority" ".node-gyp/" "./" "js/" "News/" ".bazel/" ".config/" ".m2/" ".keys/" ".bash_history" "Public/" ".bash_logout" ".wget-hsts" "bintray-sbt-rpm.repo" ".emacs" ".npm/" ".3T/" ".gnome/" ".Rhistory" ".esd_auth" "apps/" "Documents/" ".oracle_jre_usage/" "Videos/" ".v8flags.4.5.103.45.me.json" ".gitkraken/" "scheme/" "docker/" "Templates/" ".lesshst" ".ilg-config" ".cache/" ".viminfo" "env/" ".docker/" ".bashrc~" ".node_repl_history" "python/" ".wallpapoz/" ".ivy2/" ".jssc/" ".thunderbird/" ".gnome2_private/" "neo4j.conf" "R/" ".thumbnails/" ".gnome2/" "lib/" ".charles/" ".mozilla/" ".netrc" ".arduino15/" "Music/" ".gnupg/" ".aws/" ".scala_history" "cuda-workspace/" ".rstudio-desktop/" ".mongorc.js" "../" ".bash_profile" ".bash_profile~" ".sbt/" ".v8flags.6.1.534.42.me.json" ".lein/" "medesk/" "bin/" ".nv/" ".emacs~" "PlayOnLinux's virtual drives/" ".emacs.d/" ".gitconfig" ".wine/" ".PlayOnLinux/" ".ssh/" "Desktop/" ".swt/" "t.sh" ".gitconfig~" ".fonts/" ".eclipse/" ".nvidia-settings-rc" ".java/" ".ecr/" "go/" ".charles.config" ".python_history" "Pictures/" ".pki/" ".local/" "docs/")
 
  ("/home/me/medesk/src/api.medesk.md/gulp-out/" (23067 53385 126810 271000) "web.js" "all.json" "tests/" "proc/" "filters.js" "cron/" "./" "proto/" "reports/" "es/" "observations/" "schemas/" "cli.js" "server.js" "worker.js" "mappers.services.js" "config/" "commons/" "calendar.js" "mongo/" "queue.js" "../" "srvcs/" "api.js" "locales/" "bin/" "vendor/" ".ebextensions/" "scripts/" "server-utils.js" "libs/" "platform/" "neo4j/" "filters.services.js" "routes/")
 
@@ -108,15 +143,11 @@
 
  ("/home/me/medesk/src/api.medesk.md/src/typings/mongoose/" (22722 38918 705985 533000) "./" "mongoose.d.ts" "../")
 
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/" (23006 15528 984445 312000) "index.ts" "./" "events/" "../" "schemas.yaml" "tools.ts")
-
  ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/" (23051 667 772795 879000) "./" "events/" "calendar/" "commons.coffee" "index.coffee" "controllers.ts" "../" "schemas.yaml")
 
  ("/home/me/medesk/src/api.medesk.md/src/tests/" (23030 63066 997342 952000) "tree.ts" "classes/" "model-template.js" "icd10/" "./" "zpath.ts" "model-hook.ts" "model-counter.ts" "data/" "schemas/" "queue.ts" "mapper.js" "neo4j.ts" "SMSUslugi.ts" "model-ins-program.js" "persons.ts" "../" "search.js" "model-record.js" "model-ehr.js" "model-pricelist.js" "neo4j/" "rest/")
 
  ("/home/me/medesk/src/api.medesk.md/src/routes/x/" (23021 42795 595159 178000) "index.ts" "./" "actor.nunjucks" "asana.nunjucks" "../" "slots/")
-
- ("/home/me/medesk/src/" (23024 39167 20863 340000) "./" "check-bazel/" "api.medesk.md/" "SRVC_Pbx/" "me" "i.wiki/" "Me" "SRVC_Templating/" "../" "pack-env/" "demoxy/")
 
  ("/home/me/medesk/" (22722 38878 304709 853000) "./" "src/" "../")
 )

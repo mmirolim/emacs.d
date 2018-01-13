@@ -7,6 +7,7 @@
 	electric-newline-and-maybe-indent
 	electric-pair-delete-pair
 	forward-sentence
+	ido-switch-buffer
 	indent-for-tab-command
 	kill-region
 	query-replace

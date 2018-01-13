@@ -2,9 +2,9 @@
 ;; ----- smex-history -----
 (
  package-list-packages
+ revert-buffer
  goto-last-change
  mc/mark-next-like-this
- revert-buffer
  rgrep
  mc/edit-lines
  magit-status
@@ -31,7 +31,7 @@
  (go-test-current-file . 1)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 228)
+ (revert-buffer . 229)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 14)
+ (package-list-packages . 15)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 5)
