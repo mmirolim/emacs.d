@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 15)
+ (package-list-packages . 16)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 5)

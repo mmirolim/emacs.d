@@ -2,6 +2,35 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/" . "mock_hook_srv/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/web/" . "cmd/")
+ ("/home/mm/go/src/github.com/mmirolim/" . "autorun/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/" . "model/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/" . "api/")
+ ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/" . "stats20/")
+ ("/home/mm/medesk/src/api.medesk.md/src/routes/" . "stats/")
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/" . "archiveRole/")
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/" . "cyp/")
+ ("/home/mm/medesk/src/api.medesk.md/src/" . "routes/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/" . "getVisitsInfo/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/" . "neo4j/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/" . "source/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/" . "processor/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/" . "roistatInfo/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/" . "storage/")
+ ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/" . "storage/")
+ ("/home/mm/go/src/github.com/medesk/go/apps/" . "go-scheduler/")
+ ("/home/mm/go/src/github.com/medesk/go/" . "apps/")
+ ("/home/mm/go/src/github.com/medesk/" . "go/")
+ ("/home/mm/go/src/github.com/" . "mmirolim/")
+ ("/home/mm/go/src/" . "github.com/")
+ ("/home/mm/go/" . "src/")
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/" . "web/")
+ ("/home/mm/medesk/src/api.medesk.md/go/" . "apps/")
+ ("/home/mm/medesk/src/api.medesk.md/" . "go/")
+ ("/home/mm/medesk/src/" . "api.medesk.md/")
+ ("/home/mm/medesk/" . "src/")
+ ("/home/mm/" . "go/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" . "integrations/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" . "configuration/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" . "enterprise/")
@@ -25,6 +54,28 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/mock_hook_srv/"
+ "/home/mm/go/src/github.com/mmirolim/autorun/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/httpapi/"
+ "/home/mm/medesk/src/api.medesk.md/src/routes/stats/stats20/"
+ "/home/mm/medesk/src/api.medesk.md/src/routes/stats/"
+ "/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/storage/"
+ "/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/models/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/"
+ "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveRole/"
+ "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveMembership/"
+ "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/"
+ "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveEmployment/"
+ "/home/mm/medesk/src/api.medesk.md/src/scripts/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getVisitsInfo/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/store/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getActorsInfo/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/cyp/"
+ "/home/mm/medesk/src/api.medesk.md/"
+ "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/"
  "/home/me/medesk/src/api.medesk.md/src/"
  "/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/"
  "/home/me/medesk/src/api.medesk.md/src/mongo/"
@@ -55,20 +106,118 @@
 
 ;; ----- ido-work-file-list -----
 (
- "server.coffee"
+ "main.go"
+ "invoice_test.go"
+ "invoice.go"
  "index.ts"
- "model-integration-order.ts"
- "README.md"
- "all.json"
- "pom.xml"
- "Procfile"
- "compose-core.yml"
- "handlers.go"
- "mongo.go"
+ "index.js"
+ "neo4j_test.go"
+ "visit.go"
+ "index.go"
+ "staff.go"
+ "neo4j.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/mock_hook_srv/" (23161 44189 925921 442000) "./" "main.go" "goapp" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/" (23142 14682 406809 647000) "./" "patch_ent_config_ui.go" "mock_hook_srv/" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/web/" (23154 63037 665622 415000) "README.md" "assets/" "subscriptions2.go" "link_info_generated.go" "handlers/" "./" "handlersttpModels/" "hook_signup.go" ".gitignore" "main.go" "x_test.go" "httpModels/" "mw/" "cmd/" "BUILD" "x.go" "schemas/" "Makefile" "plans.go" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/httpapi/" (23161 43921 305356 246000) "handlers.go" "invoice.go" "./" "main_test.go~" "#handlers.go#" "subscription.go" "main_test.go" "handlers_test.go" "invoice_test.go~" "BUILD" "srv.go" "plan.go" "invoice_test.go" "../" "debug.go")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/model/" (23154 62269 641741 620000) "index.go" "extension_types.go" "invoice.go" "./" "package_test.go" "plan_test.go" "billing.go" "module.go" "enterprise.go" "consumption.go" "package.go" "subscription.go" "subscription_test.go" "BUILD" "plan.go" "billing_test.go" "../" "command.go" "index_test.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/autorun/" (23144 33820 756946 362000) "./" "main.go" ".git/" "main.go~" "../")
+
+ ("/home/mm/go/src/github.com/" (23154 63120 690775 393000) "medesk/" "sony/" "rogpeppe/" "GoASTScanner/" "dgrijalva/" "./" "inconshreveable/" "docker/" "rs/" "jgautheron/" "shopspring/" "nbutton23/" "go-ole/" "mdempsky/" "mmirolim/" "labstack/" "kr/" "mattn/" "howeyc/" "op/" "pkg/" "valyala/" "kisielk/" "ryanuber/" "mibk/" "johnnadratowski/" "nsf/" "fsnotify/" "jteeuwen/" "opennota/" "julienschmidt/" "blang/" "tsenart/" "../" "fzipp/" "xeipuuv/" "elgs/" "golang/")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/" (23156 24946 394573 173000) "README.md" "Dockerfile" "assets/" "link_info_generated.go" "./" "util/" "usecase/" ".gitignore" "main.go" "bhc/" "httpModels/" "httpapi/" "testdata/" "BUILD" "httpClient/" "storage/" "schemas/" "zoho/" "Makefile" "subscriptions" "../" "model/" "config/")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/api/" (23154 61613 677842 751000) "./" "ctrl.go~" "http.go~" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/" (23154 61613 677842 751000) "./" "BUILD~" "usecases/" "README.md~" "testdata/" "storage/" "main.go~" "../" "models/" "config/" "api/")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/stats20/" (23142 14682 468809 643000) "cyp/" "./" "index.ts" "tools.ts" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/" (23142 14682 467809 643000) "activeUsers.ts" "./" "commons.js" "index.js" "schemas.yaml" "stats20/" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/routes/" (23142 14682 470809 643000) "prescriptions/" "client/" "insurances/" "tasks2/" "search/" "assignments/" "assets/" "protocols/" "enterprises/" "otf/" "catalogs/" "./" "patients/" "routeCommons.ts" "client-staging/" "accounts/" "attachments/" "subscriptions2/" "repl/" "negotiations/" "client-beta/" "payments/" "compositions/" "x/" "track/" "invoices/" "reports/" "schemas.yaml" "calendars/" "hooks/" "patient/" "visits/" "blobs/" "profiles/" "memberships/" "userContent/" "verifyEmail/" "partners/" "patient-staging/" "demo/" "tasks/" "subscriptions/" "notifications/" "../" "commits/" "auth/" "stats/")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/" (23154 61626 756851 83000) "web.js" "cron/" "api.ts" "observations/" "bin/" "commons/" "scripts/" "mongo/" "typings/" "./" "srvcs/" "libs/" "locales/" "server-utils.ts" "proto/" "es/" "mappers.services.coffee" "reports/" "schemas.yaml" "server.coffee" "proc/" "cli.ts" "queue.coffee" "filters.services.coffee" "calendar.coffee" "filters.coffee" "platform/" "worker.ts" "schemas/" "neo4j/" "../" "routes/" "tests/" "config/")
+
+ ("/home/mm/medesk/src/api.medesk.md/" (23156 20132 666754 89000) "README.md" "src/" "tsd.json" "go/" "db-init.sh" "bazel-testlogs/" "./" "WORKSPACE" "bazel-out/" "tools/" "docker/" "gulpfile.coffee" "compose-core.yml" ".settings/" "CHANGES.md" "shell-api-env.sh" "compose-local-db.yml" "shell-tabs.sh" ".gitignore" "coffeelint.json" "LICENSE" "gulpfile.js" "build-support/" ".vscode/" "head.mak" "package.json" "shell-tabs-linux.sh" "bazel-api.medesk.md/" "npm-test.sh" "bazel-bin/" "proxy.local.yml" ".git/" ".ebextensions/" "Procfile" "dockerfile-api" "buildspec.yml" "shell-vars.sh" "bazel-genfiles/" "BUILD" "UpdateHistoryForDevs.md" "shell-rename.sh" ".jshintrc" "docs/" "bazel/" "tsconfig.json" "tsfmt.json" "Makefile" "npm-apidocs.sh" "compose-dev-api.yml" "api-docs/" "templ.yaml" "../" "gulp-out/" "postman/" ".dockerignore" "node_modules/" "root.mak" "app.json" "npm-shrinkwrap.json")
+
+ ("/home/mm/medesk/src/" (23152 22200 751943 415000) "./" "api.medesk.md/" "../")
+
+ ("/home/mm/" (23160 17323 74651 91000) "size.sh~" ".java/" ".bash_logout" "medesk/" "bin/" "go/" ".emacs.d/" ".3T/" ".npm/" ".thunderbird/" ".lein/" ".oracle_jre_usage/" "./" ".nvm/" ".emacs~" ".emacs" ".vim/" "Pictures/" ".cache/" "Music/" ".gnome/" "-/" ".local/" ".gitconfig" ".m2/" ".bash_history" "Documents/" ".mozilla/" ".lesshst" "1000face.mp4" "Desktop/" "Videos/" ".config/" ".install4j" ".wget-hsts" ".bash_profile" ".pki/" "p/" "snap/" ".v8flags.6.1.534.50.b3cd915d758008bd19d0f2428fbb354a.json" "Templates/" ".gnupg/" "studio3t/" "lib/" "Public/" ".aws/" ".bashrc" ".viminfo" ".ICEauthority" "Downloads/" "size.sh" "../" "scratch/" ".swt/" ".esd_auth" ".ssh/")
+
+ ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/models/" (23147 18803 370622 249000) "#membership.go#" "staff.go" "patient.go~" "./" "schedule_config_test.go" ".#profile.go" "schedule_config.go~" "visit.go~" ".#membership.go" "schedule_config.go" "#schedule_config.go#" "membership.go~" "visit.go" ".#schedule_config.go" "patient.go" "staff.go~" "patient_test.go" "actor.go~" "patient_test.go~" "schedule_config_test.go~" "#profile.go#" "../")
+
+ ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/storage/" (23147 19192 798685 549000) "./" "neo4j.go" "neo4j.go~" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/" (23147 14575 34039 429000) "assignVisitToPatient.cyp" "putContractItem.cyp" "assignVisitToComposition/" "deleteDiscount.ts" "collectPricelistNodeDiscounts.cyp" "createRole.cyp" "hasAssignmentsWithoutInvoice/" "assignServiceToVisit.ts" "commons.ts" "addPricelist.ts" "createComposition/" "markAssignmentAsProvided.ts" "assignVisitToProvider.cyp" "closeComposition/" "assignDiscountCardToPatient/" "createInsurance/" "getInvoiceInfo/" "createProtocol/" "getPricelistStructureAt.ts" "addPricelist.cyp" "./" "createCampaign/" "addLabel.ts" "assignTask/" "archiveRole/" "markAssignmentAs/" "archiveVisit/" "makeDomainNode.cyp" "createVisit/" "putTag/" "reopenTask/" "createUTM/" "patchPatient/" "createRole.ts" "getPaymentInfo/" "patchTask/" "assignServiceToVisit/" "createEnterprise/" "getPricelistStructureAt/" "collectPatientLifetimeServices/" "getCompositionInfo/" "patchRole/" "collectESVisit/" "patchPatient.ts" "createEnterprise.cyp" "getPricelistNodes/" "createObservation/" "createTask/" "createDiscount/" "getTaskInfo/" "assignVisitToProvider.ts" "markAssignmentAsProvided.cyp" "patchDiscount/" "assignInsuranceToPatient/" "putContractItem.ts" "patchInvoice/" "createTag.ts" "collectESInvoice/" "assignProtocolToTask/" "getPricelistStructureAt.cyp" "connectProfileWithPatient/" "createDiscountCard/" "archivePatient/" "assignVisitToPatient.ts" "deleteTag/" "archiveTask/" "deleteInvoice/" "collectSecGroupsForProfile/" "createProfile/" "collectVisitDiscounts.ts" "getProfileInfo/" "types.ts" "patchPatient.cyp" "pricelistOrderedBulk/" "patchContract.cyp" "createTag.cyp" "createDiscountNode/" "getContractInfo/" "writeState/" "createTaskMessage/" "createContract/" "collectPricelistNodeDiscounts.ts" "closeVisit/" "createPatient.ts" "createEmployment/" "patchEnterprise/" "patchProfile/" "collectVisitDiscounts.cyp" "deleteTaskMessage/" "createNode.ts" "createEnterprise.ts" "createPatient.cyp" "getAssignmentInfo/" "collectInvoiceItemDiscounts/" "createProfile.cyp" "createInvoice/" "patchCampaign.ts" "makeDomainNode.ts" "patchVisit/" "collectESTask/" "getVisitInfo/" "getRoleInfo/" "completeTask/" "createRole/" "collectAssignmentDiscounts/" "getPatientInfo/" "getEnterpriseInfo/" "createNode.cyp" "../" "assignServiceToVisit.cyp" "patchContract.ts" "createProfile.ts" "collectESPricelistElement/" "deleteDiscount.cyp" "archiveMembership/" "patchCampaign.cyp" "archiveEmployment/")
+
+ ("/home/mm/go/src/github.com/mmirolim/" (23147 4028 468621 242000) "neo4jexp/" "print/" "./" "autorun/" "../")
+
+ ("/home/mm/go/src/github.com/mmirolim/neo4jexp/" (23147 15615 950834 737000) "./" "main.go" "main.go~" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveRole/" (23142 14682 440809 645000) "./" "main.ts" "main.cyp" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveMembership/" (23142 14682 439809 645000) "./" "main.cyp" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveEmployment/" (23142 14682 439809 645000) "./" "main.ts" "main.cyp" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/scripts/" (23142 14682 484809 642000) "pbx-setup.ts" "enterpriseMigrate.ts" "drugs.ts" "setPrescriptionIds.ts" "patientMigrate.ts" "patientsImport.ts" "db-init.coffee" "redisClear.ts" "repairServiceLogs.ts" "pbx.sh" "recalculateInvoices.ts" "visitTagsMigrate.ts" "./" "restoreNode.ts" "repairTemplates.ts" "getProfilesConflictAfterLowercase.ts" "contractAcl.ts" "eventDates.ts" "reindex.ts" "migrateSubsc.ts" "getProfileConflicts.ts" "updateLoginsToLowercase.ts" "neo4j-schema.ts" "restoreMembership.ts" "restoreRelation.ts" "neoplay.ts" "commons.coffee" "patientSync.ts" "disprogMigrate.ts" "db-update-shell.coffee" "restoreOther.ts" "smsStats.ts" "signUp.js" "demo-db.coffee" "patientSetArchivedByToRemoved.ts" "restoreState.ts" "redisSysProfilesClean.ts" "collect_devices.coffee" "profileMigrate.ts" "data/" "repairRDSStats.ts" "prepare_accounts.ts" "migrateVisits.ts" "pricelistCodeUpdate.ts" "chore_toggle_auth.coffee" "anonacc.ts" "updateEventsAndVisits.ts" "visitTagsSyncScript.ts" "updateCompositions.ts" "updateRoundConfig.ts" "compositionAcl.ts" "stats-loader.ts" "voxImplant.ts" "removeNullVisits.ts" "importPatients/" "subsMerge.ts" "updateRecordPaths.ts" "setVisitPlaces.ts" "dbinitPromise.coffee" "chore_enterprise_set_pbx.coffee" "subsMergeStart.coffee" "remove-contracts.coffee" "apigwdoc.peg" "../" "apidoc.ts")
+
+ ("/home/mm/medesk/src/api.medesk.md/src/neo4j/" (23142 14682 450809 644000) "cyp/" "commons.ts" "./" "index.ts" "schemas.yaml" "cmd/" "graph.ts" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getVisitsInfo/" (23142 14682 396809 647000) "index.go" "./" "BUILD" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/" (23147 3960 544373 145000) "index.go" "getInfoOnAssignmentsFromVisits.go" "mongo/" "./" ".#index.go" "BUILD" "neo4j/" "../" "#index.go#")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/store/" (23142 14682 396809 647000) "index.go" "mapping.go" "es.go" "./" "documents.go" "BUILD" "mongo_test.go" "../" "mongo.go")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getActorsInfo/" (23142 14682 396809 647000) "index.go" "./" "BUILD" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/cyp/" (23142 14682 395809 647000) "getVisitsInfo_main.cyp" "./" "getAssignmentsInfo_main.cyp" "getActorsInfo_main.cyp" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/" (23142 14682 396809 647000) "index.go" "cyp/" "getAssignmentsInfo/" "./" "getActorsInfo/" "getVisitsInfo/" "BUILD" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/" (23142 14682 395809 647000) "index.go" "./" "BUILD" "source/" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/" (23142 14682 396809 647000) "README.md" "assets/" "./" "server/" ".gitignore" "store/" "main.go" "builder/" "BUILD" "Makefile" "processor/" "../" "models/" "config/")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/roistatInfo/" (23142 14682 390809 648000) "getVisitInfo_test.go" "index.go" "getVisitInfo.go" "./" "getClients_test.go" "getTaskInfo.go" "getOrders_test.go" "getClients.go" "BUILD" "getAssignmentInfo.go" "getPatients.go" "mocks/" "../" "getEnterprises.go" "getOrders.go" "index_test.go")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/" (23142 14682 390809 648000) "./" "storage.go" "repo/" "BUILD" "roistatInfo/" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/service/" (23142 14682 389809 648000) "user_test.go" "collect_test.go" "./" "event_test.go" "roistat_test.go" "roistat.go" "main_test.go" "services.go" "BUILD" "user.go" "event.go" "../" "collect.go")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/" (23142 14682 391809 648000) "README.md" "utils/" "./" ".gitignore" "views/" "main.go" "BUILD" "storage/" "Makefile" "../" "models/" "service/" "config/" "api/")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/apps/" (23144 16872 968064 708000) "mdas/" "go-scheduler/" "labs/" "./" "activator/" "web/" "admin-tools/" "sms/" "proxy/" "json2go/" "agents/" "scheduler/" "subsworker/" "importer/" "roistat/" "go-gitver/" "subscriptions/" "../" "stats/" "pbx/")
+
+ ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/" (23145 2738 106933 20000) "README.md" "./" "BUILD~" ".gitignore" "main.go" "usecases/" "README.md~" "BUILD" "goapp" "storage/" "main.go~" "../" "models/" "config/" "api/")
+
+ ("/home/mm/go/src/github.com/medesk/go/apps/" (23144 16872 968064 708000) "mdas/" "go-scheduler/" "labs/" "./" "activator/" "web/" "admin-tools/" "sms/" "proxy/" "json2go/" "agents/" "scheduler/" "subsworker/" "importer/" "roistat/" "go-gitver/" "subscriptions/" "../" "stats/" "pbx/")
+
+ ("/home/mm/go/src/github.com/medesk/go/" (23142 14682 413809 646000) "src/" "./" "libs/" "apps/" "docs/" "actors/" "../")
+
+ ("/home/mm/go/src/github.com/medesk/" (23143 41531 529082 150000) "go/" "./" "../")
+
+ ("/home/mm/go/src/" (23142 19878 62907 406000) "gopkg.in/" "./" "github.com/" "golang.org/" "../" "honnef.co/")
+
+ ("/home/mm/go/bin/" (23144 33687 320460 217000) "gas" "unconvert" "varcheck" "structcheck" "./" "gotype" "godef" "gometalinter.v2" "aligncheck" "gocode" "errcheck" "go-bindata" "goconst" "megacheck" "gocyclo" "autorun" "golint" "deadcode" "goimports" "go-gitver" "maligned" "../" "dupl")
+
+ ("/home/mm/go/" (23142 17617 652032 437000) "src/" "bin/" "./" "pkg/" "../")
+
+ ("/home/mm/medesk/src/api.medesk.md/go/" (23142 14682 413809 646000) "src/" "./" "libs/" "apps/" "docs/" "actors/" "../")
+
+ ("/home/mm/medesk/" (23142 10585 520301 183000) "src/" "./" "../")
+
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/" (23127 18731 621977 523000) ".#index.ts" "index.ts" "#index.ts#" "./" "../" "cyp/")
 
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" (22986 29323 452802 508000) "integrations/" "./" "reports/" "contracts/" "observations/" "branches/" "warehouse/" "serviceLogs/" "places/" "../" "protocols/" "catalogs/" "programs/" "agents/" "offers/" "pricelist/" "roles/")

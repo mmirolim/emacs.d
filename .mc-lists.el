@@ -10,6 +10,7 @@
 	ido-switch-buffer
 	indent-for-tab-command
 	kill-region
+	markdown-outdent-or-delete
 	query-replace
 	upcase-region
 	yaml-electric-dash-and-dot

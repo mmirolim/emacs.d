@@ -11,8 +11,8 @@
 
 ;;; Code:
 ;; TODO should be able to get from ENV but does not work
-(setenv "GOPATH" "/home/me/go")
-(setq exec-path (append exec-path '("/home/me/go/bin")))
+(setenv "GOPATH" "/home/mm/go")
+(setq exec-path (append exec-path '("/home/mm/go/bin")))
 
 ;; Goflymake
 ;; TODO remove using flycheck
