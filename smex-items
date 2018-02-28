@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- package-list-packages
- revert-buffer
- goto-last-change
- mc/mark-next-like-this
+ cider-jack-in
  rgrep
- mc/edit-lines
- magit-status
+ revert-buffer
+ cider-run
+ company-terraform-init
+ package-list-packages
+ mc/mark-next-like-this
 )
 
 ;; ----- smex-data -----
@@ -31,7 +31,7 @@
  (go-test-current-file . 1)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 229)
+ (revert-buffer . 232)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -41,7 +41,7 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 765)
+ (mc/mark-next-like-this . 778)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
@@ -55,7 +55,7 @@
  (superword-mode . 2)
  (upcase-word . 14)
  (markdown-preview . 15)
- (rgrep . 20)
+ (rgrep . 22)
  (godoc . 2)
  (go-errcheck . 1)
  (list-packages . 4)
@@ -66,10 +66,10 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 16)
+ (package-list-packages . 17)
  (lgrep . 4)
  (subword-capitalize . 1)
- (eshell . 5)
+ (eshell . 6)
  (shell-command . 1)
  (package-autoremove . 2)
  (plantuml-mode . 3)
@@ -77,7 +77,7 @@
  (customize-variable . 1)
  (python-mode . 1)
  (magit-log . 17)
- (mc/edit-lines . 85)
+ (mc/edit-lines . 88)
  (mc/mark-more-like-this-extended . 21)
  (magit-fetch . 1)
  (magit-diff . 6)
@@ -129,4 +129,8 @@
  (edit-abbrevs . 1)
  (next-error . 2)
  (browse-web . 2)
+ (eudc-edit-hotlist . 2)
+ (company-terraform-init . 1)
+ (cider-run . 2)
+ (cider-jack-in . 9)
 )

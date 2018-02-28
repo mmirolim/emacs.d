@@ -55,3 +55,6 @@ tree
 tree *.go
 tree . *.go
 ls
+ls
+ls | grep *.go
+ls | grep .go
