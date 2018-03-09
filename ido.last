@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mm/js/algo/AlgoCasts/exercises/" . "anagrams/")
+ ("/home/mm/js/algo/AlgoCasts/" . "exercises/")
+ ("/home/mm/js/algo/" . "AlgoCasts/")
+ ("/home/mm/js/" . "algo/")
  ("/home/mm/medesk/src/deployment/terraform/london_arch/" . "aws/")
  ("/home/mm/medesk/src/deployment/terraform/" . "london_arch/")
  ("/home/mm/medesk/src/deployment/" . "terraform/")
@@ -38,7 +42,7 @@
  ("/home/mm/medesk/src/api.medesk.md/" . "go/")
  ("/home/mm/medesk/src/" . "api.medesk.md/")
  ("/home/mm/medesk/" . "src/")
- ("/home/mm/" . "scratch/")
+ ("/home/mm/" . "js/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" . "integrations/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" . "configuration/")
  ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" . "enterprise/")
@@ -62,6 +66,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/js/algo/AlgoCasts/exercises/anagrams/"
  "/home/mm/scratch/src/scratch/"
  "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/usecase/"
  "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/"
@@ -111,11 +116,11 @@
  "/home/me/medesk/src/api.medesk.md/src/scripts/"
  "/home/me/medesk/src/api.medesk.md/src/routes/partners/"
  "/home/me/medesk/src/api.medesk.md/src/schemas/"
- "/home/me/medesk/src/api.medesk.md/src/routes/payments/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "index.js"
  "core.clj"
  "invoice.go"
  "BUILD"
@@ -125,11 +130,22 @@
  "smsnotif_repo_test.go"
  "project.clj"
  "gulpfile.coffee"
- "visit_repo.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/mm/js/algo/AlgoCasts/exercises/anagrams/" (23190 32166 386384 861000) "./" "index.js" "test.js" "../")
+
+ ("/home/mm/js/algo/AlgoCasts/exercises/" (23190 30641 412643 134000) "fromlast/" "weave/" "steps/" "stack/" "events/" "qfroms/" "./" "maxchar/" "circular/" "palindrome/" "pyramid/" "reversestring/" "bst/" "vowels/" "fib/" "chunk/" "sorting/" "queue/" "reverseint/" "tree/" "package.json" "levelwidth/" "matrix/" "capitalize/" "fizzbuzz/" "validate/" "midpoint/" "anagrams/" "../" "linkedlist/")
+
+ ("/home/mm/js/algo/AlgoCasts/" (23190 32007 254005 235000) "README.md" "./" "completed_exercises/" ".gitignore" ".git/" "diagrams/" "exercises/" "../")
+
+ ("/home/mm/js/algo/" (23190 30638 61632 448000) "./" "AlgoCasts/" "../")
+
+ ("/home/mm/js/" (23190 30488 855168 647000) "./" "../" "algo/")
+
+ ("/home/mm/" (23192 63875 631142 258000) "size.sh~" ".java/" ".bash_logout" "medesk/" "a.file" "bin/" "go/" ".emacs.d/" ".3T/" ".npm/" ".thunderbird/" ".lein/" ".oracle_jre_usage/" "./" ".nvm/" ".emacs~" ".emacs" ".terraform.d/" ".vim/" "Pictures/" ".cache/" "Music/" ".gnome/" "-/" ".v8flags.3.14.5.11.b3cd915d758008bd19d0f2428fbb354a.json" ".local/" ".gitconfig" ".m2/" ".bash_history" "Documents/" ".mozilla/" ".lesshst" "Desktop/" "Videos/" ".config/" ".install4j" ".wget-hsts" ".bash_profile" ".pki/" "p/" ".v8flags.3.14.5.11.mm.json" "snap/" ".v8flags.6.1.534.50.b3cd915d758008bd19d0f2428fbb354a.json" "Templates/" ".gnupg/" "studio3t/" "lib/" "Public/" ".aws/" ".bashrc" ".viminfo" ".ICEauthority" "Downloads/" "size.sh" "../" ".dbshell" "scratch/" ".swt/" ".esd_auth" ".ssh/" "js/")
+
  ("/home/mm/medesk/src/api.medesk.md/" (23185 22065 899172 488000) "README.md" "src/" "tsd.json" "go/" "db-init.sh" "bazel-testlogs/" "./" "WORKSPACE" "bazel-out/" "tools/" "docker/" "gulpfile.coffee" "compose-core.yml" ".settings/" "CHANGES.md" "shell-api-env.sh" "compose-local-db.yml" "shell-tabs.sh" ".gitignore" "coffeelint.json" "LICENSE" "gulpfile.js" "build-support/" ".vscode/" "head.mak" "package.json" "shell-tabs-linux.sh" "bazel-api.medesk.md/" "npm-test.sh" "bazel-bin/" "proxy.local.yml" ".git/" ".ebextensions/" "Procfile" "dockerfile-api" "buildspec.yml" "shell-vars.sh" "bazel-genfiles/" "BUILD" "UpdateHistoryForDevs.md" "shell-rename.sh" ".jshintrc" "docs/" "bazel/" "tsconfig.json" "tsfmt.json" "Makefile" "npm-apidocs.sh" "compose-dev-api.yml" "api-docs/" "templ.yaml" "../" "gulp-out/" "postman/" ".dockerignore" "node_modules/" "root.mak" "app.json" "npm-shrinkwrap.json")
 
  ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/" (23185 24155 600297 328000) "README.md" "Dockerfile" "assets/" "link_info_generated.go" "./" "util/" "usecase/" ".gitignore" "main.go" "bhc/" "httpModels/" "httpapi/" "cmd/" "testdata/" "BUILD" "httpClient/" "storage/" "schemas/" "zoho/" "Makefile" "subscriptions" "../" "model/" "config/")
@@ -171,8 +187,6 @@
  ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/models/" (23182 32392 376301 206000) "#membership.go#" "patient.go~" "./" ".#profile.go" "BUILD~" "schedule_config.go~" "sms_notif.go~" "visit.go~" ".#membership.go" "membership.go~" "staff.go~" "actor.go~" "patient_test.go~" "schedule_config_test.go~" "#profile.go#" "../" "enterprise.go~")
 
  ("/home/mm/medesk/src/deployment/terraform/london_arch/aws/" (23184 7411 882821 480000) "./" "main.tf" "terraform.tfstate.backup" ".terraform/" "../" "terraform.tfstate" "main.tf~")
-
- ("/home/mm/" (23185 17565 440067 786000) "size.sh~" ".java/" ".bash_logout" "medesk/" "bin/" "go/" ".emacs.d/" ".3T/" ".npm/" ".thunderbird/" ".lein/" ".oracle_jre_usage/" "./" ".nvm/" ".emacs~" ".emacs" ".terraform.d/" ".vim/" "Pictures/" ".cache/" "Music/" ".gnome/" "-/" ".v8flags.3.14.5.11.b3cd915d758008bd19d0f2428fbb354a.json" ".local/" ".gitconfig" ".m2/" ".bash_history" "Documents/" ".mozilla/" ".lesshst" "Desktop/" "Videos/" ".config/" ".install4j" ".wget-hsts" ".bash_profile" ".pki/" "p/" ".v8flags.3.14.5.11.mm.json" "snap/" ".v8flags.6.1.534.50.b3cd915d758008bd19d0f2428fbb354a.json" "Templates/" ".gnupg/" "studio3t/" "lib/" "Public/" ".aws/" ".bashrc" ".viminfo" ".ICEauthority" "Downloads/" "size.sh" "../" ".dbshell" "scratch/" ".swt/" ".esd_auth" ".ssh/")
 
  ("/home/mm/go/src/github.com/" (23163 20690 539891 59000) "medesk/" "sony/" "rogpeppe/" "GoASTScanner/" "dgrijalva/" "./" "inconshreveable/" "docker/" "rs/" "jgautheron/" "shopspring/" "nbutton23/" "globalsign/" "go-ole/" "mdempsky/" "mmirolim/" "labstack/" "kr/" "mattn/" "howeyc/" "op/" "pkg/" "valyala/" "kisielk/" "ryanuber/" "mibk/" "johnnadratowski/" "nsf/" "fsnotify/" "jteeuwen/" "opennota/" "julienschmidt/" "blang/" "tsenart/" "../" "fzipp/" "xeipuuv/" "elgs/" "golang/")
 
@@ -319,16 +333,6 @@
  ("/home/me/" (23124 36123 609616 310000) "creds" "pprof/" ".gimp-2.8/" ".v8flags.6.1.534.42.ab86a1e1ef70dff97959067b723c5c24.json" "Arduino/" ".bashrc" ".v8flags.4.5.103.45.ab86a1e1ef70dff97959067b723c5c24.json" "clj/" ".dbshell" "Downloads/" ".nvm/" ".vim/" ".ICEauthority" ".node-gyp/" "./" "js/" "News/" ".bazel/" ".config/" ".m2/" ".keys/" ".bash_history" "Public/" ".bash_logout" ".wget-hsts" "bintray-sbt-rpm.repo" ".emacs" ".npm/" ".3T/" ".gnome/" ".Rhistory" ".esd_auth" "apps/" "Documents/" ".oracle_jre_usage/" "creds~" "Videos/" ".v8flags.4.5.103.45.me.json" ".gitkraken/" "scheme/" "docker/" "Templates/" ".lesshst" ".ilg-config" ".cache/" ".viminfo" "env/" ".docker/" ".bashrc~" ".node_repl_history" "python/" ".wallpapoz/" ".ivy2/" ".jssc/" ".rnd" ".thunderbird/" ".gnome2_private/" "neo4j.conf" "R/" ".thumbnails/" ".gnome2/" "lib/" ".#errneo.json" ".charles/" ".mozilla/" ".netrc" ".arduino15/" "Music/" ".gnupg/" ".aws/" ".scala_history" "cuda-workspace/" ".rstudio-desktop/" ".mongorc.js" "../" ".bash_profile" ".bash_profile~" ".sbt/" ".v8flags.6.1.534.42.me.json" ".lein/" "medesk/" "bin/" ".nv/" ".emacs~" "PlayOnLinux's virtual drives/" ".emacs.d/" ".gitconfig" ".wine/" ".PlayOnLinux/" ".ssh/" "Desktop/" ".swt/" "ru.app.medesk.md.ssl/" "t.sh" ".gitconfig~" ".fonts/" ".eclipse/" ".nvidia-settings-rc" ".java/" ".ecr/" "go/" ".charles.config" ".python_history" "Pictures/" ".pki/" ".local/" "docs/")
 
  ("/home/me/medesk/src/api.medesk.md/src/scripts/" (23101 5746 905987 823000) "visitTagsSyncScript.ts" "importPatients/" "enterpriseMigrate.ts" "./" "allUsernamesToLower.ts~" "patchProfilesUsernameToLowercase.ts~" "stats-loader.ts" "chore_enterprise_set_pbx.coffee" "disprogMigrate.ts" "getProfileConflicts.ts" "patientSetArchivedByToRemoved.ts~" "collect_devices.coffee" "data/" "drugs.ts" "setPrescriptionIds.ts" "restoreNode.ts" "removeNullVisits.ts" "visitTagsMigrate.ts" "demo-db.coffee" "anonacc.ts" "eventDates.ts" "updateRoundConfig.ts" "commons.coffee" "redisSysProfilesClean.ts" "db-init.coffee" "repairTemplates.ts" "profileMigrate.ts" "remove-contracts.coffee" "neoplay.ts" "smsStats.ts" "apigwdoc.peg" "chore_toggle_auth.coffee" "patientSetArchivedByToRemoved.ts" "voxImplant.ts" "pricelistCodeUpdate.ts" "updateRecordPaths.ts" "getProfilesConflictAfterLowercase.ts" "updateCompositions.ts" "repairServiceLogs.ts" "setVisitPlaces.ts" "updateLoginsToLowercase.ts" "prepare_accounts.ts" "restoreRelation.ts" "pbx.sh" "restoreMembership.ts" "contractAcl.ts" "apidoc.ts" "../" "compositionAcl.ts" "pbx-setup.ts" "repairRDSStats.ts" "restoreOther.ts" "migrateVisits.ts" "reindex.ts" "redisClear.ts" "neo4j-schema.ts" "db-update-shell.coffee" "updateLoginsToLowercase.ts~" "patientMigrate.ts" "migrateSubsc.ts" "dbinitPromise.coffee" "restoreState.ts" "subsMerge.ts" "updateEventsAndVisits.ts" "signUp.js" "recalculateInvoices.ts" "subsMergeStart.coffee" "patientsImport.ts" "patientSync.ts")
-
- ("/home/me/medesk/src/api.medesk.md/src/schemas/" (23101 12556 978301 189000) "reports.yml" "all.json" "all.yml" "js4/" "tags.yml" "calendars.yml" "./" "protocols.yml" "catalogs.yml" "Makefile" "subscriptions.yml" "payments.yml" "x.yml" "enterprise.yml" "memberships.yml" "SchemasToExport.mk" "pricelist.yml" "blob.yml" "patients.yml" "ts/" "partners.yml~" "../" "track.yml" "auth.yml" "BUILD" "types.yml" "invoices.yml" "assistants.yml" "roles.yml" "partners.yml" "stats.yml" "accounts.yml")
-
- ("/home/me/medesk/src/" (23099 55389 808632 705000) "./" "check-bazel/" "api.medesk.md/" "SRVC_Pbx/" "me" "i.wiki/" "Me" "SRVC_Templating/" "file" "../" "pack-env/" "demoxy/")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/payments/" (23078 31519 633213 129000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/typings/" (23078 23870 761723 556000) "imagemagick/" "form-data/" "chai-subset/" "./" "chai-as-promised/" "semver/" "redis/" "request/" "mongodb/" "body-parser/" "lodash/" "lru-cache/" "moment/" "path-to-regexp/" "mongoose/" "express/" "pg/" "supertest/" "hat/" "superagent/" "log4js/" "chai-things/" "q/" "aws-sdk/" "async/" "../" "chai/" "medesk-config.d.ts" "mongo.d.ts" "mime/" "mocha/" "node_redis/" "redlock/" "ws/" "moment-timezone/" "tsd.d.ts" "request-promise/" "node/" "legacy.d.ts.bak" "ms/" "supertest-as-promised/" "elasticsearch/" "through2/")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/" (23078 26799 142522 974000) "client/" "tasks/" "patients/" "visits/" "./" "stats/" "repl/" "attachments/" "hooks/" "reports/" "accounts/" "search/" "profiles/" "patient/" "partners/" "verifyEmail/" "client-staging/" "compositions/" "assignments/" "auth/" "enterprises/" "patient-staging/" "commits/" "subscriptions2/" "demo/" "userContent/" "assets/" "calendars/" "../" "tasks2/" "subscriptions/" "memberships/" "routeCommons.ts" "insurances/" "protocols/" "schemas.yaml" "blobs/" "invoices/" "notifications/" "otf/" "payments/" "prescriptions/" "catalogs/" "x/" "track/" "negotiations/" "client-beta/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
