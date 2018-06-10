@@ -20,7 +20,7 @@
 ;;(require 'go-flymake)
 ; Golint
 (add-to-list 'load-path (concat (getenv "GOPATH")
-"/src/github.com/golang/lint/misc/emacs"))
+"/src/golang.org/x/lint/misc/emacs"))
 (require 'golint)
 (defun my-go-mode-hook ()
 	;; Use goimports instead of go-fmt

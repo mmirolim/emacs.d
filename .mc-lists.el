@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	beginning-of-buffer
 	coffee-dedent-line-backspace
 	electric-newline-and-maybe-indent
 	electric-pair-delete-pair
@@ -19,9 +20,11 @@
 (setq mc/cmds-to-run-once
       '(
 	abbrev-prefix-mark
+	about-emacs
 	ace-window
 	end-of-buffer
 	end-of-defun
+	ensime-mouse-motion
 	find-file
 	ido-find-file
 	markdown-exdent-or-delete
