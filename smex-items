@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
+ shell
+ list-timers
  cider-jack-in
  rgrep
  revert-buffer
  cider-run
- company-terraform-init
- package-list-packages
- mc/mark-next-like-this
 )
 
 ;; ----- smex-data -----
@@ -25,7 +25,7 @@
  (go-mode-menu . 1)
  (menu-bar-open . 4)
  (imenu . 3)
- (shell . 27)
+ (shell . 29)
  (goto-last-change . 110)
  (goto-last-change-reverse . 8)
  (go-test-current-file . 1)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 17)
+ (package-list-packages . 18)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 6)
@@ -133,4 +133,5 @@
  (company-terraform-init . 1)
  (cider-run . 2)
  (cider-jack-in . 9)
+ (list-timers . 1)
 )

@@ -2,337 +2,64 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mm/js/algo/AlgoCasts/exercises/" . "anagrams/")
- ("/home/mm/js/algo/AlgoCasts/" . "exercises/")
- ("/home/mm/js/algo/" . "AlgoCasts/")
- ("/home/mm/js/" . "algo/")
- ("/home/mm/medesk/src/deployment/terraform/london_arch/" . "aws/")
- ("/home/mm/medesk/src/deployment/terraform/" . "london_arch/")
- ("/home/mm/medesk/src/deployment/" . "terraform/")
- ("/home/mm/scratch/src/" . "scratch/")
- ("/home/mm/scratch/" . "src/")
- ("/home/mm/medesk/src/api.medesk.md/go/libs/" . "configer/")
- ("/home/" . "mm/")
- ("/" . "home/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/" . "mock_hook_srv/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/web/" . "cmd/")
- ("/home/mm/go/src/github.com/mmirolim/" . "autorun/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/" . "usecase/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/" . "models/")
- ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/" . "stats20/")
- ("/home/mm/medesk/src/api.medesk.md/src/routes/" . "stats/")
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/" . "archiveRole/")
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/" . "cyp/")
- ("/home/mm/medesk/src/api.medesk.md/src/" . "proto/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/" . "getVisitsInfo/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/" . "neo4j/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/" . "source/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/" . "processor/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/" . "roistatInfo/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/" . "storage/")
- ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/" . "storage/")
- ("/home/mm/go/src/github.com/medesk/go/apps/" . "go-scheduler/")
- ("/home/mm/go/src/github.com/medesk/go/" . "apps/")
- ("/home/mm/go/src/github.com/medesk/" . "go/")
- ("/home/mm/go/src/github.com/" . "mmirolim/")
- ("/home/mm/go/src/" . "github.com/")
+ ("/home/mm/go/src/" . "tests/")
+ ("/home/mm/js/exercises/" . "binary-heap/")
+ ("/home/mm/Pictures/photos/" . "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/")
+ ("/home/mm/Pictures/" . "photos/")
+ ("/home/mm/" . "go/")
  ("/home/mm/go/" . "src/")
- ("/home/mm/medesk/src/api.medesk.md/go/apps/" . "subscriptions/")
- ("/home/mm/medesk/src/api.medesk.md/go/" . "apps/")
- ("/home/mm/medesk/src/api.medesk.md/" . "go/")
- ("/home/mm/medesk/src/" . "api.medesk.md/")
- ("/home/mm/medesk/" . "src/")
- ("/home/mm/" . "js/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" . "integrations/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" . "configuration/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" . "enterprise/")
- ("/home/me/medesk/src/demoxy/" . "build/")
- ("/home/me/medesk/src/api.medesk.md/go/apps/" . "agents/")
- ("/home/me/medesk/src/api.medesk.md/go/" . "apps/")
- ("/home/me/medesk/src/api.medesk.md/docker/" . "debian-jessie/")
- ("/home/me/medesk/src/api.medesk.md/gulp-out/tests/" . "rest/")
- ("/home/me/medesk/src/api.medesk.md/gulp-out/" . "mongo/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/" . "events/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/" . "calendar/")
- ("/home/me/medesk/src/api.medesk.md/src/tests/" . "rest/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/x/" . "slots/")
- ("/home/me/medesk/src/api.medesk.md/src/routes/" . "enterprises/")
- ("/home/me/medesk/src/api.medesk.md/src/" . "routes/")
- ("/home/me/medesk/src/api.medesk.md/" . "src/")
- ("/home/me/medesk/src/" . "api.medesk.md/")
- ("/home/me/medesk/" . "src/")
- ("/home/me/" . "medesk/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mm/js/"
- "/home/mm/.emacs.d/"
- "/home/mm/"
- "/home/mm/js/algo/AlgoCasts/exercises/anagrams/"
- "/home/mm/scratch/src/scratch/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/usecase/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/"
- "/home/mm/medesk/src/deployment/terraform/london_arch/aws/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/models/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/storage/"
- "/home/mm/scratch/"
- "/home/mm/medesk/src/api.medesk.md/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/usecases/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/testdata/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/config/"
- "/home/mm/medesk/src/api.medesk.md/go/libs/configer/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/api/"
- "/home/mm/medesk/src/api.medesk.md/go/libs/md/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/model/"
- "/home/mm/medesk/src/api.medesk.md/go/libs/api/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/httpapi/"
- "/home/mm/medesk/src/api.medesk.md/src/proto/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/mock_hook_srv/"
- "/home/mm/go/src/github.com/mmirolim/autorun/"
- "/home/mm/medesk/src/api.medesk.md/src/routes/stats/stats20/"
- "/home/mm/medesk/src/api.medesk.md/src/routes/stats/"
- "/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/storage/"
- "/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/models/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/"
- "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveRole/"
- "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveMembership/"
- "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/"
- "/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveEmployment/"
- "/home/mm/medesk/src/api.medesk.md/src/scripts/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getVisitsInfo/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/store/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getActorsInfo/"
- "/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/cyp/"
- "/home/me/medesk/src/api.medesk.md/src/"
- "/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/"
- "/home/me/medesk/src/api.medesk.md/src/mongo/"
- "/home/me/medesk/src/api.medesk.md/"
- "/home/me/medesk/src/demoxy/build/"
- "/home/me/medesk/src/demoxy/"
- "/home/me/medesk/src/api.medesk.md/go/apps/agents/"
- "/home/me/medesk/src/api.medesk.md/go/apps/web/"
+ "/home/mm/go/src/"
+ "/home/mm/go/src/tests/"
+ "/home/mm/js/exercises/binary-heap/"
+ "/home/mm/js/exercises/"
+ "/home/mm/js/exercises/find-k-smallest/"
+ "/home/mm/Pictures/photos/[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/"
+ "/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "bench.js"
- "go.el"
- ".emacs"
+ "types_methods.go"
+ "branch-free_test.go"
+ "test.js"
  "index.js"
- "core.clj"
- "invoice.go"
- "BUILD"
- "main.tf"
- "smsnotif_repo.go"
- "visit.go"
+ "package.json"
+ "package-lock.json"
+ "index.html"
+ "out"
+ "slider.html"
+ "fsrv.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/js/" (23297 32741 243157 293000) "bench.js" "./" "../")
+ ("/home/mm/go/src/" (23386 58338 589413 54000) "fsrv.go~" "compare.go~" "out" "gentags.go~" "fsrv.go" "#fsrv.go#" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "fsrv" "time/" "static_methods.go" "#out#" "compare.go" "../" "hello.go" "slider.html" "hello" "types_methods.go" "github.com/" "static_methods.go~" "gopkg.in/" "tests/" "types_methods.go~" "gentags.go")
 
- ("/home/mm/" (23297 40723 676126 842000) "Downloads/" ".aws/" "Desktop/" ".ssh/" ".bash_logout" ".gimp-2.8/" "World War Hulk (01 - 05) (2007 - 2008) GetComics.INFO/" ".thunderbird/" "./" ".config/" "Music/" ".bash_profile" ".bashrc" ".esd_auth" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" ".esmtp_queue/" "../" "Public/" ".gnome/" ".cache/" ".mozilla/" "lib/" ".emacs.d/" "Documents/" ".viminfo" "go/" "js/" "Videos/" ".wget-hsts" "Templates/" "World War Hulk (01 - 05) (2007 - 2008) GetComics.INFO.zip" ".emacs")
+ ("/home/mm/" (23387 12480 865380 292000) "Downloads/" ".bashrc~" ".yarn/" ".aws/" ".gitconfig" "Desktop/" ".ssh/" ".bash_logout" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "./" "scala/" ".node_repl_history" ".ivy2/" ".scala_history" ".lesshst" ".config/" "Music/" ".bash_profile" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" ".esd_auth" ".oracle_jre_usage/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" ".esmtp_queue/" ".vim/" "../" "Public/" "scheme/" ".gnome/" ".cache/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" "arduino-1.8.5-linux64/" ".viminfo" ".sbt/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" "Templates/" "Arduino/" ".emacs")
 
- ("/home/mm/.emacs.d/" (23289 42694 278637 464000) ".git/" "ac-comphist.dat" "company-go.el" "scala.el" "tss.el" "session.108304023dd5088155152613408745451800000018640069" "clj.el" ".gitignore" "./" "project-local-variables.el" "smex-items" "snippets/" ".mc-lists.el" "find-file-in-project.el" "auto-save-list/" "ede-projects.el" "../" "eshell/" "tramp" "bookmarks" "network-security.data" "abbrev_defs" "emacs-backup" "ido.last" "elpa/" "url/" "go.el")
+ ("/home/mm/go/src/tests/" (23382 10643 610376 211000) "branch-free_test.go" "branch-free_test.go~" "./" "../" "global_write_speed_test.go" "global_write_speed_test.go~")
 
- ("/home/mm/js/algo/AlgoCasts/exercises/anagrams/" (23190 32166 386384 861000) "./" "index.js" "test.js" "../")
+ ("/home/mm/js/exercises/" (23373 44380 208015 974000) "package.json~" "package-lock.json" "package.json" "levenstein-dist/" "./" "binary-heap/" "node_modules/" "../" "find-k-smallest/")
 
- ("/home/mm/js/algo/AlgoCasts/exercises/" (23190 30641 412643 134000) "fromlast/" "weave/" "steps/" "stack/" "events/" "qfroms/" "./" "maxchar/" "circular/" "palindrome/" "pyramid/" "reversestring/" "bst/" "vowels/" "fib/" "chunk/" "sorting/" "queue/" "reverseint/" "tree/" "package.json" "levelwidth/" "matrix/" "capitalize/" "fizzbuzz/" "validate/" "midpoint/" "anagrams/" "../" "linkedlist/")
+ ("/home/mm/js/" (23364 40135 356944 251000) ".#bench.js" "bench.js" "./" "#bench.js#" "tfs/" "../" "exercises/" "bench.js~")
 
- ("/home/mm/js/algo/AlgoCasts/" (23190 32007 254005 235000) "README.md" "./" "completed_exercises/" ".gitignore" ".git/" "diagrams/" "exercises/" "../")
+ ("/home/mm/js/exercises/binary-heap/" (23366 1025 544906 714000) "./" "index.js" "test.js" "../" "test.js~" "index.js~")
 
- ("/home/mm/js/algo/" (23190 30638 61632 448000) "./" "AlgoCasts/" "../")
+ ("/home/mm/js/exercises/find-k-smallest/" (23364 42102 276936 748000) "./" "index.js" ".#index.js" "test.js" "../" "test.js~" "#index.js#" "index.js~")
 
- ("/home/mm/medesk/src/api.medesk.md/" (23185 22065 899172 488000) "README.md" "src/" "tsd.json" "go/" "db-init.sh" "bazel-testlogs/" "./" "WORKSPACE" "bazel-out/" "tools/" "docker/" "gulpfile.coffee" "compose-core.yml" ".settings/" "CHANGES.md" "shell-api-env.sh" "compose-local-db.yml" "shell-tabs.sh" ".gitignore" "coffeelint.json" "LICENSE" "gulpfile.js" "build-support/" ".vscode/" "head.mak" "package.json" "shell-tabs-linux.sh" "bazel-api.medesk.md/" "npm-test.sh" "bazel-bin/" "proxy.local.yml" ".git/" ".ebextensions/" "Procfile" "dockerfile-api" "buildspec.yml" "shell-vars.sh" "bazel-genfiles/" "BUILD" "UpdateHistoryForDevs.md" "shell-rename.sh" ".jshintrc" "docs/" "bazel/" "tsconfig.json" "tsfmt.json" "Makefile" "npm-apidocs.sh" "compose-dev-api.yml" "api-docs/" "templ.yaml" "../" "gulp-out/" "postman/" ".dockerignore" "node_modules/" "root.mak" "app.json" "npm-shrinkwrap.json")
+ ("/home/mm/Pictures/photos/[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/" (23355 19834 974439 579000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "198.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "180.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "192.jpg" "049.jpg" "191.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "197.jpg" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "194.jpg" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "167.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "169.jpg" "172.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "177.jpg" "098.jpg" "196.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "168.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "016.jpg" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "199.jpg" "185.jpg" "053.jpg" "100.jpg" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "171.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "195.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "170.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "051.jpg" "178.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "152.jpg" "166.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "193.jpg" "091.jpg" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
 
- ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/" (23185 24155 600297 328000) "README.md" "Dockerfile" "assets/" "link_info_generated.go" "./" "util/" "usecase/" ".gitignore" "main.go" "bhc/" "httpModels/" "httpapi/" "cmd/" "testdata/" "BUILD" "httpClient/" "storage/" "schemas/" "zoho/" "Makefile" "subscriptions" "../" "model/" "config/")
+ ("/home/mm/Pictures/photos/" (23355 19705 511440 72000) "natalya_nemchina/" "[Kon-kit] Midara Books (Complete) [English]/" "./" "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/" "../" "[Sanagi Torajirou] Netorare Kataomoi Ch 1-5, 7 [English] {doujins com}/" "[Sanagi Torajirou] Cast Aoi [English] {doujin-moe.us, Fuke, LWB, Psyburn21}/")
 
- ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/usecase/" (23185 27704 797668 792000) "index.go" "invoice.go" "./" "plan_test.go" "billing.go" "subscription.go" "BUILD" "plan.go" "invoice_test.go" "../")
+ ("/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/" (23355 19549 767440 667000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "049.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "172.png" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "168.png" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "slider.html~" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "169.png" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "098.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "166.png" "016.jpg" "167.png" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "185.jpg" "053.jpg" "100.jpg" "171.png" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "180.png" "051.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "170.png" "152.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "091.jpg" "177.png" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "178.png" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
 
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/" (23182 32392 394301 269000) "README.md" "assets/" "utils/" "./" "server/" ".gitignore" "store/" "main.go" "httpModels/" "builder/" "BUILD" "Makefile" "processor/" "../" "models/" "config/")
+ ("/home/mm/Pictures/" (23354 29967 383435 995000) "photos_2018_05_12/" "me.jpg" "Screenshot from 2018-07-02 23-55-11.png" "photos_2018_06_17/" "photo_night_walk_2018_05_12_sisters/" "./" "Screenshot from 2018-05-13 08-51-14.png" "photo_2018_05_13/" "photos/" "../" "gimp_shortcuts.jpg" "Screenshot from 2018-06-03 12-31-05.png" "photo_turkey_2018_june/" "photos_naima_2018_06_27/" "photo_2018_05_20/" "photo_2018_05_18/" "photos_hayot_bday_2018_05_27/")
 
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/store/" (23182 32392 393301 265000) "index.go" "mapping.go" "es.go" "./" "documents.go" "BUILD" "mongo_test.go" "../" "mongo.go")
-
- ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/models/" (23182 32392 376301 206000) "#membership.go#" "patient.go~" "./" ".#profile.go" "BUILD~" "schedule_config.go~" "sms_notif.go~" "visit.go~" ".#membership.go" "membership.go~" "staff.go~" "actor.go~" "patient_test.go~" "schedule_config_test.go~" "#profile.go#" "../" "enterprise.go~")
-
- ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/storage/" (23182 32392 376301 206000) "api_autoconfig_repo_test.go~" "mongo_test.go~" "./" "main_test.go~" "BUILD~" "patient_repo.go~" "smsnotif_repo_test.go~" "enterprise_repo.go~" "api_autoconfig_repo.go~" "patient_repo_test.go~" "enterprise_repo_test.go~" "smsnotif_repo.go~" "../" ".#main_test.go")
-
- ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/" (23182 32392 417301 349000) "activeUsers.ts" "./" "commons.js" "index.js" "schemas.yaml" "stats20/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/routes/stats/stats20/" (23182 32392 419301 356000) "cyp/" "./" "index.ts" "tools.ts" "../")
-
- ("/home/mm/go/src/github.com/mmirolim/autorun/" (23180 7398 249938 853000) "./" "main.go" ".git/" "buildspec.yml" "main.go~" "../" "buildspec.yml~")
-
- ("/home/mm/medesk/src/api.medesk.md/src/proto/" (23182 32392 411301 328000) "stats.proto" "./" "BUILD" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/api/" (23182 32392 375301 202000) "./" "BUILD~" "ctrl.go~" "http.go~" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/libs/configer/" (23182 32392 377301 209000) "./" "BUILD~" "config_test.go~" "config.go~" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/config/" (23182 32392 375301 202000) "./" "config.go~" "../" ".#config_test.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/" (23182 32392 375301 202000) "./" "BUILD~" ".envrc" "usecases/" "README.md~" "testdata/" "info_generated.go" "storage/" "main.go~" "../" "models/" "config/" "api/")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/testdata/" (23182 32392 377301 209000) "./" "data.go~" "helpers.go~" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/usecases/" (23182 32392 377301 209000) "poll_test.go~" "./" "main_test.go~" "BUILD~" "poll.go~" "../")
-
- ("/home/mm/scratch/src/scratch/" (23180 43437 695775 410000) "./" "core.clj~" "core.clj" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/storage/" (23182 32392 376301 206000) "api_autoconfig_repo_test.go~" "mongo_test.go~" "./" "main_test.go~" "BUILD~" "patient_repo.go~" "smsnotif_repo_test.go~" "enterprise_repo.go~" "api_autoconfig_repo.go~" "patient_repo_test.go~" "enterprise_repo_test.go~" "smsnotif_repo.go~" "../" ".#main_test.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/go-scheduler/models/" (23182 32392 376301 206000) "#membership.go#" "patient.go~" "./" ".#profile.go" "BUILD~" "schedule_config.go~" "sms_notif.go~" "visit.go~" ".#membership.go" "membership.go~" "staff.go~" "actor.go~" "patient_test.go~" "schedule_config_test.go~" "#profile.go#" "../" "enterprise.go~")
-
- ("/home/mm/medesk/src/deployment/terraform/london_arch/aws/" (23184 7411 882821 480000) "./" "main.tf" "terraform.tfstate.backup" ".terraform/" "../" "terraform.tfstate" "main.tf~")
-
- ("/home/mm/go/src/github.com/" (23163 20690 539891 59000) "medesk/" "sony/" "rogpeppe/" "GoASTScanner/" "dgrijalva/" "./" "inconshreveable/" "docker/" "rs/" "jgautheron/" "shopspring/" "nbutton23/" "globalsign/" "go-ole/" "mdempsky/" "mmirolim/" "labstack/" "kr/" "mattn/" "howeyc/" "op/" "pkg/" "valyala/" "kisielk/" "ryanuber/" "mibk/" "johnnadratowski/" "nsf/" "fsnotify/" "jteeuwen/" "opennota/" "julienschmidt/" "blang/" "tsenart/" "../" "fzipp/" "xeipuuv/" "elgs/" "golang/")
-
- ("/home/mm/go/src/" (23170 42406 953438 740000) "gopkg.in/" "mongo-mixed-prop.go~" "server.go~" "server.go" "./" "github.com/" "server" "golang.org/" "../" "mongo-mixed-prop.go" "honnef.co/")
-
- ("/home/mm/medesk/src/deployment/terraform/london_arch/" (23178 39195 906426 800000) "./" "aws/" "existing/" "../")
-
- ("/home/mm/medesk/src/deployment/terraform/" (23176 33219 90425 487000) "london_arch/" "./" "../")
-
- ("/home/mm/medesk/src/deployment/" (23178 39399 302124 923000) "README.md" "terraform/" "./" "aws/" ".gitignore" ".git/" "../")
-
- ("/home/mm/scratch/" (23179 12113 273258 246000) "test/" "README.md" "src/" "./" "CHANGELOG.md" "project.clj~" ".nrepl-port" "resources/" ".gitignore" "LICENSE" "doc/" ".hgignore" ".git/" "project.clj" "../" ".lein-repl-history" "target/")
-
- ("/home/mm/scratch/src/" (23144 15009 58917 907000) "./" "../" "scratch/")
-
- ("/home/mm/medesk/src/" (23176 32523 752824 527000) "./" "deployment/" "api.medesk.md/" "../" "demoxy/")
-
- ("/home/mm/medesk/src/api.medesk.md/go/libs/api/" (23174 39918 299030 486000) "client.go" "protocols.go" "ShowMineAuthorizationResponse/" "CreateMembershipResponse/" "AuthorizeRequest/" "tags.go" "./" "roles.go" "profile.go" "appagent.go" "ent.go" "CreateRoleResponse/" "reports.go" "ShowProtocolsResponseItem/" "CreateRoleRequest/" "enterprise.go" "CreateMembershipRequest/" "GetActorsInfoResponse/" "CopyProtocolRequest/" "AuthorizeResponse/" "subs.go" "auth.go" "ShowTagsQuery/" "PricelistBulkRequest/" "BUILD" "core.go" "ShowReportsResponseItem/" "x.go" "CreateTagRequest/" "CopyReportRequest/" "CreateProtocolRequest/" "ShowTagsResponseItem/" "Makefile" "prof.go" "mmbs.go" "../" "assets.go" "pricelist.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/libs/md/" (23142 14682 413809 646000) "svcCommons/" "tools_test.go" "./" "tools.go" "types.go" "request.go" "templating.go" "headers.go" "BUILD" "ipc/" "request_test.go" "templating_test.go" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/" (23148 12281 128580 389000) "index.go" "getInfoOnAssignmentsFromVisits.go" "mongo/" "./" "BUILD" "neo4j/" "../" "#index.go#")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/mock_hook_srv/" (23173 44415 732145 504000) "./" "main.go" "goapp" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/libs/" (23144 17874 5684 693000) "./" "configer/" "md/" ".gitignore" "../" "api/")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/model/" (23173 44415 729145 496000) "index.go" "extension_types.go" "invoice.go" "./" "package_test.go" "plan_test.go" "billing.go" "module.go" "enterprise.go" "consumption.go" "package.go" "subscription.go" "subscription_test.go" "BUILD" "plan.go" "billing_test.go" "../" "command.go" "index_test.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/subscriptions/httpapi/" (23173 44415 728145 494000) "handlers.go" "invoice.go" "./" "main_test.go~" "#handlers.go#" "subscription.go" "main_test.go" "handlers_test.go" "invoice_test.go~" "BUILD" "srv.go" "plan.go" "invoice_test.go" "../" "debug.go")
-
- ("/home/mm/medesk/src/api.medesk.md/src/" (23173 44415 734145 509000) "web.js" "cron/" "api.ts" "observations/" "bin/" "commons/" "scripts/" "mongo/" "typings/" "./" "srvcs/" "libs/" "locales/" "server-utils.ts" "proto/" "es/" "mappers.services.coffee" "reports/" "schemas.yaml" "server.coffee" "proc/" "cli.ts" "queue.coffee" "filters.services.coffee" "calendar.coffee" "filters.coffee" "platform/" "worker.ts" "schemas/" "neo4j/" "../" "routes/" "tests/" "config/")
-
- ("/home/mm/medesk/" (23170 49995 822682 399000) "src/" "./" "../" "medlit.doc")
-
- ("/home/mm/Music/" (22886 11236 454447 702000) "./" "../")
-
- ("/home/" (22487 59235 927951 770000) "lost+found/" "./" "mm/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/web/cmd/" (23142 14682 406809 647000) "./" "patch_ent_config_ui.go" "mock_hook_srv/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/web/" (23154 63037 665622 415000) "README.md" "assets/" "subscriptions2.go" "link_info_generated.go" "handlers/" "./" "handlersttpModels/" "hook_signup.go" ".gitignore" "main.go" "x_test.go" "httpModels/" "mw/" "cmd/" "BUILD" "x.go" "schemas/" "Makefile" "plans.go" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/routes/" (23142 14682 470809 643000) "prescriptions/" "client/" "insurances/" "tasks2/" "search/" "assignments/" "assets/" "protocols/" "enterprises/" "otf/" "catalogs/" "./" "patients/" "routeCommons.ts" "client-staging/" "accounts/" "attachments/" "subscriptions2/" "repl/" "negotiations/" "client-beta/" "payments/" "compositions/" "x/" "track/" "invoices/" "reports/" "schemas.yaml" "calendars/" "hooks/" "patient/" "visits/" "blobs/" "profiles/" "memberships/" "userContent/" "verifyEmail/" "partners/" "patient-staging/" "demo/" "tasks/" "subscriptions/" "notifications/" "../" "commits/" "auth/" "stats/")
-
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/" (23147 14575 34039 429000) "assignVisitToPatient.cyp" "putContractItem.cyp" "assignVisitToComposition/" "deleteDiscount.ts" "collectPricelistNodeDiscounts.cyp" "createRole.cyp" "hasAssignmentsWithoutInvoice/" "assignServiceToVisit.ts" "commons.ts" "addPricelist.ts" "createComposition/" "markAssignmentAsProvided.ts" "assignVisitToProvider.cyp" "closeComposition/" "assignDiscountCardToPatient/" "createInsurance/" "getInvoiceInfo/" "createProtocol/" "getPricelistStructureAt.ts" "addPricelist.cyp" "./" "createCampaign/" "addLabel.ts" "assignTask/" "archiveRole/" "markAssignmentAs/" "archiveVisit/" "makeDomainNode.cyp" "createVisit/" "putTag/" "reopenTask/" "createUTM/" "patchPatient/" "createRole.ts" "getPaymentInfo/" "patchTask/" "assignServiceToVisit/" "createEnterprise/" "getPricelistStructureAt/" "collectPatientLifetimeServices/" "getCompositionInfo/" "patchRole/" "collectESVisit/" "patchPatient.ts" "createEnterprise.cyp" "getPricelistNodes/" "createObservation/" "createTask/" "createDiscount/" "getTaskInfo/" "assignVisitToProvider.ts" "markAssignmentAsProvided.cyp" "patchDiscount/" "assignInsuranceToPatient/" "putContractItem.ts" "patchInvoice/" "createTag.ts" "collectESInvoice/" "assignProtocolToTask/" "getPricelistStructureAt.cyp" "connectProfileWithPatient/" "createDiscountCard/" "archivePatient/" "assignVisitToPatient.ts" "deleteTag/" "archiveTask/" "deleteInvoice/" "collectSecGroupsForProfile/" "createProfile/" "collectVisitDiscounts.ts" "getProfileInfo/" "types.ts" "patchPatient.cyp" "pricelistOrderedBulk/" "patchContract.cyp" "createTag.cyp" "createDiscountNode/" "getContractInfo/" "writeState/" "createTaskMessage/" "createContract/" "collectPricelistNodeDiscounts.ts" "closeVisit/" "createPatient.ts" "createEmployment/" "patchEnterprise/" "patchProfile/" "collectVisitDiscounts.cyp" "deleteTaskMessage/" "createNode.ts" "createEnterprise.ts" "createPatient.cyp" "getAssignmentInfo/" "collectInvoiceItemDiscounts/" "createProfile.cyp" "createInvoice/" "patchCampaign.ts" "makeDomainNode.ts" "patchVisit/" "collectESTask/" "getVisitInfo/" "getRoleInfo/" "completeTask/" "createRole/" "collectAssignmentDiscounts/" "getPatientInfo/" "getEnterpriseInfo/" "createNode.cyp" "../" "assignServiceToVisit.cyp" "patchContract.ts" "createProfile.ts" "collectESPricelistElement/" "deleteDiscount.cyp" "archiveMembership/" "patchCampaign.cyp" "archiveEmployment/")
-
- ("/home/mm/go/src/github.com/mmirolim/" (23147 4028 468621 242000) "neo4jexp/" "print/" "./" "autorun/" "../")
-
- ("/home/mm/go/src/github.com/mmirolim/neo4jexp/" (23147 15615 950834 737000) "./" "main.go" "main.go~" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveRole/" (23142 14682 440809 645000) "./" "main.ts" "main.cyp" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveMembership/" (23142 14682 439809 645000) "./" "main.cyp" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/cyp/archiveEmployment/" (23142 14682 439809 645000) "./" "main.ts" "main.cyp" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/src/scripts/" (23142 14682 484809 642000) "pbx-setup.ts" "enterpriseMigrate.ts" "drugs.ts" "setPrescriptionIds.ts" "patientMigrate.ts" "patientsImport.ts" "db-init.coffee" "redisClear.ts" "repairServiceLogs.ts" "pbx.sh" "recalculateInvoices.ts" "visitTagsMigrate.ts" "./" "restoreNode.ts" "repairTemplates.ts" "getProfilesConflictAfterLowercase.ts" "contractAcl.ts" "eventDates.ts" "reindex.ts" "migrateSubsc.ts" "getProfileConflicts.ts" "updateLoginsToLowercase.ts" "neo4j-schema.ts" "restoreMembership.ts" "restoreRelation.ts" "neoplay.ts" "commons.coffee" "patientSync.ts" "disprogMigrate.ts" "db-update-shell.coffee" "restoreOther.ts" "smsStats.ts" "signUp.js" "demo-db.coffee" "patientSetArchivedByToRemoved.ts" "restoreState.ts" "redisSysProfilesClean.ts" "collect_devices.coffee" "profileMigrate.ts" "data/" "repairRDSStats.ts" "prepare_accounts.ts" "migrateVisits.ts" "pricelistCodeUpdate.ts" "chore_toggle_auth.coffee" "anonacc.ts" "updateEventsAndVisits.ts" "visitTagsSyncScript.ts" "updateCompositions.ts" "updateRoundConfig.ts" "compositionAcl.ts" "stats-loader.ts" "voxImplant.ts" "removeNullVisits.ts" "importPatients/" "subsMerge.ts" "updateRecordPaths.ts" "setVisitPlaces.ts" "dbinitPromise.coffee" "chore_enterprise_set_pbx.coffee" "subsMergeStart.coffee" "remove-contracts.coffee" "apigwdoc.peg" "../" "apidoc.ts")
-
- ("/home/mm/medesk/src/api.medesk.md/src/neo4j/" (23142 14682 450809 644000) "cyp/" "commons.ts" "./" "index.ts" "schemas.yaml" "cmd/" "graph.ts" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getVisitsInfo/" (23142 14682 396809 647000) "index.go" "./" "BUILD" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/getActorsInfo/" (23142 14682 396809 647000) "index.go" "./" "BUILD" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/cyp/" (23142 14682 395809 647000) "getVisitsInfo_main.cyp" "./" "getAssignmentsInfo_main.cyp" "getActorsInfo_main.cyp" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/source/neo4j/" (23142 14682 396809 647000) "index.go" "cyp/" "getAssignmentsInfo/" "./" "getActorsInfo/" "getVisitsInfo/" "BUILD" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/stats/processor/" (23142 14682 395809 647000) "index.go" "./" "BUILD" "source/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/roistatInfo/" (23142 14682 390809 648000) "getVisitInfo_test.go" "index.go" "getVisitInfo.go" "./" "getClients_test.go" "getTaskInfo.go" "getOrders_test.go" "getClients.go" "BUILD" "getAssignmentInfo.go" "getPatients.go" "mocks/" "../" "getEnterprises.go" "getOrders.go" "index_test.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/storage/" (23142 14682 390809 648000) "./" "storage.go" "repo/" "BUILD" "roistatInfo/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/service/" (23142 14682 389809 648000) "user_test.go" "collect_test.go" "./" "event_test.go" "roistat_test.go" "roistat.go" "main_test.go" "services.go" "BUILD" "user.go" "event.go" "../" "collect.go")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/roistat/" (23142 14682 391809 648000) "README.md" "utils/" "./" ".gitignore" "views/" "main.go" "BUILD" "storage/" "Makefile" "../" "models/" "service/" "config/" "api/")
-
- ("/home/mm/medesk/src/api.medesk.md/go/apps/" (23144 16872 968064 708000) "mdas/" "go-scheduler/" "labs/" "./" "activator/" "web/" "admin-tools/" "sms/" "proxy/" "json2go/" "agents/" "scheduler/" "subsworker/" "importer/" "roistat/" "go-gitver/" "subscriptions/" "../" "stats/" "pbx/")
-
- ("/home/mm/go/src/github.com/medesk/go/apps/go-scheduler/" (23145 2738 106933 20000) "README.md" "./" "BUILD~" ".gitignore" "main.go" "usecases/" "README.md~" "BUILD" "goapp" "storage/" "main.go~" "../" "models/" "config/" "api/")
-
- ("/home/mm/go/src/github.com/medesk/go/apps/" (23144 16872 968064 708000) "mdas/" "go-scheduler/" "labs/" "./" "activator/" "web/" "admin-tools/" "sms/" "proxy/" "json2go/" "agents/" "scheduler/" "subsworker/" "importer/" "roistat/" "go-gitver/" "subscriptions/" "../" "stats/" "pbx/")
-
- ("/home/mm/go/src/github.com/medesk/go/" (23142 14682 413809 646000) "src/" "./" "libs/" "apps/" "docs/" "actors/" "../")
-
- ("/home/mm/go/src/github.com/medesk/" (23143 41531 529082 150000) "go/" "./" "../")
-
- ("/home/mm/go/bin/" (23144 33687 320460 217000) "gas" "unconvert" "varcheck" "structcheck" "./" "gotype" "godef" "gometalinter.v2" "aligncheck" "gocode" "errcheck" "go-bindata" "goconst" "megacheck" "gocyclo" "autorun" "golint" "deadcode" "goimports" "go-gitver" "maligned" "../" "dupl")
-
- ("/home/mm/go/" (23142 17617 652032 437000) "src/" "bin/" "./" "pkg/" "../")
-
- ("/home/mm/medesk/src/api.medesk.md/go/" (23142 14682 413809 646000) "src/" "./" "libs/" "apps/" "docs/" "actors/" "../")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/integrations/" (23127 18731 621977 523000) ".#index.ts" "index.ts" "#index.ts#" "./" "../" "cyp/")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/configuration/" (22986 29323 452802 508000) "integrations/" "./" "reports/" "contracts/" "observations/" "branches/" "warehouse/" "serviceLogs/" "places/" "../" "protocols/" "catalogs/" "programs/" "agents/" "offers/" "pricelist/" "roles/")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/enterprise/" (23061 21778 924201 468000) "index.ts" "./" "configuration/" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/enterprises/" (23101 5732 754948 219000) "index.ts" "./" "enterprise/" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/" (23127 18402 642219 767000) "bazel-out/" "WORKSPACE" "root.mak" "run-tests.sh~" "Procfile" "tsfmt.json" ".dockerignore" "dockerfile-api-dev" "pricelist_vita_med.csv" "README.md" "./" "proto/" "onePriceCode.csv" "pricelist-tab.csv~" "compose-core.yml" "shell-vars.sh" ".settings/" "templ.yaml" "perf.js~" "signup-enter.csv" "bazel-api.medesk.md/" "Makefile" "npm-test.sh" "compose-local-db.yml" "tsconfig.my.json~" "compose-dev-api.yml~" "enter.csv" "compose-core-build.yml~" "signup-enter.csv~" "bazel-genfiles/" "shell-api-env.sh~" "gulpfile.coffee" "compose-test.yml~" "newnodecodes.csv~" "tsd.json" "docker/" "db-init.sh" "shell-tabs.sh" "bazel-testlogs/" ".vscode/" "compose-dev-api.yml" "bench.js~" "buildspec.yml" "npm-apidocs.sh" "shell-tabs-linux.sh" "dockerfile-api" "head.mak" "duplicatesLogin.js~" "Dokerfile~" "bazel-bin/" "gulpfile.js" "build-support/" "allIdsToUpdateUsername.js~" "node_modules/" "src/" "postman/" "app.json" ".git/" "coffeelint.json" "shell-rename.sh" ".tsfmt.json~" "tmp/" "lowerupdate.out" "loginsToUpdate.js~" "../" "UpdateHistoryForDevs.md" ".envrc" "BUILD" "newnodecodes.csv" "gulp-out/" ".ebextensions/" ".jshintrc" "LICENSE" "api-docs/" ".gitignore" "#allIdsToUpdateUsername.js#" "package.json" "tsconfig.json" "dockerfile-api-dev~" "proxy.local.yml" "npm-debug.log" "bazel/" "go/" "duplicatesLastSeen.js~" "build/" "npm-shrinkwrap.json" "shell-api-env.sh" "tools/" "CHANGES.md" "docs/" "demoxy/" "pricelist-tab.csv" "tatus")
-
- ("/home/me/medesk/src/api.medesk.md/src/" (23127 18402 626219 730000) "web.js" "server.coffee" "tests/" ".#worker.ts" "proc/" "cron/" "./" "proto/" "filters.coffee" "reports/" "es/" "observations/" "schemas/" "#wss.ts#" "#server.coffee#" "cli.ts" "worker.ts" "#worker.ts#" "mappers.services.coffee" "api.ts" "config/" "commons/" "mongo/" "../" "srvcs/" "server-utils.ts" "locales/" "bin/" "calendar.coffee" "schemas.yaml" "scripts/" "typings/" "queue.coffee" "libs/" "platform/" "neo4j/" "filters.services.coffee" "routes/")
-
- ("/home/me/medesk/src/api.medesk.md/src/mongo/" (23127 18402 628219 734000) "model-negotiation.js" "model-template.ts" "model-enterprise-tools.ts" "model-offer.js" "model-searchdataexport.ts" "./" "model-protocol.ts" "model-searchpage.ts" "model-calendar.ts" "model-visit.ts" "model-contract.ts" "model-salary-bonus.ts" "model-partner.ts~" "model-task-record.ts" "model-enterprise-store.coffee" "model-hook.ts" "model-risklist/" "model-counter.ts" "model-record.ts" "model-pricelist.ts" "model-task.ts" "model-profile-tools.ts" "schema-visit.js" "plugins/" "model-ehr/" "model-membership-tools.ts" "commons.coffee" "model-stats.ts" "model-composition.ts" "model-report.ts" "model-record-path.ts" "model-notification.coffee" "model-blob.js" "model-profile.coffee" "model-ins-program.js" "index.coffee" "model-commit.coffee" "model-notification-sms.ts" "schema-es-group.js" "model-partner.ts" "model-integration-order.ts" "model-warehouse/" "model-authorization.coffee" "model-service.coffee" "model-cache.js" "model-request-verify-email.coffee" "model-membership.coffee" "../" "model-profile-store.coffee" "model-patient.ts" "model-request-reset-password.coffee" "model-security-group.coffee" "schemas.ts" "model-attachment.js" "model-notification-email.ts" "model-role.coffee" "model-subscription.coffee" "model-ins-program-reserve.js" "model-insurance.coffee" "model-calendar-event.coffee" "model-membership-store.coffee" "model-assigned-service.ts" "model-integration.ts" "model-authorization-tools.ts" "model-place.coffee" "model-request-invite.coffee" "model-job.ts" "model-composition-tools.ts" "model-enterprise.coffee" "model-log-service-provided.js" "model-blob-upload.js" "model-log-service-provided-tools.ts" "model-observation.ts" "schema-tag.coffee")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/x/slots/" (23101 5732 757948 227000) "index.ts" "./" "../")
-
- ("/home/me/medesk/src/api.medesk.md/gulp-out/tests/rest/" (23101 13057 536644 150000) "res-profile.js" "res-insurance-program.js" "res-payments.js" "./" "res-calendar.js" "header-x-md-date.js" "res-warehouse.js" "res-stats.js" "res-drug.js" "res-accounts.js" "res-membership.js" "commons.js" "res-enterprise.js" "res-pricelist.js" "res-search.js" "res-agents.js" "res-notifications.js" "res-hooks.js" "res-private-enterprise.js" "res-x-slots.js" "res-catalogs.js" "pipeline.js" "res-assignments.js" "res-attachment.js" "res-tasks.js" "res-reports.js" "res-patient-neo4j.js" "res-blob.js" "res-contracts.js" "res-mkb10.js" "res-protocol.js" "res-invoices.js" "res-auth.js" "res-visits-private.js" "res-stats20.js" "res-composition-visits.js" "../" "res-queue.js" "res-stillalive.js" "res-patient.js" "res-visits.js" "res-partners.js" "res-offer.js" "res-commits.js" "res-composition-private.js" "res-composition-archs.js" "res-usecase-subscribe-clinic.js" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-subscription.js" "res-composition.js" "res-event-visit-neo4j.js")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/memberships/" (23101 5732 754948 219000) "index.ts" "./" "commons.coffee" "membership/" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/gulp-out/mongo/" (23101 13057 520644 109000) "model-negotiation.js" "model-offer.js" "model-template.js" "model-partner.js" "model-enterprise-tools.js" "./" "model-profile.js" "model-calendar-event.js" "model-hook.js" "model-request-reset-password.js" "model-report.js" "model-security-group.js" "model-salary-bonus.js" "model-patient.js" "model-risklist/" "model-integration-order.js" "model-membership.js" "model-calendar.js" "commons.js" "model-insurance.js" "model-authorization-tools.js" "schema-visit.js" "model-stats.js" "plugins/" "model-membership-tools.js" "model-ehr/" "model-composition-tools.js" "model-role.js" "model-blob.js" "model-task.js" "model-authorization.js" "model-ins-program.js" "model-visit.js" "model-searchpage.js" "model-enterprise-store.js" "model-record-path.js" "schema-es-group.js" "model-warehouse/" "model-service.js" "model-job.js" "model-composition.js" "model-membership-store.js" "model-log-service-provided-tools.js" "schema-tag.js" "model-notification-email.js" "model-searchdataexport.js" "model-cache.js" "../" "schemas.js" "model-enterprise.js" "model-task-record.js" "model-record.js" "model-attachment.js" "model-notification.js" "model-contract.js" "model-ins-program-reserve.js" "index.js" "model-profile-tools.js" "model-profile-store.js" "model-request-verify-email.js" "model-assigned-service.js" "model-place.js" "model-request-invite.js" "model-pricelist.js" "model-notification-sms.js" "model-observation.js" "model-counter.js" "model-integration.js" "model-log-service-provided.js" "model-blob-upload.js" "model-protocol.js" "model-subscription.js" "model-commit.js")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/" (23095 45991 466789 184000) "index.ts" "./" "events/" "#tools.ts#" ".#tools.ts" "../" "schemas.yaml" "tools.ts")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/events/" (23101 5732 754948 219000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/tests/rest/" (23101 5746 905987 823000) "res-catalogs.ts" "res-stats20.ts" "res-accounts.ts" "res-insurance-program.js" "./" "res-calendar.js" "header-x-md-date.js" "res-x-slots.ts" "res-usecase-subscribe-clinic.ts" "res-tasks.ts" "res-warehouse.ts" "res-drug.js" "commons.js" "res-pricelist.ts" "res-search.js" "res-auth.ts" "res-event-visit-neo4j.ts" "res-private-enterprise.js" "res-subscription.ts" "res-attachment.js" "res-patient.ts" "res-payments.ts" "res-reports.js" "res-blob.js" "test_file.txt" "res-contracts.js" "res-composition-archs.ts" "res-mkb10.js" "res-protocol.js" "types.d.ts" "res-enterprise.ts" "res-visits.ts" "res-visits-private.js" "res-assignments.ts" "res-profile.ts" "res-composition-visits.js" "../" "pipeline.ts" "res-queue.js" "res-stillalive.js" "res-partners.ts" "res-hooks.ts" "res-agents.ts" "res-offer.js" "res-partners.ts~" "res-commits.js" "res-composition-private.js" "res-stats.ts" "res-neo4j-workflow.js" "res-hazardFactor.js" "res-membership.ts" "res-negotiation.js" "res-private-insurance-enterprise.js" "res-invoices.ts" "res-composition.js" "res-notifications.ts" "res-patient-neo4j.ts")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/calendars/calendar/events/" (23101 5732 754948 219000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/notifications/" (23101 5746 903987 818000) "index.ts" "./" "../" "schemas.yaml")
-
- ("/home/me/medesk/src/api.medesk.md/src/platform/" (23101 5746 903987 818000) "index.ts" "messages.ts" "currency.ts" "./" "metrics.ts" "tz.ts" "core.ts" "mongo.ts" "#mongo.ts#" "country.ts" "redis.ts" "httpDomains.ts" "express.ts" "market.ts" "consts.ts" "#types.ts#" "ccc.ts" "../" "reports.ts" "types.ts" "sysEnterprises.ts" "record.ts" "environment.ts" "domains.ts" "lang.ts" "sysProfiles.ts" "template.ts" "integrations.ts" "onboarding.ts")
-
- ("/home/me/medesk/src/api.medesk.md/src/routes/partners/" (23101 13471 479572 121000) "index.ts" "./" "index.ts~" "../")
-
- ("/home/me/medesk/src/demoxy/build/" (23125 13250 218021 990000) "web.js" "all.json" "./" "es/" "server.js" "config/" "commons/" "mongo/" "../" "package.json" "libs/" "npm-shrinkwrap.json" "tools/" "routes/")
-
- ("/home/me/medesk/src/demoxy/" (23125 16055 364389 937000) "Procfile" "./" "mesa_prod.env" "cert/" "conf/" "dockerfile-demoxy~" "node_modules/" "src/" "pom.xml" ".git/" "docker-demoxy~" "tmp/" "../" "dist/" ".gitignore" ".dockerignore~" ".env" "README" "build/")
-
- ("/home/me/medesk/src/api.medesk.md/go/apps/agents/" (23101 5732 736948 168000) "handlers.go" "./" "catalog.go" "Makefile" "handlers_test.go" "mongo.go" "main.go" "../" "errors.go" "BUILD" "req/")
-
- ("/home/me/medesk/src/api.medesk.md/go/apps/web/" (23049 28392 436681 793000) "README.md" "hook_signup.go~" "./" "listentrpise-subscribed.csv~" "httpModels/" "Makefile" "schemas/" "plans.go" "handlers/" "mw/" "x.go" "goapp" "web" "link_info_generated.go" "main.go" "assets/" "../" "x_test.go" "BUILD" "cmd/" "x_test.go~" ".gitignore" "hook_signup.go" "subscriptions2.go" "README.md~" "handlersttpModels/")
-
- ("/home/me/medesk/src/api.medesk.md/go/apps/" (23035 17377 896980 352000) "./" "stats/" "roistat/" "importer/" "pbx/" "web/" "subsworker/" "go-gitver/" "proxy/" "scheduler/" "sms/" "../" "subscriptions/" "mdas/" "labs/" "agents/" "activator/" "json2go/" "admin-tools/")
-
- ("/home/me/medesk/src/api.medesk.md/go/" (22986 29323 406802 377000) "./" "apps/" "actors/" "src/" "../" "bin/" "libs/" "docs/")
-
- ("/home/me/" (23124 36123 609616 310000) "creds" "pprof/" ".gimp-2.8/" ".v8flags.6.1.534.42.ab86a1e1ef70dff97959067b723c5c24.json" "Arduino/" ".bashrc" ".v8flags.4.5.103.45.ab86a1e1ef70dff97959067b723c5c24.json" "clj/" ".dbshell" "Downloads/" ".nvm/" ".vim/" ".ICEauthority" ".node-gyp/" "./" "js/" "News/" ".bazel/" ".config/" ".m2/" ".keys/" ".bash_history" "Public/" ".bash_logout" ".wget-hsts" "bintray-sbt-rpm.repo" ".emacs" ".npm/" ".3T/" ".gnome/" ".Rhistory" ".esd_auth" "apps/" "Documents/" ".oracle_jre_usage/" "creds~" "Videos/" ".v8flags.4.5.103.45.me.json" ".gitkraken/" "scheme/" "docker/" "Templates/" ".lesshst" ".ilg-config" ".cache/" ".viminfo" "env/" ".docker/" ".bashrc~" ".node_repl_history" "python/" ".wallpapoz/" ".ivy2/" ".jssc/" ".rnd" ".thunderbird/" ".gnome2_private/" "neo4j.conf" "R/" ".thumbnails/" ".gnome2/" "lib/" ".#errneo.json" ".charles/" ".mozilla/" ".netrc" ".arduino15/" "Music/" ".gnupg/" ".aws/" ".scala_history" "cuda-workspace/" ".rstudio-desktop/" ".mongorc.js" "../" ".bash_profile" ".bash_profile~" ".sbt/" ".v8flags.6.1.534.42.me.json" ".lein/" "medesk/" "bin/" ".nv/" ".emacs~" "PlayOnLinux's virtual drives/" ".emacs.d/" ".gitconfig" ".wine/" ".PlayOnLinux/" ".ssh/" "Desktop/" ".swt/" "ru.app.medesk.md.ssl/" "t.sh" ".gitconfig~" ".fonts/" ".eclipse/" ".nvidia-settings-rc" ".java/" ".ecr/" "go/" ".charles.config" ".python_history" "Pictures/" ".pki/" ".local/" "docs/")
+ ("/home/mm/go/" (23329 18897 703538 858000) "./" "pkg/" "../" "bin/" "src/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
