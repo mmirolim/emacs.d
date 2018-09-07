@@ -2,7 +2,27 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mm/go/src/" . "tests/")
+ ("/home/mm/csio/django-dashboard/collector/obfuscation_service/" . "protos/")
+ ("/home/mm/csio/django-dashboard/collector/collab_notes_service/" . "protos/")
+ ("/home/mm/csio/django-dashboard/collector/" . "obfuscation_service/")
+ ("/home/mm/go/src/github.com/mmirolim/" . "autorun/")
+ ("/home/mm/go/src/github.com/" . "mmirolim/")
+ ("/home/mm/csio/collab-notes-service/src/storage/" . "pgmigrations/")
+ ("/home/mm/csio/collab-notes-service/src/grpc/protos/" . "def/")
+ ("/home/mm/csio/collab-notes-service/src/grpc/" . "protos/")
+ ("/home/mm/csio/collab-notes-service/src/" . "storage/")
+ ("/home/mm/csio/collab-notes-service/scripts/" . "docker/")
+ ("/home/mm/csio/collab-notes-service/" . "src/")
+ ("/home/mm/csio/conference-data-service/src/" . "grpc/")
+ ("/home/mm/csio/conference-data-service/scripts/" . "docker/")
+ ("/home/mm/csio/conference-data-service/" . "src/")
+ ("/home/mm/.emacs.d/" . "pymacs/")
+ ("/home/mm/csio/django-dashboard/" . "collector/")
+ ("/home/mm/csio/callstats.js/" . "scripts/")
+ ("/home/mm/csio/csio-command-center/operations/" . "dashboard/")
+ ("/home/mm/csio/csio-command-center/" . "operations/")
+ ("/home/mm/csio/" . "django-dashboard/")
+ ("/home/mm/go/src/" . "github.com/")
  ("/home/mm/js/exercises/" . "binary-heap/")
  ("/home/mm/Pictures/photos/" . "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/")
  ("/home/mm/Pictures/" . "photos/")
@@ -12,6 +32,43 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/csio/"
+ "/home/mm/csio/django-dashboard/"
+ "/home/mm/csio/csio-command-center/localfullstack/"
+ "/home/mm/csio/django-dashboard/collector/"
+ "/home/mm/csio/collab-notes-service/"
+ "/home/mm/csio/django-dashboard/collector/obfuscation_service/protos/"
+ "/home/mm/csio/django-dashboard/collector/gdpr/"
+ "/home/mm/csio/django-dashboard/collector/collab_notes_service/protos/"
+ "/home/mm/csio/django-dashboard/collector/collab_notes_service/"
+ "/home/mm/csio/collab-notes-service/src/storage/"
+ "/home/mm/csio/collab-notes-service/src/usecases/"
+ "/home/mm/csio/collab-notes-service/client/"
+ "/home/mm/csio/collab-notes-service/src/storage/pgmigrations/"
+ "/home/mm/go/src/github.com/mmirolim/autorun/"
+ "/home/mm/csio/collab-notes-service/src/config/"
+ "/home/mm/csio/collab-notes-service/src/models/"
+ "/home/mm/csio/collab-notes-service/src/grpc/"
+ "/home/mm/csio/collab-notes-service/src/grpc/protos/def/"
+ "/home/mm/csio/conference-data-service/src/grpc/"
+ "/home/mm/csio/conference-data-service/"
+ "/home/mm/csio/collab-notes-service/src/grpc/protos/"
+ "/home/mm/csio/conference-data-service/src/storage/"
+ "/home/mm/csio/collab-notes-service/git-hooks/"
+ "/home/mm/csio/collab-notes-service/scripts/"
+ "/home/mm/csio/collab-notes-service/scripts/docker/"
+ "/home/mm/csio/collab-notes-service/hooks/"
+ "/home/mm/csio/conference-data-service/src/config/"
+ "/home/mm/csio/conference-data-service/scripts/docker/"
+ "/home/mm/csio/payment-service/"
+ "/home/mm/csio/webrtc-demoapp/"
+ "/home/mm/.emacs.d/"
+ "/home/mm/"
+ "/home/mm/.emacs.d/pymacs/"
+ "/home/mm/csio/callstats.js/"
+ "/home/mm/csio/csio-command-center/operations/dashboard/"
+ "/home/mm/csio/csio-command-center/"
+ "/home/mm/csio/csio-command-center/operations/scripts/"
  "/home/mm/go/src/"
  "/home/mm/go/src/tests/"
  "/home/mm/js/exercises/binary-heap/"
@@ -23,25 +80,117 @@
 
 ;; ----- ido-work-file-list -----
 (
- "types_methods.go"
- "branch-free_test.go"
- "test.js"
- "index.js"
- "package.json"
- "package-lock.json"
- "index.html"
- "out"
- "slider.html"
- "fsrv.go"
+ "docker-compose.yml"
+ "Dockerfile"
+ "views.py"
+ ".envrc"
+ "obfuscation_pb2_grpc.py"
+ "__init__.py"
+ "obfuscation_pb2.py"
+ "obfuscation.proto"
+ "helpers.py"
+ "conference_views.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/go/src/" (23386 58338 589413 54000) "fsrv.go~" "compare.go~" "out" "gentags.go~" "fsrv.go" "#fsrv.go#" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "fsrv" "time/" "static_methods.go" "#out#" "compare.go" "../" "hello.go" "slider.html" "hello" "types_methods.go" "github.com/" "static_methods.go~" "gopkg.in/" "tests/" "types_methods.go~" "gentags.go")
+ ("/home/mm/csio/" (23439 37429 120870 845000) "service-access-management/" "conference-data-service/" "auth-service/" "stream-processor/" "config-service-ann/" "collab-notes-service/" "conference-reports-service/" "callstats-rest-api/" "django-dashboard/" "../" "node-collector/" "stream-analyzer/" "setup.sh" "node-geoip-rest/" "run-cons.sh" "go-common/" ".env" "conf-manager/" "payment-service/" "csio-command-center/" "obfuscation-service/" "webrtc-demoapp/" "docker-compose.yml" ".ilah5Dot" "package-lock.json" "node-webrtc-basic-app/" "./" "configuration-service/" "callstats.js/" "coturn-docker/")
 
- ("/home/mm/" (23387 12480 865380 292000) "Downloads/" ".bashrc~" ".yarn/" ".aws/" ".gitconfig" "Desktop/" ".ssh/" ".bash_logout" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "./" "scala/" ".node_repl_history" ".ivy2/" ".scala_history" ".lesshst" ".config/" "Music/" ".bash_profile" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" ".esd_auth" ".oracle_jre_usage/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" ".esmtp_queue/" ".vim/" "../" "Public/" "scheme/" ".gnome/" ".cache/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" "arduino-1.8.5-linux64/" ".viminfo" ".sbt/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" "Templates/" "Arduino/" ".emacs")
+ ("/home/mm/csio/django-dashboard/" (23439 36316 933743 587000) "creds/" "deployment/" ".git/" "accounts.js" "scripts/" ".pylintrc" ".project" "manage.py" "Jenkinsfile" "#requirements.txt#" "../" "postgresql_setrole/" "Dockerfile.dashjs" ".dockerignore" "docker-compose.fullbuild.yaml" "requirements.txt" "wrtcStats/" "docker-compose.yml" "lint/" "e2e_tests/" ".#requirements.txt" "dockerproxy/" "prometheus/" "./" ".gitignore" "collector/" "install_requirements.sh" "jsserver.js" "assets/" "logs/" "Dockerfile" "Dockerfile.lint" "api_internal/" "CONFIGURE.md" "Procfile" "README.md")
 
- ("/home/mm/go/src/tests/" (23382 10643 610376 211000) "branch-free_test.go" "branch-free_test.go~" "./" "../" "global_write_speed_test.go" "global_write_speed_test.go~")
+ ("/home/mm/csio/django-dashboard/collector/" (23439 36318 811745 487000) "forms.py" "cache_utils.py" "delayValueFinder.pyc" "user_business_tracking.pyc" "genericSearchUtil.py" "forms.pyc" "app_utils.pyc" "payments.py" "objective_quality.pyc" "models.py" "top_metrics_views.pyc" "gdpr/" "protobuf_utils/" "app_settings_management/" "bridge_views.pyc" "oauth.pyc" "templatetags/" "conference_data_service/" "collab_notes_service/" "frame_size_evaluator.py" "demo_views.py" "request_logging.pyc" "__init__.pyc" "apiviews.pyc" "../" "oauth.py" "bridge_views.py" "top_metrics_views.py" "cache_utils.pyc" "apps.pyc" "user_views.pyc" "organization_views.py" "frame_size_evaluator.pyc" "id_generation_utils.pyc" "validators.pyc" "user_views.py" "#statsDBHandler_cds.py#" "aid_views.pyc" "views.py" "objective_quality.py" ".ropeproject/" "home_views.py" "app_settings_views.pyc" "statsDBHandler.pyc" "renderers.pyc" "appstatsUtils.py" "payments.pyc" "errors.py" "renderers.py" "models.pyc" "middleware.pyc" "payment_service/" "conference_utils.pyc" "user_utils.py" "fixtures/" "views.pyc" "genericSearchUtil.pyc" "responses.py" "sns_client.py" "sns_client.pyc" "custom_auth_backends.pyc" "user_utils.pyc" "__init__.py" "aid_views.py" "grpc_utils.pyc" "errors.pyc" "conference_utils.py" "statsDBHandler_cds.pyc" "conference_views.pyc" "responses.pyc" "app_auth_secret_views.py" "utils.py" "time_utils.pyc" "apiviews.py" "organization_views.pyc" "./" "statsProcessing.py" "grpc_utils.py" "statsProcessing.pyc" "app_views.pyc" "migrations/" "demo_views.pyc" "conference_views.py" "service_access_management/" "custom_auth_backends.py" "time_utils.py" "delayValueFinder.py" "validators.py" "statsDBHandler.py" "app_views.py" "statsDBHandler_cds.py" "conference_reports_service/" "ai_detection_service/" "app_settings_views.py" "InviteCodeManager.py" "home_views.pyc" "user_business_tracking.py" "obfuscation_service/" "app_utils.py" "id_generation_utils.py" "middleware.py" "apps.py" "tests/" "InviteCodeManager.pyc" "request_logging.py" "utils.pyc" "app_auth_secret_views.pyc")
+
+ ("/home/mm/csio/csio-command-center/localfullstack/" (23439 34417 723841 648000) "dependencyGraph.dot" "scripts/" "startsystem.sh" "dependencyGraph.dot.png" "../" "setup.sh" "docker-compose.yml" "./" "ServiceDescriptions.md" "README.md")
+
+ ("/home/mm/csio/collab-notes-service/" (23439 34440 383864 750000) "creds/" "go.sum" "glide.yaml~" ".git/" "scripts/" "git-hooks/" "src/" "Makefile~" "vendor/" "go.mod~" "../" "main.go" "Dockerfile.test" ".gitattributes" "main.go~" "docker-compose.yml~" "Dockerfile~" "docker-compose.yml" "goapp" ".envrc" "./" "Makefile" ".gitignore" ".gitignore~" "Dockerfile.test~" "client/" ".envrc~" "Dockerfile" "README.md~" "devcerts/" "go.mod" "README.md" "hooks/")
+
+ ("/home/mm/csio/django-dashboard/collector/obfuscation_service/protos/" (23439 33232 332650 188000) "obfuscation.proto" "obfuscation_pb2_grpc.py" "obfuscation_pb2_grpc.pyc" "__init__.pyc" "../" "obfuscation_pb2.pyc" "__init__.py" "./" "obfuscation_pb2.py")
+
+ ("/home/mm/csio/django-dashboard/collector/obfuscation_service/" (23422 32906 154074 448000) "__init__.pyc" "../" "__init__.py" "protos/" "./")
+
+ ("/home/mm/csio/django-dashboard/collector/gdpr/" (23439 33173 81591 49000) "test_processor.py" "helpers.py" "helpers.pyc" "client.pyc" "processor.py" "__init__.pyc" "../" "constants.py" "processor.pyc" "response.pyc" "__init__.py" ".#helpers.py" "#helpers.py#" "conf_id_transition.py" "./" "conf_id_transition.pyc" "response.py" "client.py" "constants.pyc")
+
+ ("/home/mm/csio/django-dashboard/collector/collab_notes_service/" (23439 30489 982550 758000) "__init__.pyc" "../" "__init__.py~" "__init__.py" "protos/" "./")
+
+ ("/home/mm/csio/django-dashboard/collector/collab_notes_service/protos/" (23439 30142 372258 914000) "collab_notes.proto" "collab_notes_pb2.py" "../" "collab_notes.proto~" "__init__.py" "./" "collab_notes_pb2_grpc.py")
+
+ ("/home/mm/csio/collab-notes-service/src/storage/" (23439 29729 7940 143000) "pg.go~" "../" "mongo.go~" "pg.go" "mongo.go" "./" "pgmigrations/")
+
+ ("/home/mm/csio/collab-notes-service/src/usecases/" (23438 36937 332010 293000) "../" "notes.go~" "notes.go" "./")
+
+ ("/home/mm/csio/collab-notes-service/client/" (23438 36111 936353 743000) "../" "main.go" "main.go~" "./" "client" "resp.json")
+
+ ("/home/mm/" (23438 35711 756988 757000) ".mongotron/" ".gitconfig" "Templates/" ".hplip/" ".config/" ".ipython/" ".bash_profile" ".emacs" ".bash_logout" ".pgadmin3" "Music/" ".bashrc.backup" ".electron/" "Desktop/" ".ssh/" "pgadmin.log" "tools/" ".nvm/" ".node-gyp/" ".viminfo" "../" ".emacs~" ".lesshst" "Downloads/" "vpnkeys/" ".emacs.d/" ".rnd" ".bashrc" "Pictures/" "Documents/" "Public/" ".esd_auth" ".v8flags.5.0.71.52.b3cd915d758008bd19d0f2428fbb354a.json" ".npm/" "lib/" "go/" ".pki/" ".gnome/" "csio_notes" "./" ".dbshell" ".cache/" "google_drive/" ".mozilla/" ".mongorc.js" ".bash_history" ".lastpass/" ".wget-hsts" ".thunderbird/" "bin/" ".glide/" "csio/" ".pgpass" "Videos/" ".ICEauthority" ".local/")
+
+ ("/home/mm/csio/collab-notes-service/src/config/" (23438 32998 911366 774000) "../" "./" "config.go~" "config.go")
+
+ ("/home/mm/csio/collab-notes-service/src/storage/pgmigrations/" (23438 35836 654103 379000) "1_create_notes.go" "../" "1_create_notes.go~" "./")
+
+ ("/home/mm/go/src/github.com/mmirolim/autorun/" (23438 32126 865545 728000) ".git/" "../" "buildspec.yml" "main.go" "./")
+
+ ("/home/mm/go/src/github.com/mmirolim/" (23438 31391 203849 216000) "../" "autorun/" "./")
+
+ ("/home/mm/go/src/github.com/" (23438 31411 379868 340000) "opennota/" "ryanuber/" "golang/" "mirolimm/" "../" "fzipp/" "mmirolim/" "tsenart/" "bc-pow/" "golang-migrate/" "Masterminds/" "nbutton23/" "mdempsky/" "mibk/" "posener/" "hashicorp/" "fsnotify/" "./" "GoASTScanner/" "davecgh/" "rogpeppe/" "kisielk/" "antlr/" "jgautheron/")
+
+ ("/home/mm/csio/collab-notes-service/src/models/" (23438 20230 870221 389000) "../" "note.go~" "note.go" "./")
+
+ ("/home/mm/go/src/" (23437 42323 315482 158000) "time/" "compare.go~" "slider.html~" "compare.go" "gentags.go~" "../" "hello.go" "hello" "google.golang.org/" "#fsrv.go#" "out" "gopkg.in/" "fsrv" "static_methods.go" "#out#" "slider.html" "github.com/" "honnef.co/" "./" "static_methods.go~" "types_methods.go" "bench/" "cgo/" "types_methods.go~" "fsrv.go" "golang.org/" "fsrv.go~" "gentags.go" "tests/")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/" (23438 11616 336656 575000) "notes_service.go~" "notes_service.go" "../" "protos/" "./" "srv.go" "srv.go~")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/protos/def/" (23433 13232 836591 409000) "collab_notes.proto" "../" "collab_notes.proto~" ".#dto.proto" "./")
+
+ ("/home/mm/csio/collab-notes-service/git-hooks/" (23433 9552 996362 873000) "common.sh" "../" "prepare-commit-msg.sh" "pre-push.sh" "./" "pre-commit.sh")
+
+ ("/home/mm/csio/collab-notes-service/hooks/" (23432 57372 749108 270000) "../" "build" "./")
+
+ ("/home/mm/csio/collab-notes-service/src/" (23432 63132 220875 664000) "grpc/" "storage/" "../" "models/" "./" "usecases/" "config/")
+
+ ("/home/mm/csio/conference-data-service/src/storage/" (23422 26382 736729 820000) "feedback.go" "conference_logs.go" "fabric_aggregated_stats.go" "bridge.go" "../" "aggregated_stats.go" "latest_processed_samples.go" "conference_events.go" "stats.go" "models/" "storage.go" "./" "conversions/" "sdp.go" "conference.go" "user_details_events.go" "constants.go" "executor.go")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/protos/" (23431 8533 835494 836000) "../" "collab_notes.pb.go" "./" "def/")
+
+ ("/home/mm/csio/conference-data-service/src/grpc/" (23422 26382 725729 813000) "../" "server.go" "./")
+
+ ("/home/mm/csio/collab-notes-service/scripts/docker/" (23432 57491 675184 420000) "install_service.sh" "../" "install_service.sh~" "./")
+
+ ("/home/mm/csio/collab-notes-service/scripts/" (23432 57447 75155 861000) "setup_dev.sh" "../" "docker/" "./")
+
+ ("/home/mm/csio/conference-data-service/src/config/" (23422 26382 725729 813000) "config_test.go" "../" "./" "config.go" "constants.go")
+
+ ("/home/mm/csio/conference-data-service/src/" (23422 26382 734729 818000) "grpc/" "storage/" "http/" "../" "common/" "protos/" "./" "config/" "services/")
+
+ ("/home/mm/csio/conference-data-service/scripts/docker/" (23422 26382 724729 812000) "install_service.sh" "../" "./")
+
+ ("/home/mm/csio/conference-data-service/scripts/" (23422 26382 724729 812000) "setup_dev.sh" "../" "docker/" "./")
+
+ ("/home/mm/csio/payment-service/" (23422 26470 854785 835000) "setup_dev.sh" ".git/" "scripts/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "Dockerfile.test" "glide.lock" ".gitattributes" "Dockerfile.tools" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "README.md" "hooks/")
+
+ ("/home/mm/.emacs.d/" (23431 16869 650964 138000) "ede-projects.el" "ac-comphist.dat" "eshell/" "project-local-variables.el" ".git/" "python.el~" "ido.last" "session.107101ecf669ccce90153546350472952700000069260089" "auto-save-list/" "tramp" "emacs-backup" "clj.el" "bookmarks" "../" "python.el" "company-go.el" "elpa/" "pymacs/" "find-file-in-project.el" "go.el" "url/" "scala.el" ".mc-lists.el" "abbrev_defs" "tss.el" "smex-items" "./" ".gitignore" "snippets/" ".#ido.last" "ido.last~" "network-security.data")
+
+ ("/home/mm/go/" (23329 18896 0 0) "src/" "../" "pkg/" "./" "bin/")
+
+ ("/home/mm/csio/conference-data-service/" (23431 53648 785965 346000) ".git/" "scripts/" "git-hooks/" "src/" "Jenkinsfile" "vendor/" "glide.yaml" "../" "main.go" "Dockerfile.test" "glide.lock" ".gitattributes" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "hooks/")
+
+ ("/home/mm/.emacs.d/pymacs/" (23429 17293 768380 783000) "pymacs.elc" "pymacs.el" "../" "./")
+
+ ("/home/mm/csio/callstats.js/" (23429 4167 882802 66000) "callstats-js-shims/" "karma.conf.js" ".eslintrc" ".git/" "src/" "Gruntfile.js" "Jenkinsfile" "package.json" "license.txt" "../" "node_modules/" "test/" "loopback-test/" "package-lock.json" "./" ".gitignore" ".gitmodules" "react-native-callstats/" "Dockerfile" "README.md")
+
+ ("/home/mm/csio/callstats.js/scripts/" (23428 20239 414188 64000) "public/" "../" "./")
+
+ ("/home/mm/csio/callstats.js/node_modules/" (23422 44028 706705 205000) "../" "./" ".yarn-integrity")
+
+ ("/home/mm/csio/webrtc-demoapp/" (23429 1044 85730 188000) ".eslintrc" "LICENSE" ".git/" "CHANGELOG.md" "__tests__/" "src/" "package.json" "../" ".babelrc" ".gitattributes" ".env" "./" ".gitignore" "config/" "Dockerfile" "README.md")
+
+ ("/home/mm/csio/csio-command-center/operations/dashboard/" (23422 26139 26600 350000) "pullToLocal.py" "../" "requirements.txt" "./" "start.sh" "README.md")
+
+ ("/home/mm/csio/csio-command-center/" (23427 55325 27743 235000) "monitoring/" "customers/" ".git/" "../" "business/" "docker-compose.yml" "Dockerfile.dashboardscripts" "./" ".gitignore" "operations/" "localfullstack/" "README.md")
+
+ ("/home/mm/csio/csio-command-center/operations/scripts/" (23422 26139 51600 362000) "../" "export_pg_connection_uri.sh" "./")
+
+ ("/home/mm/csio/csio-command-center/operations/" (23422 26139 182600 424000) "appstats/" "search/" "billing/" "scripts/" "pg/" "../" "terraform/" "exporter-scheduler/" "mongo/" "requirements.txt" "kafka-zookeeper/" "cmv2/" "fixErroneousConfDuration/" "appsettings/" "./" "zookeeeper/" "stripe/" "hazelcast-ops/" "dashboard/" "misc/" "exporter/")
+
+ ("/home/mm/go/src/tests/" (23398 32900 0 0) "cachegrind.out.604" "structs.go~" "cachegrind.out.32635" "structs.go" "../" "branch-free_test.go~" "global_write_speed_test.go~" "#emacs_macro.test#" "branch-free_test.go" "./" "global_write_speed_test.go" "massif.out.846")
 
  ("/home/mm/js/exercises/" (23373 44380 208015 974000) "package.json~" "package-lock.json" "package.json" "levenstein-dist/" "./" "binary-heap/" "node_modules/" "../" "find-k-smallest/")
 
@@ -58,8 +207,6 @@
  ("/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/" (23355 19549 767440 667000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "049.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "172.png" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "168.png" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "slider.html~" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "169.png" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "098.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "166.png" "016.jpg" "167.png" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "185.jpg" "053.jpg" "100.jpg" "171.png" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "180.png" "051.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "170.png" "152.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "091.jpg" "177.png" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "178.png" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
 
  ("/home/mm/Pictures/" (23354 29967 383435 995000) "photos_2018_05_12/" "me.jpg" "Screenshot from 2018-07-02 23-55-11.png" "photos_2018_06_17/" "photo_night_walk_2018_05_12_sisters/" "./" "Screenshot from 2018-05-13 08-51-14.png" "photo_2018_05_13/" "photos/" "../" "gimp_shortcuts.jpg" "Screenshot from 2018-06-03 12-31-05.png" "photo_turkey_2018_june/" "photos_naima_2018_06_27/" "photo_2018_05_20/" "photo_2018_05_18/" "photos_hayot_bday_2018_05_27/")
-
- ("/home/mm/go/" (23329 18897 703538 858000) "./" "pkg/" "../" "bin/" "src/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
