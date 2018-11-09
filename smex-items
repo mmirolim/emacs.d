@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- revert-buffer
- uncomment-region
- rgrep
- mc/mark-next-like-this
- comment-region
+ package-list-packages
  mc/edit-lines
- shell
+ markdown-preview
+ revert-buffer
+ bury-buffer
+ rgrep
+ comment-region
 )
 
 ;; ----- smex-data -----
@@ -19,7 +19,7 @@
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 49)
+ (comment-region . 51)
  (start-kbd-macro . 1)
  (golint . 3)
  (go-mode-menu . 1)
@@ -31,7 +31,7 @@
  (go-test-current-file . 1)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 243)
+ (revert-buffer . 250)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -41,7 +41,7 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 857)
+ (mc/mark-next-like-this . 860)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
@@ -54,8 +54,8 @@
  (smerge-keep-mine . 9)
  (superword-mode . 2)
  (upcase-word . 14)
- (markdown-preview . 15)
- (rgrep . 24)
+ (markdown-preview . 17)
+ (rgrep . 36)
  (godoc . 2)
  (go-errcheck . 1)
  (list-packages . 4)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 19)
+ (package-list-packages . 21)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 6)
@@ -77,7 +77,7 @@
  (customize-variable . 1)
  (python-mode . 1)
  (magit-log . 17)
- (mc/edit-lines . 93)
+ (mc/edit-lines . 96)
  (mc/mark-more-like-this-extended . 21)
  (magit-fetch . 1)
  (magit-diff . 6)
@@ -111,7 +111,7 @@
  (tide-setup . 3)
  (company-mode . 3)
  (eldoc-mode . 1)
- (butterfly . 1)
+ (butterfly . 3)
  (ido-mode . 1)
  (eval-region . 1)
  (isearch-forward . 1)
@@ -136,4 +136,5 @@
  (list-timers . 2)
  (byte-compile-file . 1)
  (load-library . 3)
+ (bury-buffer . 8)
 )

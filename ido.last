@@ -2,11 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/src/" . "migrations/")
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/" . "src/")
+ ("/home/mm/csio/django-dashboard/collector/payment_service/" . "protos/")
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/" . "testdata/")
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/" . "services/")
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/" . "src/")
+ ("/home/mm/go/src/github.com/callstats-io/" . "service-access-management/")
  ("/home/mm/csio/django-dashboard/collector/obfuscation_service/" . "protos/")
  ("/home/mm/csio/django-dashboard/collector/collab_notes_service/" . "protos/")
- ("/home/mm/csio/django-dashboard/collector/" . "obfuscation_service/")
+ ("/home/mm/csio/django-dashboard/collector/" . "service_access_management/")
  ("/home/mm/go/src/github.com/mmirolim/" . "autorun/")
- ("/home/mm/go/src/github.com/" . "mmirolim/")
+ ("/home/mm/go/src/github.com/" . "callstats-io/")
  ("/home/mm/csio/collab-notes-service/src/storage/" . "pgmigrations/")
  ("/home/mm/csio/collab-notes-service/src/grpc/protos/" . "def/")
  ("/home/mm/csio/collab-notes-service/src/grpc/" . "protos/")
@@ -32,10 +39,28 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/go/src/github.com/callstats-io/service-access-management/src/migrations/"
+ "/home/mm/go/src/github.com/callstats-io/service-access-management/"
+ "/home/mm/go/src/github.com/callstats-io/service-access-management/src/service/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/services/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/"
+ "/home/mm/csio/django-dashboard/collector/"
+ "/home/mm/csio/django-dashboard/collector/service_access_management/"
+ "/home/mm/csio/django-dashboard/wrtcStats/"
  "/home/mm/csio/"
  "/home/mm/csio/django-dashboard/"
+ "/home/mm/csio/django-dashboard/collector/payment_service/protos/"
+ "/home/mm/csio/django-dashboard/collector/payment_service/"
+ "~/go/src/github.com/callstats-io/service-access-management/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/handlers/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/testdata/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/server/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/testutil/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/migrations/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/src/main/"
+ "/home/mm/go/src/github.com/callstats-io/payment-service/tools/"
+ "/home/mm/go/src/github.com/callstats-io/go-common/"
  "/home/mm/csio/csio-command-center/localfullstack/"
- "/home/mm/csio/django-dashboard/collector/"
  "/home/mm/csio/collab-notes-service/"
  "/home/mm/csio/django-dashboard/collector/obfuscation_service/protos/"
  "/home/mm/csio/django-dashboard/collector/gdpr/"
@@ -64,97 +89,147 @@
  "/home/mm/csio/webrtc-demoapp/"
  "/home/mm/.emacs.d/"
  "/home/mm/"
- "/home/mm/.emacs.d/pymacs/"
- "/home/mm/csio/callstats.js/"
- "/home/mm/csio/csio-command-center/operations/dashboard/"
- "/home/mm/csio/csio-command-center/"
- "/home/mm/csio/csio-command-center/operations/scripts/"
- "/home/mm/go/src/"
- "/home/mm/go/src/tests/"
- "/home/mm/js/exercises/binary-heap/"
- "/home/mm/js/exercises/"
- "/home/mm/js/exercises/find-k-smallest/"
- "/home/mm/Pictures/photos/[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/"
- "/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "docker-compose.yml"
- "Dockerfile"
- "views.py"
- ".envrc"
- "obfuscation_pb2_grpc.py"
- "__init__.py"
- "obfuscation_pb2.py"
- "obfuscation.proto"
- "helpers.py"
- "conference_views.py"
+ "35_udpate_demorole_with_pct_perm.go"
+ "33_assign_new_permissions_to_existing_app_pct.go"
+ "README.md"
+ "app_role_model_test.go"
+ "23_create_demo_db_role.go"
+ "suite_test.go"
+ "app_role_model.go"
+ "app_manager.go"
+ "app_manager_test.go"
+ "constants_test.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/csio/" (23439 37429 120870 845000) "service-access-management/" "conference-data-service/" "auth-service/" "stream-processor/" "config-service-ann/" "collab-notes-service/" "conference-reports-service/" "callstats-rest-api/" "django-dashboard/" "../" "node-collector/" "stream-analyzer/" "setup.sh" "node-geoip-rest/" "run-cons.sh" "go-common/" ".env" "conf-manager/" "payment-service/" "csio-command-center/" "obfuscation-service/" "webrtc-demoapp/" "docker-compose.yml" ".ilah5Dot" "package-lock.json" "node-webrtc-basic-app/" "./" "configuration-service/" "callstats.js/" "coturn-docker/")
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/src/migrations/" (23525 25589 865152 159000) "17_assign_new_permissions_to_existing_app_roles.go" "8_add_app_role_permission_tables.go" "14_add_organization_id_to_app_user_roles.go" "16_assign_new_permissions_to_existing_app_roles.go" "4_create_organization_users.go" "2_create_organizations.go" "21_add_manual_feature_settings.go" "32_assign_new_permissions_to_existing_app_roles_notes.go" "5_create_invites.go" "10_delete_user_apps_view.go" "25_assign_new_permissions_to_existing_app_roles.go" "migrations.go" "26_assign_new_gdpr_persmissions_to_existing_app_roles.go" "12_fix_app_user_org_admin_roles.go" "../" "19_force_lowercase_email.go" "29_obfuscate_emails.go" "35_udpate_demorole_with_pct_perm.go" "28_drop_first_lastname.go" "18_assign_new_permissions_to_existing_app_roles.go" "31_assign_new_permissions_to_existing_app_roles_aid.go" "30_enforce_no_raw_emails.go" "1_create_users.go" "22_assign_new_permissions_to_existing_app_roles.go" "3_create_apps.go" "11_fix_app_user_roles.go" "33_assign_new_permissions_to_existing_app_pct.go" "34_add_app_state_prop.go" "27_remove_force_lowercase_email.go" "6_create_user_apps_view.go" "./" "9_assign_app_roles_from_org_users.go" "23_create_demo_db_role.go" "24_assign_new_permissions_to_existing_app_roles.go" "35_udpate_demorole_with_pct_perm.go~" "15_assign_new_permissions_to_existing_app_roles.go" "20_track_org_stripe_create.go" "7_add_organization_user_permissions.go" "13_add_organization_features.go")
 
- ("/home/mm/csio/django-dashboard/" (23439 36316 933743 587000) "creds/" "deployment/" ".git/" "accounts.js" "scripts/" ".pylintrc" ".project" "manage.py" "Jenkinsfile" "#requirements.txt#" "../" "postgresql_setrole/" "Dockerfile.dashjs" ".dockerignore" "docker-compose.fullbuild.yaml" "requirements.txt" "wrtcStats/" "docker-compose.yml" "lint/" "e2e_tests/" ".#requirements.txt" "dockerproxy/" "prometheus/" "./" ".gitignore" "collector/" "install_requirements.sh" "jsserver.js" "assets/" "logs/" "Dockerfile" "Dockerfile.lint" "api_internal/" "CONFIGURE.md" "Procfile" "README.md")
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/src/service/" (23525 25593 484156 322000) "user_model.go" "cron.go" "#user_service.go#" "service.coverprofile" "user_service_test.go" "user_model_test.go" "app_manager.go" "organization_service.go" "app_user_role.go" "organization_manager.go" "user_manager.go" "grpc_manager_test.go" "organization_user_model_test.go" "organization_user_model.go" "app_model.go" "cron_test.go" "errors.go" "organization_model_test.go" "organization_manager_test.go" "metadata_test.go" "../" "app_manager_test.go~" "access_service_test.go" "cron_test.go~" "context_test.go" "metadata.go" "suite_test.go" "organization_model.go" "invite_model.go" "app_role_model.go" "admin_access_service_test.go" "cron.go~" "app_role_model_test.go" "status_service.go" "app_model_test.go" "access_service.go" "access_manager.go" "app_user_role_test.go" "./" "user_service.go" "context.go" "constants_test.go" "organization_service_test.go" "grpc_manager.go" "obfuscator.go" "payment_service_client.go" "app_manager_test.go" "constants.go" "service.go" "invite_model_test.go" "admin_access_service.go")
 
- ("/home/mm/csio/django-dashboard/collector/" (23439 36318 811745 487000) "forms.py" "cache_utils.py" "delayValueFinder.pyc" "user_business_tracking.pyc" "genericSearchUtil.py" "forms.pyc" "app_utils.pyc" "payments.py" "objective_quality.pyc" "models.py" "top_metrics_views.pyc" "gdpr/" "protobuf_utils/" "app_settings_management/" "bridge_views.pyc" "oauth.pyc" "templatetags/" "conference_data_service/" "collab_notes_service/" "frame_size_evaluator.py" "demo_views.py" "request_logging.pyc" "__init__.pyc" "apiviews.pyc" "../" "oauth.py" "bridge_views.py" "top_metrics_views.py" "cache_utils.pyc" "apps.pyc" "user_views.pyc" "organization_views.py" "frame_size_evaluator.pyc" "id_generation_utils.pyc" "validators.pyc" "user_views.py" "#statsDBHandler_cds.py#" "aid_views.pyc" "views.py" "objective_quality.py" ".ropeproject/" "home_views.py" "app_settings_views.pyc" "statsDBHandler.pyc" "renderers.pyc" "appstatsUtils.py" "payments.pyc" "errors.py" "renderers.py" "models.pyc" "middleware.pyc" "payment_service/" "conference_utils.pyc" "user_utils.py" "fixtures/" "views.pyc" "genericSearchUtil.pyc" "responses.py" "sns_client.py" "sns_client.pyc" "custom_auth_backends.pyc" "user_utils.pyc" "__init__.py" "aid_views.py" "grpc_utils.pyc" "errors.pyc" "conference_utils.py" "statsDBHandler_cds.pyc" "conference_views.pyc" "responses.pyc" "app_auth_secret_views.py" "utils.py" "time_utils.pyc" "apiviews.py" "organization_views.pyc" "./" "statsProcessing.py" "grpc_utils.py" "statsProcessing.pyc" "app_views.pyc" "migrations/" "demo_views.pyc" "conference_views.py" "service_access_management/" "custom_auth_backends.py" "time_utils.py" "delayValueFinder.py" "validators.py" "statsDBHandler.py" "app_views.py" "statsDBHandler_cds.py" "conference_reports_service/" "ai_detection_service/" "app_settings_views.py" "InviteCodeManager.py" "home_views.pyc" "user_business_tracking.py" "obfuscation_service/" "app_utils.py" "id_generation_utils.py" "middleware.py" "apps.py" "tests/" "InviteCodeManager.pyc" "request_logging.py" "utils.pyc" "app_auth_secret_views.pyc")
+ ("~/go/src/github.com/callstats-io/service-access-management/" (23524 17951 446437 526000) "setup_dev.sh" "test.sh" "creds/" ".git/" "scripts/" "docs/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "test.sh~" "#glide.yaml#" "main.go" "Dockerfile.test" "glide.lock" ".#glide.yaml" "Dockerfile.tools" "docker-compose.yml" "tempproto~" "./" ".gitignore" "Dockerfile" "tempproto" "README.md" "hooks/")
 
- ("/home/mm/csio/csio-command-center/localfullstack/" (23439 34417 723841 648000) "dependencyGraph.dot" "scripts/" "startsystem.sh" "dependencyGraph.dot.png" "../" "setup.sh" "docker-compose.yml" "./" "ServiceDescriptions.md" "README.md")
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/" (23524 17951 446437 526000) "setup_dev.sh" "test.sh" "creds/" ".git/" "scripts/" "docs/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "test.sh~" "#glide.yaml#" "main.go" "Dockerfile.test" "glide.lock" ".#glide.yaml" "Dockerfile.tools" "docker-compose.yml" "tempproto~" "./" ".gitignore" "Dockerfile" "tempproto" "README.md" "hooks/")
 
- ("/home/mm/csio/collab-notes-service/" (23439 34440 383864 750000) "creds/" "go.sum" "glide.yaml~" ".git/" "scripts/" "git-hooks/" "src/" "Makefile~" "vendor/" "go.mod~" "../" "main.go" "Dockerfile.test" ".gitattributes" "main.go~" "docker-compose.yml~" "Dockerfile~" "docker-compose.yml" "goapp" ".envrc" "./" "Makefile" ".gitignore" ".gitignore~" "Dockerfile.test~" "client/" ".envrc~" "Dockerfile" "README.md~" "devcerts/" "go.mod" "README.md" "hooks/")
+ ("/home/mm/go/src/github.com/" (23524 2587 980360 609000) "opennota/" "ryanuber/" "andyudina/" "golang/" "magiconair/" "hpcloud/" "spf13/" "mitchellh/" "lunixbochs/" "mirolimm/" "../" "fzipp/" "mmirolim/" "tsenart/" "fatih/" "bc-pow/" "golang-migrate/" "Masterminds/" "k0kubun/" "onsi/" "nbutton23/" "mattn/" "docker/" "dustin/" "mdempsky/" "mibk/" "callstats-io/" "wagoodman/" "phayes/" "posener/" "hashicorp/" "go-pg/" "fsnotify/" "pelletier/" "nsf/" "jinzhu/" "./" "GoASTScanner/" "davecgh/" "rogpeppe/" "kisielk/" "jroimartin/" "antlr/" "kr/" "sirupsen/" "google/" "jgautheron/")
+
+ ("/home/mm/go/src/" (23524 2590 33363 91000) "compare.go~" "slider.html~" "compare.go" "gentags.go~" "../" "hello.go" "hello" "google.golang.org/" "#fsrv.go#" "out" "gopkg.in/" "fsrv" "static_methods.go" "#out#" "slider.html" "github.com/" "honnef.co/" "./" "do-not-call-as-stdlib-time/" "static_methods.go~" "mellium.im/" "types_methods.go" "bench/" "cgo/" "types_methods.go~" "fsrv.go" "golang.org/" "fsrv.go~" "gentags.go" "tests/")
+
+ ("/home/mm/" (23524 17617 179115 179000) ".mongotron/" ".gitconfig" "Templates/" ".hplip/" ".config/" ".ipython/" ".bash_profile" ".emacs" ".bash_logout" ".pgadmin3" "Music/" ".docker/" ".bashrc.backup" ".electron/" "Desktop/" ".digisign/" ".ssh/" "pgadmin.log" "tools/" ".nvm/" ".node-gyp/" ".viminfo" ".psql_history" "../" ".emacs~" ".lesshst" ".gitconfig~" ".vim/" "Downloads/" "vpnkeys/" ".emacs.d/" ".rnd" ".bashrc" "Pictures/" "Documents/" "Public/" ".esd_auth" ".v8flags.5.0.71.52.b3cd915d758008bd19d0f2428fbb354a.json" ".npm/" ".terraform.d/" "lib/" "go/" ".pki/" ".aws/" ".gnome/" "csio_notes" "./" ".dbshell" ".cache/" "google_drive/" ".mozilla/" ".mongorc.js" ".bash_history" ".lastpass/" ".wget-hsts" ".thunderbird/" "bin/" ".glide/" "csio/" ".pgpass" "Videos/" ".ICEauthority" ".pgadmin_histoqueries" ".local/")
+
+ ("/home/mm/csio/django-dashboard/collector/service_access_management/" (23524 16684 260337 64000) "__init__.pyc" "../" "__init__.py" "protos/" "./")
+
+ ("/home/mm/csio/django-dashboard/collector/" (23524 9180 580193 209000) "forms.py" "cache_utils.py" "delayValueFinder.pyc" "user_business_tracking.pyc" "genericSearchUtil.py" "forms.pyc" "app_utils.pyc" "payments.py" "objective_quality.pyc" "models.py" "top_metrics_views.pyc" "gdpr/" "#models.py#" "protobuf_utils/" "app_settings_management/" "bridge_views.pyc" "oauth.pyc" "templatetags/" "conference_data_service/" "collab_notes_service/" "frame_size_evaluator.py" "demo_views.py" "request_logging.pyc" "__init__.pyc" "apiviews.pyc" "../" "oauth.py" "bridge_views.py" "top_metrics_views.py" "cache_utils.pyc" ".#apiviews.py" "apps.pyc" "user_views.pyc" "organization_views.py" "frame_size_evaluator.pyc" "id_generation_utils.pyc" "validators.pyc" "user_views.py" "aid_views.pyc" "views.py" "objective_quality.py" ".ropeproject/" "home_views.py" "app_settings_views.pyc" "statsDBHandler.pyc" "renderers.pyc" "appstatsUtils.py" "payments.pyc" "#conference_views.py#" "errors.py" "renderers.py" "models.pyc" "middleware.pyc" "payment_service/" "pct_views.pyc" "conference_utils.pyc" "user_utils.py" "fixtures/" "views.pyc" "genericSearchUtil.pyc" "responses.py" "sns_client.py" "sns_client.pyc" "custom_auth_backends.pyc" "user_utils.pyc" "__init__.py" "#apiviews.py#" "aid_views.py" "grpc_utils.pyc" "errors.pyc" "conference_utils.py" "statsDBHandler_cds.pyc" "conference_views.pyc" "responses.pyc" "app_auth_secret_views.py" "pct_views.py" "utils.py" "time_utils.pyc" "apiviews.py" "organization_views.pyc" "./" "statsProcessing.py" "grpc_utils.py" "statsProcessing.pyc" "app_views.pyc" "migrations/" "demo_views.pyc" "conference_views.py" "service_access_management/" "custom_auth_backends.py" "time_utils.py" "delayValueFinder.py" "validators.py" "statsDBHandler.py" "app_views.py" "statsDBHandler_cds.py" "conference_reports_service/" "ai_detection_service/" "app_settings_views.py" "InviteCodeManager.py" "home_views.pyc" "user_business_tracking.py" "obfuscation_service/" "app_utils.py" "id_generation_utils.py" "middleware.py" "apps.py" "tests/" "InviteCodeManager.pyc" "request_logging.py" "utils.pyc" "app_auth_secret_views.pyc")
+
+ ("/home/mm/csio/django-dashboard/wrtcStats/" (23524 7899 306871 895000) "settings.py" "vaultaccess.pyc" "__init__.pyc" "../" "wsgi.py" "settings.pyc" "vaultaccess.py" "__init__.py" "statsCollectorUtils.pyc" "./" "urls.py" "statsCollectorUtils.py" "wsgi.pyc" "api_templates/" "templates/" "urls.pyc" "tests/")
+
+ ("/home/mm/go/src/github.com/callstats-io/service-access-management/src/" (23487 11534 562904 172000) "service/" "audit/" "../" "test/" "protos/" "./" "migrations/" "config/" "grpcutil/" "validator/" "server/")
+
+ ("/home/mm/csio/django-dashboard/collector/payment_service/protos/" (23422 32906 250074 525000) "plan_service_pb2_grpc.pyc" "invoice_service.proto" "invoice_service_pb2_grpc.py" "plan_service.proto" "subscription_service_pb2.pyc" "subscription_service_pb2_grpc.py" "models.proto" "__init__.pyc" "models_pb2_grpc.py" "../" "subscription_service_pb2.py" "invoice_service_pb2_grpc.pyc" "subscription_service_pb2_grpc.pyc" "__init__.py" "plan_service_pb2.py" "invoice_service_pb2.pyc" "./" "models_pb2.py" "models_pb2.pyc" "subscription_service.proto" "invoice_service_pb2.py" "plan_service_pb2_grpc.py" "plan_service_pb2.pyc")
+
+ ("/home/mm/csio/django-dashboard/collector/payment_service/" (23422 32906 227074 506000) "__init__.pyc" "../" "__init__.py" "protos/" "./")
+
+ ("/home/mm/csio/csio-command-center/" (23470 5328 557592 184000) "monitoring/" "#Dockerfile.dashboardscripts#" "customers/" ".git/" "../" "service_template/" "business/" "docker-compose.yml" "Dockerfile.dashboardscripts" "./" ".gitignore" "operations/" "localfullstack/" ".#Dockerfile.dashboardscripts" "README.md")
+
+ ("/home/mm/csio/csio-command-center/operations/dashboard/" (23440 64336 958282 407000) "pullToLocal.py" "../" "requirements.txt" "./" "start.sh" "README.md")
+
+ ("/home/mm/csio/payment-service/" (23520 20447 2035 894000) "setup_dev.sh" "test.sh" ".git/" "scripts/" "docs/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "test.sh~" "Dockerfile.test" "glide.lock" ".gitattributes" "Dockerfile.tools" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "README.md" "hooks/")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/main/" (23520 17371 782449 819000) "../" "main.go" "main_test.go" "./")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/testutil/" (23520 32658 726797 150000) "http_client.go" "../" "./" "redis_client.go")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/handlers/" (23520 33364 307379 16000) "status_handler_test.go" "webhook_handler.go" "../" "suite_test.go" "./" "status_handler.go" "webhook_handler_test.go" "constants.go")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/server/" (23520 24217 228095 313000) "server_test.go" "../" "server.go" "suite_test.go" "./")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/vendor/github.com/callstats-io/go-common/postgres/" (23520 19662 855375 167000) "options.go" "errors.go" "../" "options_test.go" "client_test.go" "suite_test.go" "client.go" "./" "migrations/" "exports.go" "constants.go" "README.md")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/" (23520 20447 2035 894000) "setup_dev.sh" "test.sh" ".git/" "scripts/" "docs/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "test.sh~" "Dockerfile.test" "glide.lock" ".gitattributes" "Dockerfile.tools" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "README.md" "hooks/")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/vendor/" (23520 9846 63872 725000) "../" "google.golang.org/" "gopkg.in/" "github.com/" "./" "golang.org/")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/migrations/" (23520 19606 112318 864000) "018_create_new_default_minute_pricing_tiers.go" "017_rename_ledger_price_columns.go" "015_add_user_minutes_to_ledger.go" "002_create_customers.go" "005_rename_operation_log_table_to_plural_form.go" "011_add_bridge_events_to_ledger.go" "010_store_current_plan_in_ledger.go" "007_create_ledger.go" "008_alter_ledger_columns.go" "../" "014_add_total_datapoints_to_ledgers.go" "013_apply_multiplier_to_amounts_in_ledgers.go" "003_remove_stripe_id_null_constraints_from_customers.go" "004_enforce_customers_organization_id_to_positive_integer.go" "012_add_app_mode_to_ledger.go" "./" "016_create_minute_pricing_tiers.go" "019_add_turn_minutes_to_ledger.go" "006_alter_idempotency_columns_in_operation_logs.go" "001_create_operation_log.go" "009_add_plan_id_to_customers.go" "migrate.go")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/testdata/" (23520 9845 682872 315000) "get_invoice_in_1AbSGkCEZuEDELOA03mnaJys.json" "list_invoices.json" "cus_BTuwpnXmpGMA25.json" "account.json" "list_invoiceitems_manual_invoicing.json" "raw_sub.json" "unauthorized.json" "idempotent_event_customer_created.json" "cus_AK0tXn829FCzuH.json" "get_event_evt_badid.json" "list_plans_visibility.json" "in_1Azj4pLhtCBYkHIAxrKU7sjI.json" "invoice_created_on_trial_extension.json" "raw_plan.json" "cus_520fxaRqbihFM3.json" "invoiceitem.json" "sub_AHqRIZVZDyikWW.json" "get_invoice_in_badid.json" "get_customer.json" "sub_4yuD8d5z9tCtvg.json" "raw_customer_updated.json" "../" "list_invoices_cus_54sFYJw6mtmqCB_page_2.json" "raw_customer_without_sub.json" "ch_1B6FVqLhtCBYkHIASycYXhgU.json" "cus_minute_pricing.json" "sub_dev_plan.json" "in_1BiKdlLhtCBYkHIAkHvRJwUi_invoiceitems_page_1.json" "list_invoices_cus_54sFYJw6mtmqCB.json" "in_1BiKdlLhtCBYkHIAkHvRJwUi_invoiceitems_page_2.json" "idempotent_event_subscription_updated.json" "internal_error.json" "list_invoiceitems_in_1AbSGkCEZuEDELOA03mnaJys_after_update.json" "get_plan_pro_old.json" "get_customer_with_existing_plan.json" "basic_monthly_plan.json" "sub_B0jObFbGvP15hF.json" "post_card_token.json" "cus_AFWPbnSiyfGLTQ.json" "get_event_plan_deleted.json" "./" "list_plans.json" "sub_500_plan.json" "raw_customer.json" "raw_plan_updated.json" "cus_BtRuvzxd7CG1Ax.json" "get_customer_without_sub.json" "in_1BinyJLhtCBYkHIAgdk4wPlq.json" "post_card_bad_token.json" "get_event_customer_created.json" "sub_minute_pricing.json" "cus_with_custom_tiers.json" "post_customer_new_source.json" "get_event_plan_updated.json" "get_event_plan_created.json" "list_invoiceitems_in_1AbSGkCEZuEDELOA03mnaJys.json" "bad_request.json" "in_1BiKdlLhtCBYkHIAkHvRJwUi.json" "plan_default_for_all.json" "get_invoice_in_18dyBZLhtCBYkHIAFq0bEni7.json" "sub_with_custom_tiers.json" "invoiceitem_total.json" "sub_BtRuHCDEZbtASr.json")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/stripe/" (23520 9845 682872 315000) "testdata/" "../" "testutil/" "./")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/vendor/github.com/callstats-io/go-common/postgres/migrations/" (23520 17888 625851 178000) "migrations_test.go" "migrations.go" "../" "suite_test.go" "./" ".#migrations.go" "README.md")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/vendor/github.com/callstats-io/go-common/testutil/pgtestutil/" (23520 9845 699872 333000) "../" "utils.go" "./")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/services/" (23520 12261 746442 68000) "errors.go" "time_helper.go" "webhook_callbacks_test.go" "../" "stripe_defaults.go" "payment_tiers_test.go" "app_usage_helpers.go" "access_client.go" "stripe_idempotency_test.go" "invoice_service_test.go" "invoice_service.go" "stripe_conversions.go" "webhook_callbacks.go" "suite_test.go" "subscription_service.go" "data_point_consumer_test.go" "time_helper_test.go" "./" "payment_tiers.go" "plan_service_test.go" "plan_service.go" "data_point_consumer.go" "redis.go" "constants.go" "subscription_service_test.go" "stripe_idempotency.go")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/src/" (23520 9845 679872 312000) "heapanalytics/" "../" "handlers/" "models/" "protos/" "./" "migrations/" "config/" "main/" "stripe/" "services/" "flowdock/" "server/")
+
+ ("/home/mm/go/src/github.com/callstats-io/payment-service/tools/" (23520 11734 193880 785000) "list_upcoming_invoices.sh" "../" "main.go" "migrate_data_points.go" "./" "list_upcoming_invoices.go" "migrate_data_points.sh" "migrate_stripe_users.go")
+
+ ("/home/mm/.emacs.d/" (23519 27964 739999 752000) "ede-projects.el" "ac-comphist.dat" "eshell/" "project-local-variables.el" ".git/" "python.el~" "ido.last" "session.107101ecf669ccce90153546350472952700000069260089" "auto-save-list/" "tramp" "emacs-backup" "clj.el" "bookmarks" "../" "python.el" "company-go.el" "elpa/" "session.10e9d5df37b1f23b62153872291035030000000023640069" "pymacs/" "find-file-in-project.el" "go.el" "url/" "scala.el" ".mc-lists.el" "abbrev_defs" "games/" "tss.el" "smex-items" "./" ".gitignore" "session.10c72e0a5c423238e153716683687362500000023890067" "snippets/" "ido.last~" "network-security.data")
+
+ ("/home/mm/csio/collab-notes-service/hooks/" (23455 22674 735001 190000) "../" "build" "./")
+
+ ("/home/mm/csio/collab-notes-service/scripts/docker/" (23479 17829 892283 730000) "install_service.sh" "../" "install_service.sh~" "./")
+
+ ("/home/mm/csio/collab-notes-service/scripts/" (23442 31292 237551 951000) "setup_dev.sh" "../" "docker/" "./")
+
+ ("/home/mm/csio/collab-notes-service/git-hooks/" (23473 55378 351723 7000) "common.sh" "../" ".gitconfig~" "prepare-commit-msg.sh" "pre-push.sh" "./" "pre-commit.sh")
+
+ ("/home/mm/csio/conference-data-service/src/storage/" (23476 48939 2658 99000) "feedback.go" "conference_logs.go" "fabric_aggregated_stats.go" "bridge.go" "../" "aggregated_stats.go" "latest_processed_samples.go" "conference_events.go" "stats.go" "models/" "storage.go" "./" "conversions/" "sdp.go" "conference.go" "user_details_events.go" "constants.go" "executor.go")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/protos/" (23477 65436 74861 742000) "../" "collab_notes.pb.go" "./" "def/")
+
+ ("/home/mm/csio/conference-data-service/" (23455 48199 90795 791000) ".git/" "scripts/" "git-hooks/" "src/" "Jenkinsfile" "vendor/" "glide.yaml" "../" "main.go" "Dockerfile.test" "glide.lock" ".gitattributes" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "hooks/")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/protos/def/" (23512 4136 904058 31000) "collab_notes.proto" "../" "collab_notes.proto~" ".#dto.proto" "./")
+
+ ("/home/mm/csio/collab-notes-service/src/grpc/" (23477 65436 73861 741000) "notes_service.go~" "notes_service.go" "#srv.go#" "../" "protos/" "./" "srv.go" "srv.go~" ".#srv.go")
+
+ ("/home/mm/csio/collab-notes-service/src/models/" (23487 17771 283638 712000) "../" "note.go~" "#note.go#" "note.go" "./")
+
+ ("/home/mm/csio/collab-notes-service/src/config/" (23447 43825 14994 259000) "../" "./" "config.go~" "config.go" "config_test.go~")
+
+ ("/home/mm/go/src/github.com/mmirolim/autorun/" (23460 45383 24187 691000) ".git/" "../" "buildspec.yml" "main.go" "cmd.sh" "./")
+
+ ("/home/mm/csio/collab-notes-service/src/storage/pgmigrations/" (23487 16662 476662 993000) "02_add_dashid_notes.go" "01_create_notes.go" "../" "1_create_notes.go~" "./" "02_add_dashid_notes.go~")
+
+ ("/home/mm/csio/collab-notes-service/src/usecases/" (23479 17829 896283 734000) "../" "notes.go~" "notes.go" "./")
+
+ ("/home/mm/csio/collab-notes-service/src/storage/" (23477 65436 75861 743000) "pg.go~" "../" "mongo.go~" "pg.go" "./" "#pg.go#" "pgmigrations/")
+
+ ("/home/mm/csio/django-dashboard/collector/collab_notes_service/" (23483 23987 804378 446000) "__init__.pyc" "../" "__init__.py~" "__init__.py" "protos/" "./")
+
+ ("/home/mm/csio/django-dashboard/collector/collab_notes_service/protos/" (23483 23987 809378 451000) "collab_notes.proto" "__init__.pyc" "collab_notes_pb2.py" "../" "collab_notes_pb2_grpc.pyc" "collab_notes.proto~" "__init__.py" "collab_notes_pb2.pyc" "./" "collab_notes_pb2_grpc.py")
+
+ ("/home/mm/csio/django-dashboard/collector/gdpr/" (23483 23987 306377 974000) "test_processor.py" "helpers.py" "helpers.pyc" "client.pyc" "processor.py" "__init__.pyc" "../" "constants.py" "processor.pyc" "response.pyc" "__init__.py" "conf_id_transition.py" "./" "conf_id_transition.pyc" "response.py" "client.py" "constants.pyc")
+
+ ("/home/mm/csio/collab-notes-service/" (23479 17829 892283 730000) "creds/" "go.sum" "glide.yaml~" ".#docker-compose.yml" ".git/" "scripts/" "cmd/" "files~" "git-hooks/" "src/" "collab-notes-service" "Jenkinsfile" "Makefile~" "Jenkinsfile~" "vendor/" "glide.yaml" "go.mod~" "../" ".gitconfig~" "files" "main.go" "Dockerfile.test" "#docker-compose.yml#" ".dockerignore" "main_test.go" ".gitattributes" "main.go~" "docker-compose.yml~" "Dockerfile~" "main_test.go~" "docker-compose.yml" ".envrc" "./" "Makefile" ".gitignore" ".gitignore~" "Dockerfile.test~" ".envrc~" "Dockerfile" "README.md~" "devcerts/" "go.mod" "README.md" "hooks/")
+
+ ("/home/mm/csio/csio-command-center/localfullstack/" (23512 25379 880038 226000) "dependencyGraph.dot" "scripts/" "startsystem.sh" "dependencyGraph.dot.png" "../" "setup.sh" "docker-compose.yml" "./" "ServiceDescriptions.md" "README.md")
+
+ ("/home/mm/csio/django-dashboard/" (23513 44673 874284 632000) "creds/" "#.dockerignore#" "deployment/" ".git/" "accounts.js" "scripts/" ".pylintrc" ".project" "manage.py" "Jenkinsfile" "#requirements.txt#" "../" "postgresql_setrole/" "output-temp" ".gitconfig~" ".direnv~" "output-temp~" "#output-temp#" "Dockerfile.dashjs" ".dockerignore" "docker-compose.fullbuild.yaml" "requirements.txt" "wrtcStats/" "docker-compose.yml" "lint/" "e2e_tests/" "dockerproxy/" "prometheus/" "./" ".gitignore" "collector/" "install_requirements.sh" "jsserver.js" ".envrc~" "assets/" "logs/" "Dockerfile" "Dockerfile.lint" "api_internal/" "CONFIGURE.md" ".#output-temp" "Procfile" "README.md" "hooks/")
+
+ ("/home/mm/csio/" (23520 9879 253908 458000) "service-access-management/" "conference-data-service/" "auth-service/" "js.js" "stream-processor/" "json-good.json" "config-service-ann/" "collab-notes-service/" "conference-reports-service/" "callstats-rest-api/" "django-dashboard/" "../" "deployment-scripts/" "node-collector/" "stream-analyzer/" "setup.sh" "node-geoip-rest/" "run-cons.sh" "go-common/" ".env" "testing-dir/" "conf-manager/" "async-background-tasks/" "payment-service/" "csio-command-center/" "run-cons.sh~" "obfuscation-service/" "webrtc-demoapp/" "docker-compose.yml" ".ilah5Dot" "srtmp/" "package-lock.json" "node-webrtc-basic-app/" "json-good.json~" "./" ".env~" "ai-decision/" "configuration-service/" "#js.js#" "callstats.js/" "json-failed.json" "coturn-docker/" ".#js.js")
+
+ ("/home/mm/go/src/github.com/callstats-io/go-common/" (23512 14778 198598 11000) "setup_dev.sh" "vault/" ".git/" "grpc/" "git-hooks/" "Jenkinsfile" "tools/" "log/" "aws/" "vendor/" "glide.yaml" "response/" "../" "metrics/" "zk/" "mongo/" "Dockerfile.test" "glide.lock" "vaultbootstrap/" "testutil/" "postgres/" "go-service-template/" "app/" "./" ".gitignore" "docker-compose.yaml" "request/" "gcp/" "middleware/" "auth/" "database/" "README.md")
+
+ ("/home/mm/go/src/github.com/callstats-io/" (23520 9839 529865 693000) "service-access-management/" "testing.file" "testing/" "collab-notes-service/" "../" "service_template/" "cscli/" "cmd.sh" "go-common/" "payment-service/" "./" "new_service/")
 
  ("/home/mm/csio/django-dashboard/collector/obfuscation_service/protos/" (23439 33232 332650 188000) "obfuscation.proto" "obfuscation_pb2_grpc.py" "obfuscation_pb2_grpc.pyc" "__init__.pyc" "../" "obfuscation_pb2.pyc" "__init__.py" "./" "obfuscation_pb2.py")
 
  ("/home/mm/csio/django-dashboard/collector/obfuscation_service/" (23422 32906 154074 448000) "__init__.pyc" "../" "__init__.py" "protos/" "./")
 
- ("/home/mm/csio/django-dashboard/collector/gdpr/" (23439 33173 81591 49000) "test_processor.py" "helpers.py" "helpers.pyc" "client.pyc" "processor.py" "__init__.pyc" "../" "constants.py" "processor.pyc" "response.pyc" "__init__.py" ".#helpers.py" "#helpers.py#" "conf_id_transition.py" "./" "conf_id_transition.pyc" "response.py" "client.py" "constants.pyc")
-
- ("/home/mm/csio/django-dashboard/collector/collab_notes_service/" (23439 30489 982550 758000) "__init__.pyc" "../" "__init__.py~" "__init__.py" "protos/" "./")
-
- ("/home/mm/csio/django-dashboard/collector/collab_notes_service/protos/" (23439 30142 372258 914000) "collab_notes.proto" "collab_notes_pb2.py" "../" "collab_notes.proto~" "__init__.py" "./" "collab_notes_pb2_grpc.py")
-
- ("/home/mm/csio/collab-notes-service/src/storage/" (23439 29729 7940 143000) "pg.go~" "../" "mongo.go~" "pg.go" "mongo.go" "./" "pgmigrations/")
-
- ("/home/mm/csio/collab-notes-service/src/usecases/" (23438 36937 332010 293000) "../" "notes.go~" "notes.go" "./")
-
  ("/home/mm/csio/collab-notes-service/client/" (23438 36111 936353 743000) "../" "main.go" "main.go~" "./" "client" "resp.json")
-
- ("/home/mm/" (23438 35711 756988 757000) ".mongotron/" ".gitconfig" "Templates/" ".hplip/" ".config/" ".ipython/" ".bash_profile" ".emacs" ".bash_logout" ".pgadmin3" "Music/" ".bashrc.backup" ".electron/" "Desktop/" ".ssh/" "pgadmin.log" "tools/" ".nvm/" ".node-gyp/" ".viminfo" "../" ".emacs~" ".lesshst" "Downloads/" "vpnkeys/" ".emacs.d/" ".rnd" ".bashrc" "Pictures/" "Documents/" "Public/" ".esd_auth" ".v8flags.5.0.71.52.b3cd915d758008bd19d0f2428fbb354a.json" ".npm/" "lib/" "go/" ".pki/" ".gnome/" "csio_notes" "./" ".dbshell" ".cache/" "google_drive/" ".mozilla/" ".mongorc.js" ".bash_history" ".lastpass/" ".wget-hsts" ".thunderbird/" "bin/" ".glide/" "csio/" ".pgpass" "Videos/" ".ICEauthority" ".local/")
-
- ("/home/mm/csio/collab-notes-service/src/config/" (23438 32998 911366 774000) "../" "./" "config.go~" "config.go")
-
- ("/home/mm/csio/collab-notes-service/src/storage/pgmigrations/" (23438 35836 654103 379000) "1_create_notes.go" "../" "1_create_notes.go~" "./")
-
- ("/home/mm/go/src/github.com/mmirolim/autorun/" (23438 32126 865545 728000) ".git/" "../" "buildspec.yml" "main.go" "./")
 
  ("/home/mm/go/src/github.com/mmirolim/" (23438 31391 203849 216000) "../" "autorun/" "./")
 
- ("/home/mm/go/src/github.com/" (23438 31411 379868 340000) "opennota/" "ryanuber/" "golang/" "mirolimm/" "../" "fzipp/" "mmirolim/" "tsenart/" "bc-pow/" "golang-migrate/" "Masterminds/" "nbutton23/" "mdempsky/" "mibk/" "posener/" "hashicorp/" "fsnotify/" "./" "GoASTScanner/" "davecgh/" "rogpeppe/" "kisielk/" "antlr/" "jgautheron/")
-
- ("/home/mm/csio/collab-notes-service/src/models/" (23438 20230 870221 389000) "../" "note.go~" "note.go" "./")
-
- ("/home/mm/go/src/" (23437 42323 315482 158000) "time/" "compare.go~" "slider.html~" "compare.go" "gentags.go~" "../" "hello.go" "hello" "google.golang.org/" "#fsrv.go#" "out" "gopkg.in/" "fsrv" "static_methods.go" "#out#" "slider.html" "github.com/" "honnef.co/" "./" "static_methods.go~" "types_methods.go" "bench/" "cgo/" "types_methods.go~" "fsrv.go" "golang.org/" "fsrv.go~" "gentags.go" "tests/")
-
- ("/home/mm/csio/collab-notes-service/src/grpc/" (23438 11616 336656 575000) "notes_service.go~" "notes_service.go" "../" "protos/" "./" "srv.go" "srv.go~")
-
- ("/home/mm/csio/collab-notes-service/src/grpc/protos/def/" (23433 13232 836591 409000) "collab_notes.proto" "../" "collab_notes.proto~" ".#dto.proto" "./")
-
- ("/home/mm/csio/collab-notes-service/git-hooks/" (23433 9552 996362 873000) "common.sh" "../" "prepare-commit-msg.sh" "pre-push.sh" "./" "pre-commit.sh")
-
- ("/home/mm/csio/collab-notes-service/hooks/" (23432 57372 749108 270000) "../" "build" "./")
-
  ("/home/mm/csio/collab-notes-service/src/" (23432 63132 220875 664000) "grpc/" "storage/" "../" "models/" "./" "usecases/" "config/")
 
- ("/home/mm/csio/conference-data-service/src/storage/" (23422 26382 736729 820000) "feedback.go" "conference_logs.go" "fabric_aggregated_stats.go" "bridge.go" "../" "aggregated_stats.go" "latest_processed_samples.go" "conference_events.go" "stats.go" "models/" "storage.go" "./" "conversions/" "sdp.go" "conference.go" "user_details_events.go" "constants.go" "executor.go")
-
- ("/home/mm/csio/collab-notes-service/src/grpc/protos/" (23431 8533 835494 836000) "../" "collab_notes.pb.go" "./" "def/")
-
  ("/home/mm/csio/conference-data-service/src/grpc/" (23422 26382 725729 813000) "../" "server.go" "./")
-
- ("/home/mm/csio/collab-notes-service/scripts/docker/" (23432 57491 675184 420000) "install_service.sh" "../" "install_service.sh~" "./")
-
- ("/home/mm/csio/collab-notes-service/scripts/" (23432 57447 75155 861000) "setup_dev.sh" "../" "docker/" "./")
 
  ("/home/mm/csio/conference-data-service/src/config/" (23422 26382 725729 813000) "config_test.go" "../" "./" "config.go" "constants.go")
 
@@ -164,13 +239,7 @@
 
  ("/home/mm/csio/conference-data-service/scripts/" (23422 26382 724729 812000) "setup_dev.sh" "../" "docker/" "./")
 
- ("/home/mm/csio/payment-service/" (23422 26470 854785 835000) "setup_dev.sh" ".git/" "scripts/" "git-hooks/" "src/" "Jenkinsfile" "tools/" "vendor/" "glide.yaml" "../" "Dockerfile.test" "glide.lock" ".gitattributes" "Dockerfile.tools" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "README.md" "hooks/")
-
- ("/home/mm/.emacs.d/" (23431 16869 650964 138000) "ede-projects.el" "ac-comphist.dat" "eshell/" "project-local-variables.el" ".git/" "python.el~" "ido.last" "session.107101ecf669ccce90153546350472952700000069260089" "auto-save-list/" "tramp" "emacs-backup" "clj.el" "bookmarks" "../" "python.el" "company-go.el" "elpa/" "pymacs/" "find-file-in-project.el" "go.el" "url/" "scala.el" ".mc-lists.el" "abbrev_defs" "tss.el" "smex-items" "./" ".gitignore" "snippets/" ".#ido.last" "ido.last~" "network-security.data")
-
  ("/home/mm/go/" (23329 18896 0 0) "src/" "../" "pkg/" "./" "bin/")
-
- ("/home/mm/csio/conference-data-service/" (23431 53648 785965 346000) ".git/" "scripts/" "git-hooks/" "src/" "Jenkinsfile" "vendor/" "glide.yaml" "../" "main.go" "Dockerfile.test" "glide.lock" ".gitattributes" "docker-compose.yml" "./" "Makefile" ".gitignore" "Dockerfile" "hooks/")
 
  ("/home/mm/.emacs.d/pymacs/" (23429 17293 768380 783000) "pymacs.elc" "pymacs.el" "../" "./")
 
@@ -181,10 +250,6 @@
  ("/home/mm/csio/callstats.js/node_modules/" (23422 44028 706705 205000) "../" "./" ".yarn-integrity")
 
  ("/home/mm/csio/webrtc-demoapp/" (23429 1044 85730 188000) ".eslintrc" "LICENSE" ".git/" "CHANGELOG.md" "__tests__/" "src/" "package.json" "../" ".babelrc" ".gitattributes" ".env" "./" ".gitignore" "config/" "Dockerfile" "README.md")
-
- ("/home/mm/csio/csio-command-center/operations/dashboard/" (23422 26139 26600 350000) "pullToLocal.py" "../" "requirements.txt" "./" "start.sh" "README.md")
-
- ("/home/mm/csio/csio-command-center/" (23427 55325 27743 235000) "monitoring/" "customers/" ".git/" "../" "business/" "docker-compose.yml" "Dockerfile.dashboardscripts" "./" ".gitignore" "operations/" "localfullstack/" "README.md")
 
  ("/home/mm/csio/csio-command-center/operations/scripts/" (23422 26139 51600 362000) "../" "export_pg_connection_uri.sh" "./")
 
