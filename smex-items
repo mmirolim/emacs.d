@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  package-list-packages
- shell
- list-timers
- cider-jack-in
- rgrep
+ mc/edit-lines
+ markdown-preview
  revert-buffer
- cider-run
+ bury-buffer
+ rgrep
+ comment-region
 )
 
 ;; ----- smex-data -----
@@ -19,19 +19,19 @@
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 47)
+ (comment-region . 51)
  (start-kbd-macro . 1)
  (golint . 3)
  (go-mode-menu . 1)
  (menu-bar-open . 4)
  (imenu . 3)
- (shell . 29)
+ (shell . 30)
  (goto-last-change . 110)
  (goto-last-change-reverse . 8)
  (go-test-current-file . 1)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 232)
+ (revert-buffer . 250)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -41,11 +41,11 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 778)
+ (mc/mark-next-like-this . 860)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
- (uncomment-region . 30)
+ (uncomment-region . 31)
  (smerge-mode . 3)
  (smerge-next . 102)
  (smerge-resolve . 1)
@@ -54,8 +54,8 @@
  (smerge-keep-mine . 9)
  (superword-mode . 2)
  (upcase-word . 14)
- (markdown-preview . 15)
- (rgrep . 22)
+ (markdown-preview . 17)
+ (rgrep . 36)
  (godoc . 2)
  (go-errcheck . 1)
  (list-packages . 4)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 18)
+ (package-list-packages . 21)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 6)
@@ -77,7 +77,7 @@
  (customize-variable . 1)
  (python-mode . 1)
  (magit-log . 17)
- (mc/edit-lines . 88)
+ (mc/edit-lines . 96)
  (mc/mark-more-like-this-extended . 21)
  (magit-fetch . 1)
  (magit-diff . 6)
@@ -111,7 +111,7 @@
  (tide-setup . 3)
  (company-mode . 3)
  (eldoc-mode . 1)
- (butterfly . 1)
+ (butterfly . 3)
  (ido-mode . 1)
  (eval-region . 1)
  (isearch-forward . 1)
@@ -133,5 +133,8 @@
  (company-terraform-init . 1)
  (cider-run . 2)
  (cider-jack-in . 9)
- (list-timers . 1)
+ (list-timers . 2)
+ (byte-compile-file . 1)
+ (load-library . 3)
+ (bury-buffer . 8)
 )

@@ -28,6 +28,7 @@
 	find-file
 	ido-find-file
 	markdown-exdent-or-delete
+	mouse-set-region
 	smex
 	typescript-insert-and-indent
 	yaml-electric-backspace
