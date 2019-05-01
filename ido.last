@@ -2,7 +2,34 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mm/go/src/" . "tests/")
+ ("/home/mm/python/comictrans/" . "tessdata/")
+ ("/home/mm/python/" . "comictrans/")
+ ("/home/mm/rust/raytracer/" . "src/")
+ ("/home/mm/rust/blog/" . "src/")
+ ("/home/mm/rust/threads/" . "src/")
+ ("/home/mm/rust/exampler/" . "src/")
+ ("/home/mm/go/src/github.com/mmirolim/algos/" . "strings/")
+ ("/home/mm/rust/sad/src/" . "api/")
+ ("/home/mm/rust/sad/" . "src/")
+ ("/home/mm/rust/" . "raytracer/")
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/user/" . "auth/")
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/" . "order/")
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/" . "fcap/")
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/" . "config/")
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/" . "fcap/")
+ ("/home/mm/go/src/mad/mastersrc/mad/" . "pkg/")
+ ("/home/mm/go/src/mad/mastersrc/" . "mad/")
+ ("/home/mm/go/src/mad/masteretc/" . "fcap/")
+ ("/home/mm/go/src/mad/" . "mastersrc/")
+ ("/home/mm/go/src/github.com/callstats-io/cscli/src/" . "base/")
+ ("/home/mm/go/src/github.com/callstats-io/cscli/" . "src/")
+ ("/home/mm/go/src/github.com/callstats-io/" . "cscli/")
+ ("/home/mm/go/src/github.com/mmirolim/" . "maze/")
+ ("/home/mm/go/src/github.com/" . "mmirolim/")
+ ("/home/" . "mm/")
+ ("/" . "home/")
+ ("/home/mm/.emacs.d/" . "elpa/")
+ ("/home/mm/go/src/" . "github.com/")
  ("/home/mm/js/exercises/" . "binary-heap/")
  ("/home/mm/Pictures/photos/" . "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/")
  ("/home/mm/Pictures/" . "photos/")
@@ -12,6 +39,43 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/go/src/github.com/mmirolim/maze/"
+ "/home/mm/python/comictrans/"
+ "/home/mm/rust/raytracer/"
+ "/home/mm/rust/raytracer/src/"
+ "/home/mm/rust/exampler/src/"
+ "/home/mm/rust/sad/src/api/"
+ "/home/mm/rust/sad/src/bin/"
+ "/home/mm/rust/sad/src/parser/"
+ "/home/mm/.emacs.d/"
+ "/home/mm/"
+ "/home/mm/rust/blog/"
+ "/home/mm/rust/blog/src/"
+ "/home/mm/rust/threads/src/"
+ "/home/mm/rust/sad/"
+ "/home/mm/go/src/github.com/mmirolim/algos/strings/"
+ "/home/mm/go/src/github.com/mmirolim/algos/"
+ "/home/mm/rust/sad/src/storage/"
+ "/home/mm/rust/sad/src/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/fcap/"
+ "/home/mm/go/src/mad/masteretc/fcap/"
+ "/home/mm/go/src/mad/"
+ "/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/config/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/confutil/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/adwatch/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/user/auth/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/da/order/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/da/showperiod/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/da/campaign/"
+ "/home/mm/go/src/mad/mastersrc/mad/pkg/da/"
+ "/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/api/"
+ "/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/"
+ "/home/mm/go/src/mad/masterdoc/"
+ "/home/mm/go/src/github.com/callstats-io/cscli/src/git/"
+ "/home/mm/go/src/github.com/callstats-io/cscli/src/base/"
+ "/home/mm/go/src/github.com/callstats-io/cscli/cmd/"
+ "/home/mm/go/src/composer/"
+ "/home/mm/go/m1/"
  "/home/mm/go/src/"
  "/home/mm/go/src/tests/"
  "/home/mm/js/exercises/binary-heap/"
@@ -23,31 +87,157 @@
 
 ;; ----- ido-work-file-list -----
 (
- "types_methods.go"
- "branch-free_test.go"
- "test.js"
- "index.js"
- "package.json"
- "package-lock.json"
- "index.html"
+ "README.md"
+ "outtest"
+ "maze.go"
+ "chessboard_test.go"
+ "chessboard.go"
+ "LICENSE"
  "out"
- "slider.html"
- "fsrv.go"
+ "oc.py"
+ "out.txt"
+ "script.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/go/src/" (23386 58338 589413 54000) "fsrv.go~" "compare.go~" "out" "gentags.go~" "fsrv.go" "#fsrv.go#" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "fsrv" "time/" "static_methods.go" "#out#" "compare.go" "../" "hello.go" "slider.html" "hello" "types_methods.go" "github.com/" "static_methods.go~" "gopkg.in/" "tests/" "types_methods.go~" "gentags.go")
+ ("/home/mm/go/src/github.com/mmirolim/maze/" (23736 53255 600648 882000) ".git/" "maze" ".gitignore" "chessboard_test.go" "./" "maze.go" "chessboard.go~" "chessboard.go" "maze-anim-gen-with-dfs.gif" "outtest" "README.md~" "chess-tile-queen-3.png" "maze.gif" "../" "README.md" "LICENSE" "chessboard_test.go~" "#README.md#" "maze-anim-path-with-dfs-recur.gif" "maze-anim-path-with-bfs-weight.gif" "chessboard.png" "out.png" "images/" "8-queen-solution.png")
 
- ("/home/mm/" (23387 12480 865380 292000) "Downloads/" ".bashrc~" ".yarn/" ".aws/" ".gitconfig" "Desktop/" ".ssh/" ".bash_logout" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "./" "scala/" ".node_repl_history" ".ivy2/" ".scala_history" ".lesshst" ".config/" "Music/" ".bash_profile" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" ".esd_auth" ".oracle_jre_usage/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" ".esmtp_queue/" ".vim/" "../" "Public/" "scheme/" ".gnome/" ".cache/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" "arduino-1.8.5-linux64/" ".viminfo" ".sbt/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" "Templates/" "Arduino/" ".emacs")
+ ("/home/mm/" (23736 40500 493548 290000) "google_drive/" "Downloads/" ".bashrc~" ".yarn/" "Recordings/" ".aws/" ".profile" "rust/" ".gitconfig" ".var/" "Desktop/" ".ssh/" ".cert/" ".bash_logout" ".rustup/" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "python/" "./" ".gnuplot_history" "scala/" "EWD6.mpg" ".node_repl_history" ".ivy2/" ".scala_history" ".android/" ".rnd" ".lesshst" ".config/" ".emacs~" "Music/" ".bash_profile" ".IdeaIC2018.2/" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" "EWD4.mpg" ".esd_auth" ".oracle_jre_usage/" "jvm/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" "Projects/" ".cargo/" ".esmtp_queue/" ".vim/" "../" "Public/" "scheme/" ".gnome/" "EWD2.mpg" ".t.php.swp" ".cache/" ".freemind/" "bin/" ".m2/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" "arduino-1.8.5-linux64/" ".viminfo" ".sbt/" ".ipython/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" ".multirust/" "Templates/" "sicp/" "vpnkeys/" "Arduino/" "tools/" ".emacs" "noorderlicht.mpg")
 
- ("/home/mm/go/src/tests/" (23382 10643 610376 211000) "branch-free_test.go" "branch-free_test.go~" "./" "../" "global_write_speed_test.go" "global_write_speed_test.go~")
+ ("/home/mm/.emacs.d/" (23736 3392 492935 347000) "session.10f7aacdfeb1809473155310068517796700000023620071" ".git/" "ac-comphist.dat" "session.1055a3048212181456155403732023671500000019870071" "session.10b8fd1148e6ff900f153163695040431700000020170070" "scala.el" "session.10e9dfaa972391a96b154712063094853000000019860071" "session.1091491ab46a9c47c1154244208669606300000061110071" "tss.el" "session.103b8fdfc1e7a05d0c153268094154708700000019860072" "session.108304023dd5088155152613408745451800000018640069" "clj.el" ".gitignore" "session.10c0364bebdf93ab1d15343929703463900000021430070" "session.10bf0fd19762af6cbf15485209933194800000020300072" "./" "project-local-variables.el" "smex-items" "rust.el~" "#ido.last#" "snippets/" "session.10962b3ebf167b9cb7155413051915722400000021110071" "session.106663c1a5b245519f153032809222950000000085160070" "session.1025d809bbecff54e315268222295107200000214610069" ".mc-lists.el" "session.10cea64c7fab6d2c24154394949726166200000022540071" "session.10666dbffac0897f1f153198742765077100000019400070" "session.107011c39349d1c3f15450609223493200000021190071" "find-file-in-project.el" "session.104f103955d0dd6f4c152973370492933600000018720069" "auto-save-list/" "rust.el" "ede-projects.el" "session.105a85ec1ffa068516153889820610995000000021720070" "session.10cbaf99ed7d38feee152890865521893800000263430077" "session.10d2632f15bac83c6915271007709077500000019250073" "../" "session.10f4997b055fb8226015437613136986600000019190071" "eshell/" "session.101c2e8da587b10414153807258068100800000029690070" "ido.last~" "tramp" "session.10631639c8529c4588155429270487277600000019950071" "session.102e6512849041e0dd155065458454632800000022560071" "session.101545def4a1ab47cd152771068226412300000018370069" "session.10859d9b9378d175da154559393383452100000019870071" "session.10b469760a7a4a335c153323102183791600000022830070" "session.102d518d2091c2c029152994455774525100000024250070" "session.106d6d32cd68ac7eb315323339026421100000019870070" "bookmarks" "session.1085e3e45a66020e715508329222169800000022240071" "network-security.data" "session.104ddebaaff3a7b55154184525459136400000024180071" "session.10c7404cf1aca935ef153089869290714600000022350070" "abbrev_defs" "emacs-backup" "ido.last" "elpa/" "session.10c669dc1d7a2ba6f515350405233691500000019250074" "session.1043108f18904f06f4154697679997045800000018500071" "session.1025d05584c0baff22153400035785904100000019110070" "session.10d1b38650afb1dc84153523030983487400000020080070" "transient/" "session.10896ea8f56bf104e6155051304789322600000020710077" "url/" "session.1072f21de8c8253cbb154427555856558900000019220071" "go.el" "session.1051eeceb32f6a6b42153157035559906800000019760070" "session.107cd14d71bfea0cd15291280542382200000021600069")
+
+ ("/home/mm/python/comictrans/" (23734 48810 462566 839000) ".git/" "out" "out-jpn-vert.txt" "./" "oc.py~" "out-japan-ver.txt" "out-sample.png" "../" "README.md" "frozen_east_text_detection.pb" "oc.py" "tessdata/" "out.txt" "script.py")
+
+ ("/home/mm/go/src/github.com/" (23736 3323 939900 152000) "FiloSottile/" "kisielk/" "mibk/" "BurntSushi/" "nsf/" "opennota/" "./" "mdempsky/" "golang/" "callstats-io/" "stretchr/" "antlr/" "mattetti/" "gordonklaus/" "fsnotify/" "go-audio/" "posener/" "../" "jgautheron/" "brettbuddin/" "hashicorp/" "GoASTScanner/" "tsenart/" "nbutton23/" "mmirolim/" "davecgh/" "aarzilli/" "bc-pow/" "viert/" "ryanuber/" "fzipp/" "rogpeppe/")
+
+ ("/home/mm/go/src/" (23716 43782 28597 857000) "fsrv.go~" "masterMakefile" "compare.go~" "out" "gentags.go~" "fsrv.go" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "google.golang.org/" "fsrv" "time/" "static_methods.go" "mad/" "composer/" "compare.go" "../" "hello.go" "slider.html" "conv/" "hello" "types_methods.go" "github.com/" "static_methods.go~" "grpc/" "gopkg.in/" "tests/" "types_methods.go~" "gentags.go")
+
+ ("/home/mm/rust/blog/src/" (23707 50672 87701 219000) "main.rs~" "lib.rs" "./" "../" "main.rs" "#main.rs#")
+
+ ("/home/mm/python/comictrans/tessdata/" (23502 12306 879058 224000) "osd.traineddata" "./" "eng.traineddata" "Japanese_vert.traineddata" "configs/" "tessconfigs/" "jpn.traineddata" "jpn_vert.traineddata" "pdf.ttf" "../")
+
+ ("/home/mm/python/" (23502 6282 223081 206000) "./" "comictrans/" "../")
+
+ ("/home/mm/rust/raytracer/" (23733 37664 454649 517000) ".git/" "out" ".gitignore" "./" "454-75" "target/" "Cargo.toml" "../" "test-multithreaded (copy).png" "test-multithreaded.png" "src/" "chessboard.png" "Cargo.lock" "454-75~")
+
+ ("/home/mm/rust/raytracer/src/" (23733 38216 290758 716000) "lib.rs" "rendering.rs" "./" "point.rs" "../" "main.rs" "scene.rs" "vector3.rs")
+
+ ("/home/mm/rust/exampler/" (23724 14382 729279 343000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock")
+
+ ("/home/mm/rust/exampler/src/" (23724 14365 44142 383000) "lib.rs~" "main.rs~" "lib.rs" "./" "../" "main.rs")
+
+ ("/home/mm/rust/sad/src/api/" (23618 61089 427754 689000) "mod.rs" "./" "../")
+
+ ("/home/mm/rust/sad/src/bin/" (23618 60723 250604 957000) "./" "../" "cli.rs")
+
+ ("/home/mm/rust/blog/" (23592 64893 667825 845000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock")
+
+ ("/home/mm/rust/threads/src/" (23592 43895 936266 460000) "./" "../" "main.rs")
+
+ ("/home/mm/rust/threads/" (23591 56387 98252 555000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock")
+
+ ("/home/mm/rust/" (23707 44411 457488 423000) "unsafe_ex/" "oo/" "./" "sad2/" "hello_rust/" "fibonacci/" "communicator/" "exampler/" "guessing_game/" "raytracer/" "threads/" "../" "sad/" "main.rs" "smart/" "websrv/" "blog/" "minigrep/" "colls/" "algos/" "batch-conv/" "rustlings/")
+
+ ("/home/" (23368 12066 0 0) "./" "guest/" "lost+found/" "../" "mm/" "dialout/")
+
+ ("/home/mm/go/src/mad/masteretc/fcap/" (23535 14299 613791 258000) "#production.toml#" "./" ".#production.toml" "production.toml" "../" "development.toml")
+
+ ("/home/mm/rust/sad/src/" (23646 62134 617788 140000) "lib.rs~" "lib.rs" "./" "api/" "../" "parser/" "bin/" "storage/")
+
+ ("/home/mm/rust/sad/src/storage/" (23646 64366 851630 398000) "mod.rs" "./" "../")
+
+ ("/home/mm/rust/sad/src/parser/" (23620 11568 684619 173000) "mod.rs" "./" "../")
+
+ ("/home/mm/rust/sad/" (23649 7841 274420 113000) ".git/" "./" "target/" "Cargo.toml" "../" "README.md" "src/" "Cargo.lock" "ExampleData.tsv")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/strings/" (23647 2481 527722 82000) "strings_test.go~" "strings_test.go" "./" "sub-string.go~" "../" "sub-string.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/" (23646 65077 395199 832000) "missing_number.go" "strings_test.go~" "missing_number.go~" "./" "sub-string.go~" "strings/" "add-linked-list.go~" "add-linked-list.go" "../" "sub-string.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/" (23537 35247 417437 691000) "maze/" "./" "codeforces/" "ctry/" "../" "slidingwindow/" "autorun/" "trylua/" "algos/" "typyit/")
+
+ ("/home/mm/sicp/" (23628 21461 34190 79000) "./" "../")
+
+ ("/home/mm/scheme/" (23302 64892 111221 475000) "./" "../")
+
+ ("/home/mm/rust/minigrep/" (23560 10984 415231 883000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock")
+
+ ("/home/mm/go/src/github.com/callstats-io/cscli/cmd/" (23449 31983 503786 379000) "main_test.go" "main.go~" "main.go" "./" "shiny-service_1536616186/" "clean" "../" "cmd" "main_test.go~")
+
+ ("/home/mm/go/src/github.com/callstats-io/cscli/src/git/" (23446 59118 153782 207000) "hooks.go" "./" "gitattributes.go~" "base.go" "../" "gitignore.go" "gitattributes.go" "base.go~" "gitignore.go~" "hooks.go~")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/adwatch/" (23535 9144 618574 402000) "doc.go" "./" "../" "watchlog.go" "counter.go")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/user/auth/" (23535 9144 619574 403000) "./" "../" "uid.go")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/user/" (23535 9144 619574 403000) "./" "auth/" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/fcap/" (23535 9144 619574 403000) "watch_history.go" "status.go" "doc.go" "cache.go" "flimit.go" "fcap_test.go" "./" "fcap.go" "runner_test.go" "config.go" "../" "runner.go" "watch_history_test.go")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/showperiod/" (23535 9144 618574 402000) "./" "showperiod.go" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/order/" (23535 9144 618574 402000) "active_order.go" "./" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/campaign/" (23535 9144 618574 402000) "campaign.go" "./" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/" (23535 9144 618574 402000) "doc.go" "order/" "showperiod/" "./" "campaign/" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/confutil/" (23535 9144 618574 402000) "./" "../" "duration.go")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/pkg/" (23535 9144 619574 403000) "logger/" "./" "fcap/" "statsd/" "adwatch/" "confutil/" "../" "da/" "user/")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/api/" (23535 9144 618574 402000) "watch_history.go" "./" "server.go" "showperiod.go" "../" "middlewares.go" "watchlog.go" "watchcounter.go")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/config/" (23535 9144 618574 402000) "./" "config.go" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/" (23535 9144 618574 402000) "main.go" "./" "api/" "../" "config/")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/cmd/" (23535 9144 617574 400000) "./" "fcap/" "../")
+
+ ("/home/mm/go/src/mad/mastersrc/mad/" (23535 9144 619574 403000) "./" "vendor/" "pkg/" "../" "cmd/")
+
+ ("/home/mm/go/src/mad/mastersrc/" (23535 9144 617574 400000) "./" "mad/" "../")
+
+ ("/home/mm/go/src/mad/masterdoc/" (23535 9134 845562 617000) "conf.py" "./" "mad/" "../" "index.rst")
+
+ ("/home/mm/go/src/mad/masteretc/" (23535 9154 518586 340000) "./" "fcap/" "../")
+
+ ("/home/mm/go/src/mad/" (23535 9162 779596 302000) "./" "master.gitlab-ci.yml" "masteretc/" "../" "mastersrc/" "master.gitignore" "masterdoc/")
+
+ ("/home/mm/go/src/github.com/mmirolim/typyit/" (23460 9548 128248 567000) "main.go~" "main.go" "output.raw" "./" "../" "main" "typyit")
+
+ ("/home/mm/go/src/github.com/callstats-io/cscli/src/" (23446 56879 791790 746000) "hooks/" "gomod/" "base/" "readme/" "./" "localfullstack/" "git/" "../" "jenkins/" "http/" "grpc/" "makefile/" "docker/")
+
+ ("/home/mm/go/src/github.com/callstats-io/cscli/src/base/" (23446 54550 665799 630000) "init.go~" "./" "../" "init.go")
+
+ ("/home/mm/go/src/github.com/callstats-io/cscli/" (23446 51018 417813 105000) "./" "../" "cmd/" "src/")
+
+ ("/home/mm/go/src/github.com/callstats-io/" (23446 50444 53815 296000) "./" "../" "cscli/")
+
+ ("/home/mm/go/src/composer/" (23436 16426 4802 36000) ".git/" "main_test.go" "main.go~" "services.json" "out" "main.go" "./" "circle.html~" "index.html" "#main.go#" "#out#" "../" "#sample1.yml#" "circle.html" "main" "main_test.go~" "index.html~" "docker-compose.yml" "data.js")
+
+ ("/home/mm/go/m1/" (23436 16197 508802 908000) "m1" "main.go~" "main.go" "go.mod" "./" "#main.go#" "../" "go.sum" "go.mod~")
+
+ ("/home/mm/go/pkg/mod/golang.org/x/tools@v0.0.0-20180831211245-7ca132754999/go/ast/astutil/" (23436 10203 903825 771000) "rewrite_test.go" "rewrite.go" "enclosing_test.go" "./" "enclosing.go" "imports.go" "../" "imports_test.go" "util.go")
+
+ ("/home/mm/.emacs.d/elpa/" (23436 12564 179816 768000) "pkg-info-20150517.1143/" "epl-20180205.2049/" "ensime-20180615.1330/" "csv-mode-1.7/" "go-eldoc-20170305.1427/" "direx-20170422.1327/" "scala-mode-20170802.1132/" "f-20180106.922/" "crux-readme.txt" "go-direx-20150316.143/" "js3-mode-readme.txt" "org-drill-table-readme.txt" "go-scratch-20150810.440/" "flycheck-ocaml-readme.txt" "spinner-1.7.3.signed" "colemak-evil-readme.txt" "smex-20151212.2209/" "turing-machine-readme.txt" "gotest-20180617.1333/" "queue-0.2/" "hydra-20180703.1502/" "go-rename-20180627.648/" "protobuf-mode-20170526.1650/" "seq-2.20.signed" "archives/" "let-alist-1.0.5/" "neotree-20180616.1603/" "gnupg/" "flycheck-yamllint-readme.txt" "aggressive-indent-20180627.21/" "go-errcheck-20160723.43/" "sesman-20180830.2136/" "go-guru-20180628.1010/" "company-20180802.1207/" "switch-window-readme.txt" "clojure-mode-20180827.1827/" "let-alist-1.0.5.signed" "paredit-20171127.205/" "magit-popup-20180726.2037/" "multiple-cursors-20180615.1218/" "rainbow-delimiters-20170929.1132/" "edn-20160215.1219/" "s-20180406.808/" "lua-mode-20180323.1021/" "peg-20150708.641/" "undo-tree-20170706.246/" "spinner-1.7.3/" "ghub-20180821.1430/" "markdown-mode-20180831.1754/" "clj-refactor-20180826.2149/" "cuda-mode-readme.txt" "let-alist-1.0.4/" "minimal-theme-readme.txt" "merlin-readme.txt" "go-readme.txt" "goto-chg-20180105.1833/" "go-projectile-readme.txt" "yasnippet-20180621.50/" "aws-ec2-readme.txt" "tuareg-20180512.2006/" "coffee-mode-20170324.940/" "magit-20180902.101/" "epoch-view-readme.txt" "csv-mode-readme.txt" "go-mode-20180327.1530/" "go-stacktracer-readme.txt" "cake-readme.txt" "queue-0.2.signed" "0blayout-readme.txt" "plantuml-mode-20180816.1012/" "test-case-mode-readme.txt" "yaml-mode-20180409.607/" "scala-mode2-20151226.1048/" "tide-20180810.403/" "company-go-20170825.1643/" "avy-20180814.2121/" "which-key-readme.txt" "flycheck-20180823.826/" "cider-20180902.1638/" "csv-mode-1.7.signed" "expand-region-20180817.1134/" "flymake-phpcs-readme.txt" "popup-20160709.1429/" "typescript-mode-20180802.1114/" "flycheck-gometalinter-20180424.941/" "inflections-20170913.916/" "auto-complete-20170125.245/" "async-20180527.1730/" "seq-2.20/" "dash-20180726.1213/" "with-editor-20180726.2044/" "spinner-1.7.1.signed" "sbt-mode-20180511.1622/" "ace-window-20180814.1516/" "go-dlv-20160517.2046/" "caml-20180808.741/" "tern-auto-complete-readme.txt" "spinner-1.7.1/" "js2-mode-20180724.801/" "flycheck-plantuml-20171018.111/" "syntax-subword-20160519.1905/" "git-commit-20180802.2018/" "../" "./")
+
+ ("/home/mm/.emacs.d/elpa/company-go-20170825.1643/" (23388 26735 98318 70000) "company-go.el" "./" "company-go-autoloads.el" "company-go-pkg.el" "company-go.elc" "../")
+
+ ("/home/mm/go/" (23436 8612 35831 844000) "m1/" "./" "pkg/" "../" "bin/" "src/")
+
+ ("/home/mm/go/src/golang.org/x/tools/go/ast/astutil/" (23289 42448 563638 401000) "rewrite_test.go" "rewrite.go" "enclosing_test.go" "./" "enclosing.go" "imports.go" "../" "imports_test.go" "util.go")
+
+ ("/usr/local/go/src/go/printer/" (23424 28004 0 0) "performance_test.go" "./" "printer_test.go" "../" "nodes.go" "testdata/" "example_test.go" "printer.go")
+
+ ("/home/mm/js/exercises/binary-heap/" (23388 27004 923317 41000) "./" "index.js" "test.js" "../" "test.js~" "index.js~")
+
+ ("/home/mm/go/src/tests/" (23398 32901 90157 936000) "cachegrind.out.32635" ".#emacs_macro.test" "branch-free_test.go" "branch-free_test.go~" "./" "structs.go~" "structs.go" "#emacs_macro.test#" "cachegrind.out.604" "../" "global_write_speed_test.go" "global_write_speed_test.go~" "massif.out.846")
 
  ("/home/mm/js/exercises/" (23373 44380 208015 974000) "package.json~" "package-lock.json" "package.json" "levenstein-dist/" "./" "binary-heap/" "node_modules/" "../" "find-k-smallest/")
 
  ("/home/mm/js/" (23364 40135 356944 251000) ".#bench.js" "bench.js" "./" "#bench.js#" "tfs/" "../" "exercises/" "bench.js~")
-
- ("/home/mm/js/exercises/binary-heap/" (23366 1025 544906 714000) "./" "index.js" "test.js" "../" "test.js~" "index.js~")
 
  ("/home/mm/js/exercises/find-k-smallest/" (23364 42102 276936 748000) "./" "index.js" ".#index.js" "test.js" "../" "test.js~" "#index.js#" "index.js~")
 
@@ -58,8 +248,6 @@
  ("/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/" (23355 19549 767440 667000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "049.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "172.png" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "168.png" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "slider.html~" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "169.png" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "098.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "166.png" "016.jpg" "167.png" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "185.jpg" "053.jpg" "100.jpg" "171.png" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "180.png" "051.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "170.png" "152.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "091.jpg" "177.png" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "178.png" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
 
  ("/home/mm/Pictures/" (23354 29967 383435 995000) "photos_2018_05_12/" "me.jpg" "Screenshot from 2018-07-02 23-55-11.png" "photos_2018_06_17/" "photo_night_walk_2018_05_12_sisters/" "./" "Screenshot from 2018-05-13 08-51-14.png" "photo_2018_05_13/" "photos/" "../" "gimp_shortcuts.jpg" "Screenshot from 2018-06-03 12-31-05.png" "photo_turkey_2018_june/" "photos_naima_2018_06_27/" "photo_2018_05_20/" "photo_2018_05_18/" "photos_hayot_bday_2018_05_27/")
-
- ("/home/mm/go/" (23329 18897 703538 858000) "./" "pkg/" "../" "bin/" "src/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

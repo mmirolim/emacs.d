@@ -8,6 +8,8 @@
 (require 'yasnippet)
 (require 'flycheck)
 (require 'go-direx)
+(require 'company)
+(require 'company-go)
 
 ;;; Code:
 ;; TODO should be able to get from ENV but does not work
