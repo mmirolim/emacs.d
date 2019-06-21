@@ -3,10 +3,10 @@
 (
  package-list-packages
  comment-region
+ mc/mark-next-like-this
  magit-status
  kill-buffer
  magit-commit-amend
- mc/mark-next-like-this
  mc/edit-lines
 )
 
@@ -19,7 +19,7 @@
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 121)
+ (comment-region . 122)
  (start-kbd-macro . 1)
  (golint . 3)
  (go-mode-menu . 1)
@@ -41,7 +41,7 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 1009)
+ (mc/mark-next-like-this . 1017)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 25)
+ (package-list-packages . 26)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 6)

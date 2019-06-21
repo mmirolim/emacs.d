@@ -11,7 +11,7 @@
  ("/home/mm/rust/blog/" . "src/")
  ("/home/mm/rust/threads/" . "src/")
  ("/home/mm/rust/exampler/" . "src/")
- ("/home/mm/go/src/github.com/mmirolim/algos/" . "numbers/")
+ ("/home/mm/go/src/github.com/mmirolim/algos/" . "trees/")
  ("/home/mm/rust/sad/src/" . "api/")
  ("/home/mm/rust/sad/" . "src/")
  ("/home/mm/rust/" . "rustlings/")
@@ -42,10 +42,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/mm/go/src/github.com/mmirolim/algos/sorting/"
+ "/home/mm/go/src/github.com/mmirolim/algos/trees/"
  "/home/mm/go/src/github.com/mmirolim/algos/numbers/"
  "/home/mm/go/src/github.com/mmirolim/algos/strings/"
  "/home/mm/go/src/github.com/mmirolim/algos/linked_list/"
- "/home/mm/go/src/github.com/mmirolim/algos/trees/"
  "/home/mm/go/src/github.com/mmirolim/algos/"
  "/home/mm/go/src/"
  "/home/mm/rpmbuild/SPECS/"
@@ -91,11 +92,13 @@
  "/home/mm/go/src/mad/mastersrc/mad/pkg/user/auth/"
  "/home/mm/go/src/mad/mastersrc/mad/pkg/da/order/"
  "/home/mm/go/src/mad/mastersrc/mad/pkg/da/showperiod/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/da/campaign/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "sort.go"
+ "sort_test.go"
+ "heap.go"
  "numbers.go"
  "numbers_test.go"
  "strings.go"
@@ -103,26 +106,25 @@
  "linked-list_test.go"
  "linked_list.go"
  "add-linked-list.go~"
- "add-linked-list.go"
- "tree_test.go"
- "lcs.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/" (23802 47117 329388 21000) "google_drive/" "Downloads/" ".bashrc~" ".yarn/" "Recordings/" ".aws/" ".profile" "rust/" ".gitconfig" ".var/" "Desktop/" ".ssh/" ".cert/" ".bash_logout" ".rustup/" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "python/" "./" ".gnuplot_history" "scala/" "EWD6.mpg" ".node_repl_history" ".ivy2/" ".scala_history" ".android/" ".rnd" ".lesshst" ".config/" ".emacs~" "Music/" ".bash_profile" ".IdeaIC2018.2/" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" "EWD4.mpg" ".esd_auth" ".oracle_jre_usage/" "jvm/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" "Projects/" ".cargo/" ".esmtp_queue/" ".vim/" "rpmbuild/" "../" "Public/" "scheme/" ".gnome/" "EWD2.mpg" ".t.php.swp" ".cache/" ".freemind/" "bin/" ".m2/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" ".viminfo" ".sbt/" ".ipython/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" ".multirust/" "arduino-1.8.9-linux64/" "Templates/" "sicp/" "vpnkeys/" "Arduino/" "tools/" ".emacs" "noorderlicht.mpg")
+ ("/home/mm/go/src/github.com/mmirolim/algos/sorting/" (23820 49319 463568 536000) "sort_test.go~" "./" "heap.go~" "sort.go" "sort_test.go" "heap.go" "../" "heap_test.go" "sort.go~" "heap_test.go~")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/trees/" (23816 60107 882314 528000) "./" "tree.go~" "tree.go" "heap.go~" "heap.go" "trie_test.go~" "../" "heap_test.go" "trie.go~" "tree_test.go~" "tree_test.go" "trie_test.go" "heap_test.go~" "trie.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/" (23814 1130 13497 248000) ".git/" "strings_test.go~" "missing_number.go~" ".gitignore" "bitsets/" "./" "sub-string.go~" "sorting/" "linked_list/" "strings/" "numbers/" "set/" "add-linked-list.go~" "../" ".gitignore~" "trees/" "search/")
+
+ ("/home/mm/go/src/" (23816 52942 932986 307000) "fsrv.go~" "masterMakefile" "compare.go~" "out" "gentags.go~" "fsrv.go" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "google.golang.org/" "fsrv" "time/" "static_methods.go" "mad/" "composer/" "compare.go" "../" "hello.go" "no-bounds-check.go" "slider.html" "conv/" "hello" "types_methods.go" "github.com/" "no-bounds-check" "static_methods.go~" "grpc/" "gopkg.in/" "no-bounds-check.go~" "tests/" "types_methods.go~" "gentags.go")
+
+ ("/home/mm/" (23818 16336 88201 93000) "google_drive/" "Downloads/" ".bashrc~" ".yarn/" "Recordings/" ".aws/" ".profile" "rust/" ".gitconfig" ".var/" "Desktop/" ".ssh/" ".cert/" ".bash_logout" ".rustup/" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "python/" "./" ".gnuplot_history" "scala/" "EWD6.mpg" ".node_repl_history" ".ivy2/" ".scala_history" ".android/" ".rnd" ".lesshst" ".config/" ".emacs~" "Music/" ".bash_profile" ".IdeaIC2018.2/" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" "EWD4.mpg" ".esd_auth" ".oracle_jre_usage/" "jvm/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" "Projects/" ".cargo/" ".esmtp_queue/" ".vim/" "rpmbuild/" "../" "Public/" "scheme/" ".gnome/" "EWD2.mpg" ".t.php.swp" ".cache/" ".freemind/" "bin/" ".m2/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" ".viminfo" ".sbt/" ".ipython/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" ".multirust/" "arduino-1.8.9-linux64/" "Templates/" "sicp/" "vpnkeys/" "Arduino/" "tools/" ".emacs" "noorderlicht.mpg")
 
  ("/home/mm/go/src/github.com/mmirolim/algos/numbers/" (23798 47395 686612 908000) "numbers_test.go" "./" "numbers.go~" "numbers.go" "numbers_test.go~" "../")
 
  ("/home/mm/go/src/github.com/mmirolim/algos/strings/" (23797 64658 108073 674000) "lcs.go~" "strings_test.go~" "strings_test.go" "./" "sub-string.go~" "strings.go" "strings.go~" "binary_string.go" "binary_string_test.go" "lcs_test.go" "binary_string.go~" "../" "lcs_test.go~" "binary_string_test.go~" "sub-string.go" "lcs.go")
 
  ("/home/mm/go/src/github.com/mmirolim/algos/linked_list/" (23796 23642 342472 919000) "linked-list_test.go~" "./" "linked_list.go" "linked-list_test.go" "add-linked-list.go~" "linked_list.go~" "../")
-
- ("/home/mm/go/src/github.com/mmirolim/algos/trees/" (23795 48016 835951 246000) "out" "./" ".#tree.go" "tree.go~" "tree.go" "../" "tree_test.go~" "tree_test.go")
-
- ("/home/mm/go/src/github.com/mmirolim/algos/" (23787 62759 581583 935000) ".git/" "strings_test.go~" "missing_number.go~" ".gitignore" "bitsets/" "./" "sub-string.go~" "linked_list/" "strings/" "numbers/" "set/" "add-linked-list.go~" "../" ".gitignore~" "trees/")
-
- ("/home/mm/go/src/" (23782 64782 569256 438000) "fsrv.go~" "masterMakefile" "compare.go~" "out" "gentags.go~" "fsrv.go" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "google.golang.org/" "fsrv" "time/" "static_methods.go" "mad/" "composer/" "compare.go" "../" "hello.go" "no-bounds-check.go" "slider.html" "conv/" "hello" "types_methods.go" "github.com/" "no-bounds-check" "static_methods.go~" "grpc/" "gopkg.in/" "no-bounds-check.go~" "tests/" "types_methods.go~" "gentags.go")
 
  ("/home/mm/rpmbuild/SPECS/" (23774 56689 236630 754000) "./" "../" "arduino-mk.spec")
 
