@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/mm/clang/" . "the_c_k_and_r/")
  ("/home/mm/rust/rustlings/exercises/" . "standard_library_types/")
  ("/home/mm/rust/rustlings/" . "exercises/")
  ("/home/mm/rust/algos/" . "benches/")
@@ -11,10 +12,10 @@
  ("/home/mm/rust/blog/" . "src/")
  ("/home/mm/rust/threads/" . "src/")
  ("/home/mm/rust/exampler/" . "src/")
- ("/home/mm/go/src/github.com/mmirolim/algos/" . "trees/")
+ ("/home/mm/go/src/github.com/mmirolim/algos/" . "hk/")
  ("/home/mm/rust/sad/src/" . "api/")
  ("/home/mm/rust/sad/" . "src/")
- ("/home/mm/rust/" . "rustlings/")
+ ("/home/mm/rust/" . "raytracer/")
  ("/home/mm/go/src/mad/mastersrc/mad/pkg/user/" . "auth/")
  ("/home/mm/go/src/mad/mastersrc/mad/pkg/da/" . "order/")
  ("/home/mm/go/src/mad/mastersrc/mad/pkg/" . "fcap/")
@@ -36,17 +37,29 @@
  ("/home/mm/js/exercises/" . "binary-heap/")
  ("/home/mm/Pictures/photos/" . "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/")
  ("/home/mm/Pictures/" . "photos/")
- ("/home/mm/" . "go/")
+ ("/home/mm/" . ".emacs.d/")
  ("/home/mm/go/" . "src/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mm/go/src/github.com/mmirolim/algos/sorting/"
- "/home/mm/go/src/github.com/mmirolim/algos/trees/"
+ "/home/mm/clang/the_c_k_and_r/"
+ "/home/mm/.emacs.d/"
+ "/home/mm/go/src/github.com/mmirolim/algos/hk/"
+ "/home/mm/"
+ "/home/mm/go/src/github.com/mmirolim/algos/math/"
+ "/home/mm/go/src/github.com/mmirolim/algos/search/"
  "/home/mm/go/src/github.com/mmirolim/algos/numbers/"
- "/home/mm/go/src/github.com/mmirolim/algos/strings/"
+ "/home/mm/go/src/github.com/mmirolim/algos/checks/"
+ "/home/mm/go/src/github.com/mmirolim/algos/stats/"
  "/home/mm/go/src/github.com/mmirolim/algos/linked_list/"
+ "/home/mm/go/src/github.com/mmirolim/algos/graph/"
+ "/home/mm/go/src/github.com/mmirolim/algos/trees/"
+ "/home/mm/js/"
+ "/home/mm/go/src/github.com/mmirolim/algos/svg/"
+ "/home/mm/rust/raytracer/src/"
+ "/home/mm/go/src/github.com/mmirolim/algos/sorting/"
+ "/home/mm/go/src/github.com/mmirolim/algos/strings/"
  "/home/mm/go/src/github.com/mmirolim/algos/"
  "/home/mm/go/src/"
  "/home/mm/rpmbuild/SPECS/"
@@ -67,7 +80,6 @@
  "/home/mm/rust/rustlings/exercises/if/"
  "/home/mm/rust/rustlings/exercises/variables/"
  "/home/mm/rust/algos/benches/"
- "/home/mm/rust/raytracer/src/"
  "/home/mm/rust/algos/src/"
  "/home/mm/python/comictrans/"
  "/home/mm/rust/raytracer/"
@@ -75,68 +87,95 @@
  "/home/mm/rust/sad/src/api/"
  "/home/mm/rust/sad/src/bin/"
  "/home/mm/rust/sad/src/parser/"
- "/home/mm/.emacs.d/"
- "/home/mm/"
  "/home/mm/rust/blog/"
  "/home/mm/rust/blog/src/"
  "/home/mm/rust/threads/src/"
  "/home/mm/rust/sad/"
  "/home/mm/rust/sad/src/storage/"
  "/home/mm/rust/sad/src/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/fcap/"
- "/home/mm/go/src/mad/masteretc/fcap/"
- "/home/mm/go/src/mad/"
- "/home/mm/go/src/mad/mastersrc/mad/cmd/fcap/config/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/confutil/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/adwatch/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/user/auth/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/da/order/"
- "/home/mm/go/src/mad/mastersrc/mad/pkg/da/showperiod/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "sort.go"
- "sort_test.go"
- "heap.go"
- "numbers.go"
- "numbers_test.go"
- "strings.go"
- "strings_test.go"
- "linked-list_test.go"
- "linked_list.go"
- "add-linked-list.go~"
+ "bits.c"
+ "c_cpp.el"
+ "3dsurface_area.go"
+ "clj.el"
+ ".emacs"
+ "rust.el"
+ "go.el"
+ "GPATH"
+ "hk_test.go"
+ "hk.test"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mm/go/src/github.com/mmirolim/algos/sorting/" (23820 49319 463568 536000) "sort_test.go~" "./" "heap.go~" "sort.go" "sort_test.go" "heap.go" "../" "heap_test.go" "sort.go~" "heap_test.go~")
+ ("/home/mm/.emacs.d/" (23872 33564 860111 527000) "session.10f7aacdfeb1809473155310068517796700000023620071" ".git/" "ac-comphist.dat" "session.1055a3048212181456155403732023671500000019870071" "session.10b8fd1148e6ff900f153163695040431700000020170070" "scala.el" "session.10dfbcfd6a15fd4abc155669571734329000000015770069" "session.10e9dfaa972391a96b154712063094853000000019860071" "session.1091491ab46a9c47c1154244208669606300000061110071" "tss.el" "session.103b8fdfc1e7a05d0c153268094154708700000019860072" "session.10126772406bd71e2c156006043974624900000015420070" "session.108304023dd5088155152613408745451800000018640069" "clj.el" ".gitignore" "session.10c0364bebdf93ab1d15343929703463900000021430070" "session.10bf0fd19762af6cbf15485209933194800000020300072" "session.104264c4b833624475156017549743510100000019360072" "project-local-variables.el" "smex-items" "rust.el~" "#ido.last#" "snippets/" "session.10962b3ebf167b9cb7155413051915722400000021110071" "session.106663c1a5b245519f153032809222950000000085160070" "session.1025d809bbecff54e315268222295107200000214610069" ".mc-lists.el" "session.10afc3eb2f91e44ac0155838025249470400000019910070" "session.10cea64c7fab6d2c24154394949726166200000022540071" "session.10666dbffac0897f1f153198742765077100000019400070" "session.107011c39349d1c3f15450609223493200000021190071" "find-file-in-project.el" "session.104f103955d0dd6f4c152973370492933600000018720069" "auto-save-list/" "session.10dd7a9de88015b66f156025124212170300000022260070" "rust.el" "session.10276e4e22dd44caea155811137432551500000015460069" "ede-projects.el" "session.105a85ec1ffa068516153889820610995000000021720070" "session.10cbaf99ed7d38feee152890865521893800000263430077" "c_cpp.el~" "session.108968e022c784945b156207721434501900000020810074" "session.10d2632f15bac83c6915271007709077500000019250073" "games/" "session.10538098c447546827155801727348358500000019740073" "session.10e3867fbe8691d4f4155811145945133600000019520069" "session.10f4997b055fb8226015437613136986600000019190071" "eshell/" "session.101c2e8da587b10414153807258068100800000029690070" "session.10de2affec6f213e45156325231845935200000020360070" "ido.last~" "tramp" "session.1026ffc377278eaac715620778366618700000027300070" "session.10631639c8529c4588155429270487277600000019950071" "session.102e6512849041e0dd155065458454632800000022560071" "session.10850385fdf9b2a6d4155669718925790300000020640069" "session.101545def4a1ab47cd152771068226412300000018370069" "session.10859d9b9378d175da154559393383452100000019870071" "session.10b469760a7a4a335c153323102183791600000022830070" "session.102d518d2091c2c029152994455774525100000024250070" "session.106d6d32cd68ac7eb315323339026421100000019870070" "bookmarks" "session.1085e3e45a66020e715508329222169800000022240071" "network-security.data" "session.104ddebaaff3a7b55154184525459136400000024180071" "session.10c7404cf1aca935ef153089869290714600000022350070" "abbrev_defs" "emacs-backup" ".lsp-session-v1" "ido.last" "elpa/" "session.1065f0a239f48b0824156258433581655200000208340070" "session.10c669dc1d7a2ba6f515350405233691500000019250074" "session.1043108f18904f06f4154697679997045800000018500071" "session.1025d05584c0baff22153400035785904100000019110070" "session.10ae16525f4c574c36156182713944168100000021610074" "session.107c98e0052f2dff66156114444747973500000020360075" "session.10551f71cd6c633410155742564528274800000020030069" "session.10d1b38650afb1dc84153523030983487400000020080070" "transient/" "session.10896ea8f56bf104e6155051304789322600000020710077" "url/" "session.1072f21de8c8253cbb154427555856558900000019220071" "go.el" "session.1051eeceb32f6a6b42153157035559906800000019760070" "session.10ba8e71c588a87caf156155135234344200000019930070" "c_cpp.el" "session.107cd14d71bfea0cd15291280542382200000021600069" "../" "./")
 
- ("/home/mm/go/src/github.com/mmirolim/algos/trees/" (23816 60107 882314 528000) "./" "tree.go~" "tree.go" "heap.go~" "heap.go" "trie_test.go~" "../" "heap_test.go" "trie.go~" "tree_test.go~" "tree_test.go" "trie_test.go" "heap_test.go~" "trie.go")
+ ("/home/mm/" (23872 33533 771070 454000) "Downloads/" ".bashrc~" ".yarn/" "Recordings/" ".aws/" ".profile" "rust/" ".gitconfig" ".var/" "Desktop/" ".ssh/" ".cert/" ".bash_logout" ".rustup/" ".gimp-2.8/" ".npm/" "index.m3u8" "mit-scheme-9.2/" ".thunderbird/" "python/" "./" ".gnuplot_history" "scala/" "EWD6.mpg" ".node_repl_history" ".ivy2/" ".scala_history" "clang/" ".android/" ".rnd" ".lesshst" ".config/" ".emacs~" "Music/" ".bash_profile" ".IdeaIC2018.2/" ".bashrc" ".arduino15/" "Hydra 2019 free online broadcast._720p.mp4" ".node-gyp/" ".yarnrc" "EWD4.mpg" ".esd_auth" ".oracle_jre_usage/" "jvm/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" "Projects/" ".cargo/" ".esmtp_queue/" ".vim/" "rpmbuild/" "../" "Public/" "Coding a Better World Together - with Uncle Bob - Day 1_720p.mp4" "checkfile" "scheme/" ".gnome/" "#checkfile#" "EWD2.mpg" ".t.php.swp" ".cache/" ".freemind/" "bin/" ".m2/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" ".viminfo" ".sbt/" ".ipython/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" ".multirust/" "arduino-1.8.9-linux64/" "Templates/" "sicp/" "vpnkeys/" "Arduino/" "Hamming, _You and Your Research_ (June 6, 1995)_360p.webm" "tools/" ".emacs" "noorderlicht.mpg")
 
- ("/home/mm/go/src/github.com/mmirolim/algos/" (23814 1130 13497 248000) ".git/" "strings_test.go~" "missing_number.go~" ".gitignore" "bitsets/" "./" "sub-string.go~" "sorting/" "linked_list/" "strings/" "numbers/" "set/" "add-linked-list.go~" "../" ".gitignore~" "trees/" "search/")
+ ("/home/mm/clang/the_c_k_and_r/" (23872 33205 699636 992000) "char_freq_histogram.c" "count_symbols.c~" "htoi.c~" "print_word_perline.c" "count_symbols.c" "word_len_histogram.c~" "invalid_c.c~" "fahrenheit_celsius.c" "GPATH" "GRTAGS" "squeeze_str.c~" "GTAGS" "./" "bits.c~" "#check_types.c#" "char_freq_histogram.c~" "remove_comments_from_c.c" "a.out" "reverse_string.c" "hello.c" "echo.c~" "expand.c" ".ccls-cache/" "check_for_errors.c" "word_len_histogram.c" "print_word_perline.c~" "../" "fahrenheit_celsius.c~" "echo.c" "invalid_c.c" "HTML/" "replace_blanks.c" "htoi.c" "replace_blanks.c~" "reverse_string.c~" "hello.c~" "bits.c" "check_for_errors.c~" "squeeze_str.c" "remove_comments_from_c.c~")
+
+ ("/home/mm/.esmtp_queue/" (23872 30104 292477 856000) "MNzhd6yO/" "3ZH9QABc/" "Cx4UhP1l/" "Bfyz6ozx/" "WHEPzJdm/" "oCnvNkW4/" "7qDVDKG1/" "WDzlZpbH/" "gwU3HHp8/" "hrmt5aoM/" "PE9PAswA/" "HWX4W1lf/" "dIYdyYuK/" "xHX2F34c/" "Zdrvu6Dj/" "c1cDabYK/" "UmyxLpEt/" "e4wYRJvp/" "6g4rWniS/" "Q3dbRXob/" "bes1bD6I/" "AU4GkY3e/" "5dYlA78o/" "g4XppDvx/" "ECcNkUzl/" "9zzkWgm0/" "lukmBYMa/" "m0EuRxJ3/" "S1RZspy6/" "ZMmzVAi1/" "cRGYZ3no/" "umeI8hkT/" "BCMBeU4n/" "CwS97ZoT/" "TrOOuoxn/" "LmUVaZC5/" "t30YS8XC/" "FfzYx8Lm/" "JSRXk0IV/" "4M8VXzMD/" "Efcq1zOa/" "4fwTdK6o/" "O8ZEjh4f/" "2wlbpBm9/" "TfnyKhwe/" "ZLXHtBUx/" "k18NFZOE/" "tSYgja9l/" "5Ovn0reU/" "mG75dyOq/" "97RVoZc4/" "SQErvtkY/" "JKF348mT/" "LhcRNCBv/" "CfCdRe3Z/" "abzHdjjg/" "3PejJyn4/" "KECObZ6e/" "ndIcEiBS/" "YiY4jb1z/" "vorsIfsf/" "StfejcfH/" "f24zAqo6/" "DWiS8Le4/" "a1DM2w29/" "HfHE2WO1/" "q49Hwbm0/" "1TRARDxi/" "g2BgVR7Z/" "HK6Ck462/" "uEDLK5kt/" "flT6tCYM/" "BHWeCbOy/" "GrLDrZYi/" "nBDs4fVh/" "QdyiWPn0/" "mfVvcgt6/" "i2GAyUKt/" "EtIIg4jA/" "qa9oEBQJ/" "OhUKhXlu/" "wD8b6LYE/" "3jMbBdf9/" "anWA4gtu/" "JDZDrSmn/" "YTrlu8U7/" "Lqmqlgrq/" "9YPZjSvU/" "hfUWPXji/" "3FtdmOGw/" "ci0K6jMa/" "ncjCpGSh/" "S0AuioMf/" "68W01zXu/" "VLSnE6gE/" "qpyno0a6/" "4FtyDrb1/" "pTnLvMd0/" "IebgnRwr/" "k6o3cUQY/" "91GhZ0Mx/" "CMIVZMOp/" "59XwrZw7/" "BEYvrB5x/" "6CJDMCf0/" "Vzq5CApP/" "6HE8GC9i/" "GahVgjf0/" "plAXJgOr/" "B12YtHJK/" "qoZj8umJ/" "MhSFuz40/" "7fbgdm5N/" "bEHwOAQ9/" "qeKcmXDN/" "ZPFUXc1U/" "NjEMxcT0/" "6rN9fjC4/" "taRMuLUx/" "C2x4GBC3/" "q1sKBZQE/" "RM5G59VE/" "llx7Lr0v/" "aYjuZZ0X/" "Hmc9qzva/" "ieUSakFg/" "D6LBZXNi/" "V9PQiV4C/" "Dz2JOARN/" "iud9D5iB/" "voK5Sur7/" "gEi36dTd/" "4Wgdeb9r/" "HN86sexU/" "wYxFKvAh/" "MNugmGMA/" "c7juWEcr/" "a8pUlTcn/" "Gv2YVg1h/" "1UD0IG1E/" "lgv9gxy5/" "TEeGiZau/" "DTGOyVpE/" "0S5DoLRe/" "Lo64owuZ/" "XLtbwVGD/" "oya6Ictj/" "zSduCHKr/" "QTbCwhRd/" "JhsHG82B/" "IfmrbN7P/" "eYrqC1uA/" "l7YKqURm/" "HuGlcjDv/" "6eFh0Vaf/" "PuBjtFlX/" "diH38AY8/" "xt7fsKsV/" "BiZQdR9x/" "CmwcoBTM/" "M5Dbasy9/" "Il2NiLcQ/" "fpMVIEzP/" "4H0iGbjP/" "bj3nEeXK/" "NRSiweei/" "wrEDDZqI/" "KowiXB8T/" "4TVzR1Zc/" "9VNaJQQR/" "DTS0Pkx1/" "onxmmjwK/" "xjJY6oKS/" "3I8GHFU6/" "F6BK9wre/" "PrvikfLi/" "0amu3Y5b/" "Qw7cmOoY/" "upsZpvFH/" "g9IIbJKE/" "gZ5q5dQe/" "iSRt17t1/" "R0pQqt0z/" "zhmb9wFM/" "4CQEYPLE/" "RZ3i6Ln4/" "mMT13KRu/" "fqvZvT4N/" "SQeetQoZ/" "r4lRtyik/" "QpUQxGgj/" "FP1KnhBq/" "EABMk9g0/" "FvCnEhnr/" "oYk8WXMO/" "nqR6DvIl/" "iqoVknPl/" "RQFb5mCB/" "aAwT3BrW/" "S9TaliWs/" "sdi9vPZO/" "Pb5jpdLs/" "1gjPUecH/" "2OZWljNe/" "nJUigHSy/" "8p2g5oTL/" "HHD55Cqn/" "g6djyAM7/" "ekyoZi3B/" "27io7ep2/" "M7WvqpiQ/" "azjzqE34/" "q77smocj/" "JCci5xSc/" "x8mx9cun/" "tgJnKiqo/" "PrwoiW0t/" "xK2Qh4BU/" "AywmsGOh/" "OOaecOG0/" "4gGiLzRb/" "K8J1MDDZ/" "n0osTogM/" "rFfjABGx/" "1sPBII5B/" "wJNamcb8/" "Lh8Ql4if/" "V6HUxSHa/" "45dzGIdY/" "PZfPM8hX/" "Mc0DEgVo/" "BDEHpvfJ/" "KbFow1wb/" "rMFsZfe1/" "rzEVH1nV/" "MQMo4dIL/" "Wq9n1BeC/" "R5ZXlesZ/" "7Q2Ryfdt/" "T7ZK67co/" "WqyBmNJM/" "L7EnEvAT/" "GVG11Oeb/" "7G531As1/" "pc4SCUJb/" "QXGoSyNU/" "SR2REMSv/" "5lp2CfAy/" "0Hq27CYY/" "NFVhcTsx/" "e9Nua2IN/" "Nwk572V6/" "lQtyaiaY/" "grtyhxYp/" "kDMtMC70/" "vDrQ8Mik/" "PYsriJhO/" "FK9Nn3LJ/" "gK2tA7wb/" "nAk0jZoK/" "4Mz2O0xx/" "daSc7FNl/" "1ur8XxF5/" "pOytCh51/" "JonB5Igb/" "lonAva01/" "7utmV17h/" "PrPTk1bF/" "25fU7LO4/" "6a7W4IR5/" "h3O31iJ2/" "z7y52Jdw/" "NQ62R0Gy/" "iz8Efs2m/" "a8tI3UdZ/" "UnlXUyzh/" "JcrLWPgo/" "yBi0iTne/" "j2jBO8ac/" "RhJV4WEV/" "TM4FptvX/" "2ATYLYJR/" "3atYsUgF/" "0ZLiWcG6/" "Gkl0r1bu/" "n4NYXLJX/" "7IXZdqlR/" "yKOTgbgM/" "aOyIaFUH/" "6wwGZTXn/" "7snl3hO0/" "WVY4gdbx/" "sLzueq2K/" "qtJLHuN8/" "xBB5ozGJ/" "tAOV3MUs/" "HifwiMYQ/" "21rFHUnw/" "KrNvQ8Ss/" "lC8zMYBY/" "a98QDJwB/" "XpYKpBfD/" "0vYmn7Ck/" "QR6j3qxw/" "42zaUxZD/" "1tZQPOzb/" "mEi7jJlt/" "j4b2vEYf/" "yv7fS4ua/" "zWdiXiWQ/" "ZO4E7iLl/" "ZcIN39jB/" "F9vDb8Kl/" "rbsxa9r0/" "qvVZrawO/" "w19mTqyD/" "KohJPB01/" "51KE64jJ/" "Wd6rOioR/" "EXR94J84/" "O0PVe5gp/" "76JzsivC/" "sRbIRzMd/" "8zD2GTke/" "oNe0vksh/" "LQUKadlz/" "xODxGcpM/" "BgItg5sT/" "p2rB8kdT/" "p3cTQ2PC/" "FcGZVnIF/" "TvCAGHNQ/" "6FBthP6G/" "iqVmiKiA/" "3TlCcGkq/" "jzXXHwFP/" "8QDBoRX7/" "KsQd2hdw/" "dgJVRXTV/" "79J3tVNu/" "TxkblSuK/" "tFkcmQpX/" "f7v0xacG/" "quH91ZjF/" "ldgS4GK5/" "HgCm6Z1q/" "flPAlunZ/" "At4hYqPl/" "6DP2j9aa/" "KwfdXACZ/" "0OC5Xkil/" "yUkY5ReG/" "IyipOH2p/" "QKqcqy6B/" "EViOfeee/" "u55Wck9D/" "hvh7FEuS/" "gnxoApXx/" "vRmoiJmE/" "FwlKVbj9/" "ILidIPAi/" "0Th7hMdG/" "dvAfNwCJ/" "eRl2mhcC/" "aXyKs8qp/" "TE8yufvS/" "VU8rqY99/" "oVzXIxH5/" "LbErc2q5/" "CHCsVyVf/" "pRsRHvoz/" "eg0XPsWd/" "XkpYeB5M/" "QBnKxRk3/" "eqqMqv9v/" "Jjhe5eWT/" "Xk3Km5Og/" "BepsgnE7/" "L80OdgV3/" "TjRKjw9o/" "RpFIbTUB/" "tN0Rkulg/" "wqiFiiA1/" "YdEHFGkB/" "rg7AVQdB/" "gZb56dW7/" "UerkX1MY/" "vZtXhhST/" "hKT1tbXh/" "HSR57ogL/" "KzOpmX7e/" "HSyll3IF/" "mNzcp6D9/" "akBkCeRl/" "4kq1jCIs/" "Dl169Y56/" "cXiOA1gz/" "FJ80QRbB/" "i37X2A4B/" "WdXKsmMU/" "W89lrxeC/" "PXQL1vXt/" "h286T07G/" "qeGNwp4q/" "CtiIaqZz/" "aiyvoJY2/" "xmNYFpII/" "D4jQkffX/" "HBiwZMbT/" "NV6WeTr6/" "rSJG1pMQ/" "S980cr27/" "wezSKgSx/" "k0ALyYKK/" "PyKG0ddD/" "MSVQUbx4/" "wg75CIRI/" "JCKPfR8k/" "PXgXeNg0/" "Wa1L9bcK/" "XOw5YhQy/" "JsDbpjoQ/" "ZyAAAXqE/" "dKM53wOS/" "pbiZtGLt/" "Ak8RUrrw/" "qNz2JkWL/" "jQc1ZgFr/" "swST2RxZ/" "gRCPMtPx/" "nE9Z9RJM/" "cH7yrfxW/" "L1uae7zB/" "XWLN88g4/" "v84hcH9n/" "SIHNIKaA/" "6UoUrUor/" "nVRtgJeG/" "mtEQrNxC/" "Mv0KHqjc/" "ic5V3iC4/" "CwabypPm/" "rIcOPgar/" "u13ZVwW9/" "ucflXGN2/" "yzXwlb8b/" "dm4W1X87/" "lGFkQcAO/" "JaHEz2cW/" "hn5cSepO/" "ar1mCrpi/" "IPMx0bOo/" "aU4l6RMu/" "knSbZFDn/" "dC15aiZ7/" "wdkPk0H8/" "F7Gx3AQe/" "g6QFySOG/" "f1v4qwIf/" "Et5OrvbJ/" "iGFyHhEU/" "GdRQuIfF/" "D7qhZRdY/" "Jtt3apq5/" "sBfl3Qgj/" "8cYAS7xS/" "U52QpgTR/" "qACaitbS/" "CR9qLAnx/" "a7lFNTKV/" "PPQ6yBo2/" "rtKqoaH6/" "ftcRj1VO/" "SCyndC3s/" "w6dflNCh/" "iqaC6Uld/" "mWY3uwba/" "yMJTjLIp/" "uXiprFZL/" "Da0eMfTZ/" "kFHoh1TU/" "s325C4Yk/" "IEnYOrr9/" "MRn4rY7G/" "ApJiQLo0/" "coIk3CRj/" "qKwPm3wm/" "Q6QLRGzr/" "rpH74Tcg/" "RyAqKV0n/" "PFm871IF/" "0SQhr1eR/" "7bCQzTB3/" "167V0VgJ/" "zbZOAjms/" "mXrTvvCQ/" "cySpOt3e/" "HGq4AHmn/" "0W8Kybhp/" "glFEn7C4/" "WOZFGiSn/" "oglTmVpu/" "dR0Pl8qY/" "6lvmswvU/" "40wzyr15/" "uaiiuBof/" "Y4gSBJQc/" "tOZuWlsR/" "61pucef6/" "nrqbI1U8/" "ZvkSEAxK/" "PitCE26p/" "GsxvUuMj/" "2JvRwXfv/" "0PzMvqbN/" "3tMmMBhx/" "yWkIAXGM/" "oHdcTIfM/" "c16ARacu/" "PrbQ105J/" "D6bDUKjX/" "QQwi91E0/" "nULej4FV/" "UKIqql4a/" "ya9xu0BI/" "HxKdLOlW/" "mOLaYJW0/" "QGxYrMpc/" "Bf7scrx1/" "HcMN7NBF/" "ZtwU66Yu/" "../" "./")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/hk/" (23871 12885 742355 918000) "string_transmission.go" "climbing_leaderboard.go~" "journey_to_the_moon.go" "queens_attack2.go" "bigger_is_greater.go~" "organizing_container_of_balls.go" "bomber_game.go" "bigger_is_greater.go" "./" "time_in_words.go" "encryption.go" "absolute_permutation.go" "almost_sorted.go~" "bomber_game.go~" "hk_test.go" "time_in_words.go~" "almost_sorted.go" "hk.test" "subset_component.go" "count_luck.go" "prims_special_tree.go" "journey_to_the_moon.go~" "jim_and_the_orders.go" "../" "bfs_shortest_reach.go~" "grid_search_string.go" "count_luck.go~" "absolute_permutation.go~" "subset_component.go~" "hk_test.go~" "organizing_container_of_balls.go~" "string_transmission.go~" "bfs_shortest_reach.go" "encryption.go~" "jim_and_the_orders.go~" "3dsurface_area.go" "emas_supercomputer.go~" "emas_supercomputer.go" "climbing_leaderboard.go" "queens_attack2.go~" "magic_square.go" "magic_square.go~")
+
+ ("/home/mm/go/" (23436 8612 35831 844000) "m1/" "./" "pkg/" "../" "bin/" "src/")
+
+ ("/home/mm/clang/" (23868 4788 939510 570000) "./" "../" "the_c_k_and_r/")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/" (23865 36519 289896 449000) ".git/" "stats/" ".gitignore" "bitsets/" "cf/" "math/" "./" "sorting/" "linked_list/" "strings/" "numbers/" "set/" "pc/" "../" ".gitignore~" "checks/" "graph/" "hk/" "svg/" "trees/" "search/")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/strings/" (23842 16300 424372 441000) "lcs.go~" "strings.test" "strings_test.go~" "strings_test.go" "./" "sub-string.go~" "strings.go" "strings.go~" "binary_string.go" "binary_string_test.go" "lcs_test.go" "binary_string.go~" "../" "lcs_test.go~" "binary_string_test.go~" "sub-string.go" "lcs.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/trees/" (23860 48881 438241 180000) "./" "tree.go~" "tree.go" "heap.go~" "heap.go" "trie_test.go~" "../" "heap_test.go" "trie.go~" "tree_test.go~" "tree_test.go" "trie_test.go" "heap_test.go~" "trie.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/graph/" (23864 49560 256167 931000) "properties_test.go~" "data_test.go" "traverse.go" "properties_test.go" "./" "base.go" "base_test.go" "bfs.go~" "traverse_test.go" "the_tourist_guide_test.go" "draw_test.go~" "bfs_test.go~" "example.svg" "properties.go" "properties.go~" "the_tourist_guide_test.go~" "../" "base_test.go~" "draw.go~" "base.go~" "svg.go" "playing_with_wheels_test.go~" "data_test.go~" "playing_with_wheels_test.go" "svg_test.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/checks/" (23845 38088 782332 331000) "error.go~" "./" "base.go" "numbers.go~" "numbers.go" "error.go" "../" "base.go~")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/search/" (23833 58055 794510 816000) "search.go" "search.go~" "binary_search_test.go" "binary_search.go" "./" "binary_search.go~" "search_test.go~" "../" "search.test" "binary_search_test.go~" "search_test.go")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/math/" (23839 62631 965892 219000) "big_test.go~" "./" "prof.cpu" "prof.mem" "../" "big_test.go" "matrix.go" "matrix_test.go~" "matrix_test.go" "big.go" "matrix.go~" "big.go~" "math.test")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/stats/" (23838 28698 534360 285000) "./" "base.go" "base_test.go" "regression.go" "regression.go~" "../" "regression_test.go" "base_test.go~" "base.go~" "regression_test.go~")
+
+ ("/home/mm/js/" (23835 28405 978362 973000) "experiments/" "bench.js" "./" "#bench.js#" "tfs/" "../" "exercises/" "bench.js~")
+
+ ("/home/" (23649 31957 0 0) "./" "guest/" "lost+found/" "../" "mm/" "dialout/")
+
+ ("/usr/" (23774 56588 930727 680000) "share/" "bin/" "local/" "lib/" "avr/" "./" "include/" "games/" "lib64/" "../" "libexec/" "sbin/" "src/" "tmp/")
+
+ ("/usr/share/" (23832 30525 798871 646000) "X11/" "dbxtool/" "glvnd/" "icewm/" "maven-metadata/" "gnome-settings-daemon/" "fop/" "tabset/" "ibus-m17n/" "desktop-directories/" "lua/" "gnome-background-properties/" "iso-codes/" "transmission/" "zenity/" "fedora-testpage/" "jvm/" "libnumbertext/" "vulkan/" "OVMF/" "pmdk/" "dict/" "grilo-0.3/" "glusterfs/" "langtable/" "config.kcfg/" "kdump/" "ibus-libpinyin/" "gnome-abrt/" "applnk/" "java/" "mousetweaks/" "emoticons/" "autoconf/" "qt4/" "evolution/" "seabios/" "gupnp-dlna-2.0/" "ruby/" "libreoffice/" "libkkc/" "redland/" "libindicator/" "gtksourceview-4/" "arduino/" "servicetypes/" "gnome-shell/" "factory/" "ibus-libzhuyin/" "drirc.d/" "gedit/" "gdb/" "autocorr/" "thumbnailers/" "xml/" "clang/" "gnome-maps/" "sane/" "gdal/" "tilix/" "sushi/" "speech-dispatcher/" "libgnomekbd/" "epiphany/" "file-roller/" "gtk-4.0/" "python-dmidecode/" "epsg_csv/" "libtool/" "rubygems/" "mpage/" "open-vm-tools/" "lxsession/" "empty/" "mypaint-data/" "modulefiles/" "fish/" "pocl/" "org.gnome.Characters/" "gdcm/" "gutenprint/" "memtest86+/" "web-assets/" "darktable/" "gettext-0.19.8/" "libexttextcat/" "sgml/" "glmark2/" "usb_modeswitch/" "source-highlight/" "gnome-video-effects/" "rhythmbox/" "i18n/" "gtk-2.0/" "projectM/" "evince/" "qemu/" "services/" "ibus-rawcode/" "tracker-miners/" "javascript/" "icu/" "backgrounds/" "java-utils/" "sgabios/" "syslinux/" "edk2/" "gems/" "liblouis/" "firstboot/" "javazi-1.8/" "powerline/" "google-chrome/" "poppler/" "plymouth/" "xdg-desktop-portal/" "egl/" "wallpapers/" "ibus-typing-booster/" "vala/" "blivet-gui/" "file/" "magic" "cracklib/" "systemtap/" "evolution-data-server/" "avahi/" "gnome-vpn-properties/" "emacs/" "javadoc/" "gtk-doc/" "enchant/" "grub/" "tcl8/" "terminfo/" "cryptui/" "xmvn/" "bash-completion/" "media-player-info/" "php/" "automake-1.16/" "locale/" "defaults/" "wayland-sessions/" "doc/" "gawk/" "ipxe/" "qt5/" "libtimezonemap/" "foomatic/" "rygel/" "dnsmasq/" "config/" "grilo-plugins/" "gtk-3.0/" "config.site" "proj/" "autostart/" "fontconfig/" "eog/" "Modules/" "gnome-user-share/" "PackageKit/" "polkit-1/" "javahelp2/" "fedora-logos/" "gnome-documents/" "eclipse/" "mimelnk/" "gnome-sound-recorder/" "libgpg-error/" "zsh/" "colord/" "skk/" "licenses/" "netcf/" "javazi/" "gnome-color-manager/" "openal/" "lsb/" "gnupg/" "setuptool/" "freemind/" "zoneinfo/" "anaconda/" "yelp-xsl/" "chromium/" "system-config-printer/" "ipxe.efi/" "games/" "opencc/" "gnome/" "snmp/" "adobe/" "scala/" "fonts/" "gnome-control-center/" "alsa/" "ibus/" "augeas/" "python-meh/" "tcl8.6/" "git-core/" "gupnp-av/" "tests/" "libreport/" "gnome-bluetooth/" "jvm-commmon/" "sbt/" "gnome-clocks/" "pulseaudio/" "OpenCV/" "misc/" "libwmf/" "graphviz/" "enchant-2/" "p11-kit/" "liblangtag/" "GeoIP/" "xsessions/" "makedumpfile/" "ghostwriter/" "libffado/" "metainfo/" "texlive/" "org.gnome.Weather/" "hyphen/" "orca/" "app-info/" "idl/" "gnome-session/" "crypto-policies/" "help/" "gnome-initial-setup/" "pgsql/" "mime-info/" "gnome-tweaks/" "sounds/" "glib-2.0/" "selinux/" "distribution-gpg-keys/" "igt-gpu-tools/" "kde4/" "ibus-hangul/" "themes/" "yelp/" "authselect/" "gnome-builder/" "cmake/" "tesseract/" "ppd/" "rpmdevtools/" "dbus-1/" "gvfs/" "libgphoto2/" "glade/" "libhangul/" "icons/" "osinfo/" "appdata/" "gtksourceview-3.0/" "libvirt/" "info/" "awk/" "espeak-data/" "mozilla/" "ant/" "libwacom/" "nano/" "groff/" "tracker/" "httpd/" "gettext/" "apps/" "templates/" "publicsuffix/" "wayland-protocols/" "ivy-xmls/" "seavgabios/" "cups/" "gssdp/" "pkgconfig/" "myspell/" "gnome-boxes/" "hplip/" "python-wheels/" "libgweather/" "gstreamer-1.0/" "pki/" "aclocal/" "hwdata/" "os-prober/" "sssd/" "unicode/" "perl5/" "vala-0.44/" "systemd/" "gnome-software/" "jortho/" "gnuplot/" "gdm/" "vim/" "pixmaps/" "color/" "espeak-ng-data/" "libinput/" "ostree/" "fwupd/" "man/" "ImageMagick-6/" "flatpak/" "ffmpeg/" "libthai/" "aclocal-1.16/" "GConf/" "gcc-9/" "vlc/" "mobile-broadband-provider-info/" "unetbootin/" "telepathy/" "GraphicsMagick-1.3.32/" "mime/" "ibus-kkc/" "xemacs/" "totem/" "libdrm/" "lensfun/" "gobject-introspection-1.0/" "applications/" "gir-1.0/" "mythes/" "hwloc/" "highlight/" "keyutils/" "mesa-demos/" "libquvi-scripts/" "gimp/" "m17n/" "dconf/" "guile/" "maven-poms/" "wayland/" "ghostscript/" "abrt/" "gnome-system-monitor/" "bookmarks/" "omf/" "../" "./")
+
+ ("/usr/share/emacs/" (23763 61385 815958 786000) "26.2/" "./" "../" "site-lisp/")
+
+ ("/usr/share/emacs/26.2/" (23763 61310 716847 160000) "etc/" "./" "../" "site-lisp/" "lisp/")
+
+ ("/usr/share/emacs/26.2/etc/" (23763 61306 922841 520000) "grep.txt" "TODO" "MORE.STUFF" "COPYING" "ORG-NEWS" "charsets/" "NEWS" "org/" "NEWS.25" "NEWS.21" "MH-E-NEWS" "schema/" "ETAGS.EBNF" "refcards/" "DISTRIB" "./" "HELLO" "README" "JOKES" "TERMS" "NEWS.22" "ses-example.ses" "NEWS.23" "tutorials/" "GNUS-NEWS" "emacs.desktop" "spook.lines" "AUTHORS" "NEWS.1-17" "enriched.txt" "NEWS.18" "NEXTSTEP" "HISTORY" "package-keyring.gpg" "MACHINES" "emacs.service" "future-bug" "e/" "emacs.icon" "gnus/" "yow.lines" "THE-GNU-PROJECT" "../" "PROBLEMS" "compilation.txt" "ETAGS.README" "forms/" "DEBUG" "CENSORSHIP" "emacs-buffer.gdb" "rgb.txt" "srecode/" "NXML-NEWS" "ERC-NEWS" "themes/" "ps-prin0.ps" "GNU" "LINUX-GNU" "publicsuffix.txt.gz" "gnus-tut.txt" "ORDERS" "NEWS.19" "NEWS.24" "emacs.appdata.xml" "edt-user.el" "nxml/" "FTP" "images/" "NEWS.20" "CALC-NEWS" "ps-prin1.ps" "WHY-FREE" "DEVEL.HUMOR" "DOC")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/sorting/" (23833 58069 469530 387000) "external_sort_test.go~" "sort_test.go~" "./" "external_sort_test.go" "heap.go~" "sort.go" "sort_test.go" "heap.go" "external_sort.go" "../" "heap_test.go" "external_sort.go~" "sort.go~" "heap_test.go~" "shellsort.cpp~")
+
+ ("/home/mm/rust/raytracer/src/" (23833 14076 802394 140000) "lib.rs" "rendering.rs" "./" "point.rs" "../" "main.rs" "scene.rs" "vector3.rs")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/svg/" (23834 30334 820078 690000) "./" "base.go" "../" "base.go~")
+
+ ("/home/mm/rust/algos/src/" (23778 24250 39776 115000) "lib.rs~" ".#strings.rs" "lib.rs" "./" "#strings.rs#" "tsp.rs" "tsp.rs~" "../" "main.rs" "strings.rs~" "ds/" "strings.rs" "traveling_salesman_problem.rs~")
+
+ ("/home/mm/rust/algos/benches/" (23777 41673 165020 55000) "bench_main.rs~" "benchmarks/" "./" "bench_main.rs" "../" "tsp_benchmark.rs~")
+
+ ("/home/mm/rpmbuild/SPECS/" (23774 58130 257702 337000) "./" "../" "arduino-mk.spec" "arduino-mk.spec~")
+
+ ("/home/mm/go/src/github.com/mmirolim/algos/numbers/" (23803 46663 766104 33000) "numbers_test.go" "./" "numbers.go~" "numbers.go" "numbers_test.go~" "../")
 
  ("/home/mm/go/src/" (23816 52942 932986 307000) "fsrv.go~" "masterMakefile" "compare.go~" "out" "gentags.go~" "fsrv.go" "slider.html~" "./" "golang.org/" "honnef.co/" "cgo/" "google.golang.org/" "fsrv" "time/" "static_methods.go" "mad/" "composer/" "compare.go" "../" "hello.go" "no-bounds-check.go" "slider.html" "conv/" "hello" "types_methods.go" "github.com/" "no-bounds-check" "static_methods.go~" "grpc/" "gopkg.in/" "no-bounds-check.go~" "tests/" "types_methods.go~" "gentags.go")
 
- ("/home/mm/" (23818 16336 88201 93000) "google_drive/" "Downloads/" ".bashrc~" ".yarn/" "Recordings/" ".aws/" ".profile" "rust/" ".gitconfig" ".var/" "Desktop/" ".ssh/" ".cert/" ".bash_logout" ".rustup/" ".gimp-2.8/" ".npm/" "mit-scheme-9.2/" ".thunderbird/" "python/" "./" ".gnuplot_history" "scala/" "EWD6.mpg" ".node_repl_history" ".ivy2/" ".scala_history" ".android/" ".rnd" ".lesshst" ".config/" ".emacs~" "Music/" ".bash_profile" ".IdeaIC2018.2/" ".bashrc" ".arduino15/" ".node-gyp/" ".yarnrc" "EWD4.mpg" ".esd_auth" ".oracle_jre_usage/" "jvm/" "Pictures/" ".pki/" ".bash_history" ".local/" ".ICEauthority" ".nvm/" "Projects/" ".cargo/" ".esmtp_queue/" ".vim/" "rpmbuild/" "../" "Public/" "scheme/" ".gnome/" "EWD2.mpg" ".t.php.swp" ".cache/" ".freemind/" "bin/" ".m2/" ".mozilla/" "lib/" ".emacs.d/" ".java/" "Documents/" ".viminfo" ".sbt/" ".ipython/" "go/" "js/" ".gphoto/" ".thumbnails/" "Videos/" ".wget-hsts" ".multirust/" "arduino-1.8.9-linux64/" "Templates/" "sicp/" "vpnkeys/" "Arduino/" "tools/" ".emacs" "noorderlicht.mpg")
-
- ("/home/mm/go/src/github.com/mmirolim/algos/numbers/" (23798 47395 686612 908000) "numbers_test.go" "./" "numbers.go~" "numbers.go" "numbers_test.go~" "../")
-
- ("/home/mm/go/src/github.com/mmirolim/algos/strings/" (23797 64658 108073 674000) "lcs.go~" "strings_test.go~" "strings_test.go" "./" "sub-string.go~" "strings.go" "strings.go~" "binary_string.go" "binary_string_test.go" "lcs_test.go" "binary_string.go~" "../" "lcs_test.go~" "binary_string_test.go~" "sub-string.go" "lcs.go")
-
  ("/home/mm/go/src/github.com/mmirolim/algos/linked_list/" (23796 23642 342472 919000) "linked-list_test.go~" "./" "linked_list.go" "linked-list_test.go" "add-linked-list.go~" "linked_list.go~" "../")
-
- ("/home/mm/rpmbuild/SPECS/" (23774 56689 236630 754000) "./" "../" "arduino-mk.spec")
 
  ("/home/mm/go/src/github.com/" (23769 12219 60987 838000) "FiloSottile/" "kisielk/" "mibk/" "BurntSushi/" "nsf/" "opennota/" "./" "mdempsky/" "golang/" "callstats-io/" "stretchr/" "antlr/" "mattetti/" "gordonklaus/" "fsnotify/" "go-audio/" "posener/" "../" "jgautheron/" "brettbuddin/" "hashicorp/" "GoASTScanner/" "tsenart/" "nbutton23/" "mmirolim/" "davecgh/" "aarzilli/" "go-delve/" "bc-pow/" "viert/" "ryanuber/" "fzipp/" "rogpeppe/")
 
  ("/home/mm/go/src/github.com/mmirolim/maze/" (23753 11556 901896 776000) ".git/" "words.go~" "main.go~" "sudoku.go~" ".gitignore" "chessboard_test.go" "./" "maze.go" "chessboard.go~" "chessboard.go" "maze-anim-gen-with-dfs.gif" "sudoku_test.go" "outtest" "README.md~" "maze.gif" "prof.cpu" "sudoku.go" "prof.mem" "#main.go#" "../" "README.md" "maze_test.go~" "sudoku_test.go~" "LICENSE" "chessboard_test.go~" "maze-anim-path-with-dfs-recur.gif" "maze-anim-path-with-bfs-weight.gif" "maze_test.go" "images/")
-
- ("/home/mm/.emacs.d/" (23753 11571 248897 6000) "session.10f7aacdfeb1809473155310068517796700000023620071" ".git/" "ac-comphist.dat" "session.1055a3048212181456155403732023671500000019870071" "session.10b8fd1148e6ff900f153163695040431700000020170070" "scala.el" "session.10e9dfaa972391a96b154712063094853000000019860071" "session.1091491ab46a9c47c1154244208669606300000061110071" "tss.el" "session.103b8fdfc1e7a05d0c153268094154708700000019860072" "session.108304023dd5088155152613408745451800000018640069" "clj.el" ".gitignore" "session.10c0364bebdf93ab1d15343929703463900000021430070" "session.10bf0fd19762af6cbf15485209933194800000020300072" "./" "project-local-variables.el" "smex-items" "rust.el~" "#ido.last#" "snippets/" "session.10962b3ebf167b9cb7155413051915722400000021110071" "session.106663c1a5b245519f153032809222950000000085160070" "session.1025d809bbecff54e315268222295107200000214610069" ".mc-lists.el" "session.10cea64c7fab6d2c24154394949726166200000022540071" "session.10666dbffac0897f1f153198742765077100000019400070" "session.107011c39349d1c3f15450609223493200000021190071" "find-file-in-project.el" "session.104f103955d0dd6f4c152973370492933600000018720069" "auto-save-list/" "rust.el" "ede-projects.el" "session.105a85ec1ffa068516153889820610995000000021720070" "session.10cbaf99ed7d38feee152890865521893800000263430077" "session.10d2632f15bac83c6915271007709077500000019250073" "games/" "../" "session.10f4997b055fb8226015437613136986600000019190071" "eshell/" "session.101c2e8da587b10414153807258068100800000029690070" "ido.last~" "tramp" "session.10631639c8529c4588155429270487277600000019950071" "session.102e6512849041e0dd155065458454632800000022560071" "session.101545def4a1ab47cd152771068226412300000018370069" "session.10859d9b9378d175da154559393383452100000019870071" "session.10b469760a7a4a335c153323102183791600000022830070" "session.102d518d2091c2c029152994455774525100000024250070" "session.106d6d32cd68ac7eb315323339026421100000019870070" "bookmarks" "session.1085e3e45a66020e715508329222169800000022240071" "network-security.data" "session.104ddebaaff3a7b55154184525459136400000024180071" "session.10c7404cf1aca935ef153089869290714600000022350070" "abbrev_defs" "emacs-backup" "ido.last" "elpa/" "session.10c669dc1d7a2ba6f515350405233691500000019250074" "session.1043108f18904f06f4154697679997045800000018500071" "session.1025d05584c0baff22153400035785904100000019110070" "session.10d1b38650afb1dc84153523030983487400000020080070" "transient/" "session.10896ea8f56bf104e6155051304789322600000020710077" "url/" "session.1072f21de8c8253cbb154427555856558900000019220071" "go.el" "session.1051eeceb32f6a6b42153157035559906800000019760070" "session.107cd14d71bfea0cd15291280542382200000021600069")
-
- ("/home/mm/rust/raytracer/src/" (23738 49630 775625 487000) "lib.rs" "rendering.rs" "./" "point.rs" "../" "main.rs" "scene.rs" "vector3.rs")
-
- ("/home/mm/rust/algos/benches/" (23738 63788 644485 829000) "string_benchmark.rs" "./" "../")
 
  ("/home/mm/rust/rustlings/exercises/threads/" (23739 21787 139523 363000) "./" "threads1.rs" "threads1" "../" "README.md")
 
@@ -170,8 +209,6 @@
 
  ("/home/mm/rust/rustlings/exercises/variables/" (23739 7900 735618 713000) "variables1.rs" "./" "variables2.rs" "variables3.rs" "../" "README.md" "variables4.rs")
 
- ("/home/mm/rust/algos/src/" (23738 63245 450994 404000) "lib.rs~" "lib.rs" "./" "../" "main.rs")
-
  ("/home/mm/rust/algos/" (23646 61908 879400 552000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock" "benches/")
 
  ("/home/mm/python/comictrans/" (23734 48810 462566 839000) ".git/" "out" "out-jpn-vert.txt" "./" "oc.py~" "out-japan-ver.txt" "out-sample.png" "../" "README.md" "frozen_east_text_detection.pb" "oc.py" "tessdata/" "out.txt" "script.py")
@@ -199,8 +236,6 @@
  ("/home/mm/rust/threads/" (23591 56387 98252 555000) ".git/" ".gitignore" "./" "target/" "Cargo.toml" "../" "src/" "Cargo.lock")
 
  ("/home/mm/rust/" (23707 44411 457488 423000) "unsafe_ex/" "oo/" "./" "sad2/" "hello_rust/" "fibonacci/" "communicator/" "exampler/" "guessing_game/" "raytracer/" "threads/" "../" "sad/" "main.rs" "smart/" "websrv/" "blog/" "minigrep/" "colls/" "algos/" "batch-conv/" "rustlings/")
-
- ("/home/" (23368 12066 0 0) "./" "guest/" "lost+found/" "../" "mm/" "dialout/")
 
  ("/home/mm/go/src/mad/masteretc/fcap/" (23535 14299 613791 258000) "#production.toml#" "./" ".#production.toml" "production.toml" "../" "development.toml")
 
@@ -275,34 +310,6 @@
  ("/home/mm/go/m1/" (23436 16197 508802 908000) "m1" "main.go~" "main.go" "go.mod" "./" "#main.go#" "../" "go.sum" "go.mod~")
 
  ("/home/mm/go/pkg/mod/golang.org/x/tools@v0.0.0-20180831211245-7ca132754999/go/ast/astutil/" (23436 10203 903825 771000) "rewrite_test.go" "rewrite.go" "enclosing_test.go" "./" "enclosing.go" "imports.go" "../" "imports_test.go" "util.go")
-
- ("/home/mm/.emacs.d/elpa/" (23436 12564 179816 768000) "pkg-info-20150517.1143/" "epl-20180205.2049/" "ensime-20180615.1330/" "csv-mode-1.7/" "go-eldoc-20170305.1427/" "direx-20170422.1327/" "scala-mode-20170802.1132/" "f-20180106.922/" "crux-readme.txt" "go-direx-20150316.143/" "js3-mode-readme.txt" "org-drill-table-readme.txt" "go-scratch-20150810.440/" "flycheck-ocaml-readme.txt" "spinner-1.7.3.signed" "colemak-evil-readme.txt" "smex-20151212.2209/" "turing-machine-readme.txt" "gotest-20180617.1333/" "queue-0.2/" "hydra-20180703.1502/" "go-rename-20180627.648/" "protobuf-mode-20170526.1650/" "seq-2.20.signed" "archives/" "let-alist-1.0.5/" "neotree-20180616.1603/" "gnupg/" "flycheck-yamllint-readme.txt" "aggressive-indent-20180627.21/" "go-errcheck-20160723.43/" "sesman-20180830.2136/" "go-guru-20180628.1010/" "company-20180802.1207/" "switch-window-readme.txt" "clojure-mode-20180827.1827/" "let-alist-1.0.5.signed" "paredit-20171127.205/" "magit-popup-20180726.2037/" "multiple-cursors-20180615.1218/" "rainbow-delimiters-20170929.1132/" "edn-20160215.1219/" "s-20180406.808/" "lua-mode-20180323.1021/" "peg-20150708.641/" "undo-tree-20170706.246/" "spinner-1.7.3/" "ghub-20180821.1430/" "markdown-mode-20180831.1754/" "clj-refactor-20180826.2149/" "cuda-mode-readme.txt" "let-alist-1.0.4/" "minimal-theme-readme.txt" "merlin-readme.txt" "go-readme.txt" "goto-chg-20180105.1833/" "go-projectile-readme.txt" "yasnippet-20180621.50/" "aws-ec2-readme.txt" "tuareg-20180512.2006/" "coffee-mode-20170324.940/" "magit-20180902.101/" "epoch-view-readme.txt" "csv-mode-readme.txt" "go-mode-20180327.1530/" "go-stacktracer-readme.txt" "cake-readme.txt" "queue-0.2.signed" "0blayout-readme.txt" "plantuml-mode-20180816.1012/" "test-case-mode-readme.txt" "yaml-mode-20180409.607/" "scala-mode2-20151226.1048/" "tide-20180810.403/" "company-go-20170825.1643/" "avy-20180814.2121/" "which-key-readme.txt" "flycheck-20180823.826/" "cider-20180902.1638/" "csv-mode-1.7.signed" "expand-region-20180817.1134/" "flymake-phpcs-readme.txt" "popup-20160709.1429/" "typescript-mode-20180802.1114/" "flycheck-gometalinter-20180424.941/" "inflections-20170913.916/" "auto-complete-20170125.245/" "async-20180527.1730/" "seq-2.20/" "dash-20180726.1213/" "with-editor-20180726.2044/" "spinner-1.7.1.signed" "sbt-mode-20180511.1622/" "ace-window-20180814.1516/" "go-dlv-20160517.2046/" "caml-20180808.741/" "tern-auto-complete-readme.txt" "spinner-1.7.1/" "js2-mode-20180724.801/" "flycheck-plantuml-20171018.111/" "syntax-subword-20160519.1905/" "git-commit-20180802.2018/" "../" "./")
-
- ("/home/mm/.emacs.d/elpa/company-go-20170825.1643/" (23388 26735 98318 70000) "company-go.el" "./" "company-go-autoloads.el" "company-go-pkg.el" "company-go.elc" "../")
-
- ("/home/mm/go/" (23436 8612 35831 844000) "m1/" "./" "pkg/" "../" "bin/" "src/")
-
- ("/home/mm/go/src/golang.org/x/tools/go/ast/astutil/" (23289 42448 563638 401000) "rewrite_test.go" "rewrite.go" "enclosing_test.go" "./" "enclosing.go" "imports.go" "../" "imports_test.go" "util.go")
-
- ("/usr/local/go/src/go/printer/" (23424 28004 0 0) "performance_test.go" "./" "printer_test.go" "../" "nodes.go" "testdata/" "example_test.go" "printer.go")
-
- ("/home/mm/js/exercises/binary-heap/" (23388 27004 923317 41000) "./" "index.js" "test.js" "../" "test.js~" "index.js~")
-
- ("/home/mm/go/src/tests/" (23398 32901 90157 936000) "cachegrind.out.32635" ".#emacs_macro.test" "branch-free_test.go" "branch-free_test.go~" "./" "structs.go~" "structs.go" "#emacs_macro.test#" "cachegrind.out.604" "../" "global_write_speed_test.go" "global_write_speed_test.go~" "massif.out.846")
-
- ("/home/mm/js/exercises/" (23373 44380 208015 974000) "package.json~" "package-lock.json" "package.json" "levenstein-dist/" "./" "binary-heap/" "node_modules/" "../" "find-k-smallest/")
-
- ("/home/mm/js/" (23364 40135 356944 251000) ".#bench.js" "bench.js" "./" "#bench.js#" "tfs/" "../" "exercises/" "bench.js~")
-
- ("/home/mm/js/exercises/find-k-smallest/" (23364 42102 276936 748000) "./" "index.js" ".#index.js" "test.js" "../" "test.js~" "#index.js#" "index.js~")
-
- ("/home/mm/Pictures/photos/[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/" (23355 19834 974439 579000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "198.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "180.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "192.jpg" "049.jpg" "191.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "197.jpg" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "194.jpg" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "167.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "169.jpg" "172.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "177.jpg" "098.jpg" "196.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "168.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "016.jpg" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "199.jpg" "185.jpg" "053.jpg" "100.jpg" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "171.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "195.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "170.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "051.jpg" "178.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "152.jpg" "166.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "193.jpg" "091.jpg" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
-
- ("/home/mm/Pictures/photos/" (23355 19705 511440 72000) "natalya_nemchina/" "[Kon-kit] Midara Books (Complete) [English]/" "./" "[Kon-Kit] Torochichi Daitai Fuhoni na Wakan Involuntary But Consensual Sex [English] [doujin-moe.us]/" "../" "[Sanagi Torajirou] Netorare Kataomoi Ch 1-5, 7 [English] {doujins com}/" "[Sanagi Torajirou] Cast Aoi [English] {doujin-moe.us, Fuke, LWB, Psyburn21}/")
-
- ("/home/mm/Pictures/photos/[Kon-kit] Midara Books (Complete) [English]/" (23355 19549 767440 667000) "143.jpg" "080.jpg" "114.jpg" "010.jpg" "097.jpg" "079.jpg" "147.jpg" "033.jpg" "103.jpg" "113.jpg" "052.jpg" "008.jpg" "093.jpg" "118.jpg" "084.jpg" "028.jpg" "049.jpg" "063.jpg" "034.jpg" "021.jpg" "035.jpg" "112.jpg" "172.png" "145.jpg" "137.jpg" "155.jpg" "007.jpg" "005.jpg" "065.jpg" "027.jpg" "003.jpg" "157.jpg" "168.png" "134.jpg" "025.jpg" "094.jpg" "161.jpg" "slider.html~" "125.jpg" "./" "073.jpg" "055.jpg" "146.jpg" "057.jpg" "127.jpg" "090.jpg" "132.jpg" "045.jpg" "059.jpg" "002.jpg" "014.jpg" "133.jpg" "182.jpg" "115.jpg" "124.jpg" "169.png" "078.jpg" "092.jpg" "117.jpg" "110.jpg" "123.jpg" "067.jpg" "069.jpg" "186.jpg" "074.jpg" "141.jpg" "036.jpg" "098.jpg" "174.jpg" "082.jpg" "160.jpg" "061.jpg" "071.jpg" "148.jpg" "129.jpg" "072.jpg" "087.jpg" "162.jpg" "126.jpg" "index.html" "066.jpg" "012.jpg" "140.jpg" "022.jpg" "166.png" "016.jpg" "167.png" "181.jpg" "096.jpg" "077.jpg" "056.jpg" "159.jpg" "189.jpg" "158.jpg" "104.jpg" "041.jpg" "185.jpg" "053.jpg" "100.jpg" "171.png" "085.jpg" "108.jpg" "../" "179.jpg" "163.jpg" "130.jpg" "075.jpg" "128.jpg" "042.jpg" "058.jpg" "135.jpg" "150.jpg" "088.jpg" "043.jpg" "081.jpg" "116.jpg" "119.jpg" "026.jpg" "039.jpg" "190.jpg" "038.jpg" "173.jpg" "120.jpg" "004.jpg" "175.jpg" "187.jpg" "106.jpg" "054.jpg" "165.jpg" "050.jpg" "105.jpg" "029.jpg" "183.jpg" "149.jpg" "180.png" "051.jpg" "047.jpg" "015.jpg" "154.jpg" "176.jpg" "048.jpg" "156.jpg" "011.jpg" "099.jpg" "076.jpg" "144.jpg" "107.jpg" "121.jpg" "170.png" "152.jpg" "131.jpg" "023.jpg" "184.jpg" "006.jpg" "164.jpg" "136.jpg" "032.jpg" "083.jpg" "017.jpg" "index.html~" "001.jpg" "091.jpg" "177.png" "101.jpg" "030.jpg" "044.jpg" "064.jpg" "142.jpg" "153.jpg" "086.jpg" "138.jpg" "009.jpg" "060.jpg" "139.jpg" "062.jpg" "109.jpg" "178.png" "151.jpg" "111.jpg" "070.jpg" "019.jpg" "102.jpg" "122.jpg" "095.jpg" "013.jpg" "018.jpg" "046.jpg" "024.jpg" "068.jpg" "188.jpg" "020.jpg" "037.jpg" "040.jpg" "089.jpg" "031.jpg")
-
- ("/home/mm/Pictures/" (23354 29967 383435 995000) "photos_2018_05_12/" "me.jpg" "Screenshot from 2018-07-02 23-55-11.png" "photos_2018_06_17/" "photo_night_walk_2018_05_12_sisters/" "./" "Screenshot from 2018-05-13 08-51-14.png" "photo_2018_05_13/" "photos/" "../" "gimp_shortcuts.jpg" "Screenshot from 2018-06-03 12-31-05.png" "photo_turkey_2018_june/" "photos_naima_2018_06_27/" "photo_2018_05_20/" "photo_2018_05_18/" "photos_hayot_bday_2018_05_27/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

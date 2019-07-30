@@ -7,6 +7,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
  '(column-number-mode t)
  '(custom-enabled-themes (quote (wombat)))
  '(display-time-mode t)
@@ -14,7 +15,7 @@
  '(help-at-pt-timer-delay 0.9)
  '(package-selected-packages
    (quote
-    (csv-mode coffee-mode protobuf-mode expand-region magit flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company-go caml auto-complete)))
+    (ccls company-lsp lsp-ui lsp-mode ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo yasnippet-snippets csv-mode coffee-mode protobuf-mode expand-region magit flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
  '(plantuml-jar-path "/usr/share/java/plantuml.jar"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -23,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  )
 ;; set tab of 2 spaces for coffee
-(custom-set-variables '(coffee-tab-width 2))
+
 ;; turn off alarm bell
 (setq ring-bell-function 'ignore)
 (require 'package)
@@ -37,6 +38,8 @@
 (load "~/.emacs.d/go.el")
 (load "~/.emacs.d/clj.el")
 (load "~/.emacs.d/tss.el")
+(load "~/.emacs.d/rust.el")
+(load "~/.emacs.d/c_cpp.el")
 (global-set-key [f8] 'neotree-toggle)
 ;; smex configuration
 (smex-initialize)

@@ -1,4 +1,7 @@
 ((magit-commit nil)
  (magit-dispatch nil)
+ (magit-gitignore nil)
  (magit-log
-  ("-n256" "--graph" "--decorate")))
+  (("--" "graph/bfs_test.go"))
+  ("-n256" "--graph" "--decorate"))
+ (magit-rebase nil))
