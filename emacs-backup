@@ -15,8 +15,9 @@
  '(help-at-pt-timer-delay 0.9)
  '(package-selected-packages
    (quote
-    (ccls company-lsp lsp-ui lsp-mode ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo yasnippet-snippets csv-mode coffee-mode protobuf-mode expand-region magit flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode yasnippet tide go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree tuareg scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
- '(plantuml-jar-path "/usr/share/java/plantuml.jar"))
+    (let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
+ '(plantuml-jar-path "/usr/share/java/plantuml.jar")
+ '(tls-checktrust t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,7 +29,9 @@
 ;; turn off alarm bell
 (setq ring-bell-function 'ignore)
 (require 'package)
-(push '("melpa" . "http://melpa.milkbox.net/packages/")
+(push '("melpa" . "https://melpa.org/packages/")
+      package-archives)
+(push '("gnu" . "https://elpa.gnu.org/packages/")
 	package-archives)
 (package-initialize)
 (show-paren-mode 1)
@@ -74,5 +77,7 @@
   (setq ido-default-buffer-method 'selected-window)
   ;; stop ido from suggesting when naming new file
   (define-key (cdr ido-minor-mode-map-entry) [remap write-file] nil))
+;; TODO rm after fix in emacs, turn off TLS1.3 https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34341
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 ;;; .emacs ends here
  
