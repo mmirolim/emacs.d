@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- lsp-describe-thing-at-point
- lsp-ui-imenu
  eval-buffer
- ggtags-mode
- revert-buffer
+ customize-variable
+ kill-buffer
+ package-refresh-contents
  package-list-packages
- flycheck-mode
+ revert-buffer
+ electric-indent-mode
 )
 
 ;; ----- smex-data -----
@@ -19,19 +19,19 @@
  (vc-region-history . 1)
  (cider-report-bug . 1)
  (compose-region . 1)
- (comment-region . 136)
+ (comment-region . 138)
  (start-kbd-macro . 1)
  (golint . 3)
  (go-mode-menu . 1)
  (menu-bar-open . 4)
  (imenu . 5)
- (shell . 34)
+ (shell . 42)
  (goto-last-change . 110)
  (goto-last-change-reverse . 8)
  (go-test-current-file . 237)
  (go-rename . 45)
  (go-set-project . 2)
- (revert-buffer . 263)
+ (revert-buffer . 269)
  (go-direx-pop-to-buffer . 5)
  (go-direx-switch-to-buffer . 3)
  (speedbar . 1)
@@ -41,11 +41,11 @@
  (diff . 18)
  (indent-rigidly . 1)
  (mc/mark-next-lines . 2)
- (mc/mark-next-like-this . 1173)
+ (mc/mark-next-like-this . 1186)
  (json-pretty-print . 22)
  (cvs-checkout . 1)
  (grep . 4)
- (uncomment-region . 76)
+ (uncomment-region . 77)
  (smerge-mode . 3)
  (smerge-next . 102)
  (smerge-resolve . 1)
@@ -66,7 +66,7 @@
  (windmove-down . 1)
  (move-to-window-line . 1)
  (move-to-window-line-top-bottom . 1)
- (package-list-packages . 28)
+ (package-list-packages . 30)
  (lgrep . 4)
  (subword-capitalize . 1)
  (eshell . 6)
@@ -74,7 +74,7 @@
  (package-autoremove . 3)
  (plantuml-mode . 3)
  (plantuml-preview . 5)
- (customize-variable . 1)
+ (customize-variable . 3)
  (python-mode . 1)
  (magit-log . 20)
  (mc/edit-lines . 125)
@@ -83,7 +83,7 @@
  (magit-diff . 6)
  (git-add-file . 2)
  (magit-rebase . 8)
- (magit-status . 152)
+ (magit-status . 157)
  (magit-commit-amend . 3)
  (expand-abbrev . 1)
  (er/expand-region . 3)
@@ -139,7 +139,7 @@
  (rust-run . 1)
  (rust-test . 1278)
  (exit-minibuffer . 2)
- (kill-buffer . 25)
+ (kill-buffer . 27)
  (magit-push-other . 14)
  (go-test-current-test . 39)
  (downcase-region . 1)
@@ -157,7 +157,7 @@
  (ispell-buffer . 3)
  (ispell-change-dictionary . 1)
  (set-buffer-file-coding-system . 1)
- (eval-buffer . 2)
+ (eval-buffer . 5)
  (eval-last-sexp . 1)
  (ielm . 1)
  (ispell-word . 1)
@@ -165,10 +165,15 @@
  (ispell-kill-ispell . 1)
  (magit-log-select-quit . 1)
  (dired-next-dirline . 1)
- (ggtags-mode . 4)
+ (ggtags-mode . 5)
  (xref--mouse-2 . 1)
  (flymake-mode . 2)
  (flycheck-mode . 1)
  (lsp-ui-imenu . 1)
- (lsp-describe-thing-at-point . 1)
+ (lsp-describe-thing-at-point . 2)
+ (compile . 2)
+ (rename-file . 2)
+ (lsp . 1)
+ (electric-indent-mode . 2)
+ (package-refresh-contents . 5)
 )
