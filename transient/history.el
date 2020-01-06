@@ -1,4 +1,9 @@
-((magit-commit nil)
+((magit-am
+  ("--3way"))
+ (magit-blame
+  ("-w"))
+ (magit-branch nil)
+ (magit-commit nil)
  (magit-dispatch nil)
  (magit-gitignore nil)
  (magit-log

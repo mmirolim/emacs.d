@@ -58,3 +58,16 @@ ls
 ls
 ls | grep *.go
 ls | grep .go
+ls
+go version
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 
+go run try-errgroup.go 

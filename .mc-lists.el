@@ -4,6 +4,9 @@
 (setq mc/cmds-to-run-for-all
       '(
 	beginning-of-buffer
+	c-electric-brace
+	c-electric-delete-forward
+	c-electric-semi&comma
 	coffee-dedent-line-backspace
 	electric-newline-and-maybe-indent
 	electric-pair-delete-pair
@@ -13,6 +16,7 @@
 	kill-region
 	markdown-outdent-or-delete
 	query-replace
+	rjsx-delete-creates-full-tag
 	upcase-region
 	yaml-electric-dash-and-dot
 	))
