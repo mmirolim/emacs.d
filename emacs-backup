@@ -10,22 +10,28 @@
  '(coffee-tab-width 2)
  '(column-number-mode t)
  '(custom-enabled-themes (quote (wombat)))
+ '(desktop-save-mode 1)
  '(display-time-mode t)
  '(help-at-pt-display-when-idle (quote (flymake-overlay)) nil (help-at-pt))
  '(help-at-pt-timer-delay 0.9)
+ '(markdown-command "pandoc")
  '(package-selected-packages
    (quote
-    (solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
+    (elpy ## php-mode solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
  '(plantuml-jar-path "/usr/share/java/plantuml.jar")
- '(tls-checktrust t))
+ '(save-place-mode 1)
+ '(set-frame-font 13)
+ '(show-paren-mode t)
+ '(tls-checktrust t)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
-;; set tab of 2 spaces for coffee
-
+ '(default ((t (:family "Source Code Pro" :foundry "ADBO" :slant normal :weight normal :height 128 :width normal)))))
+;; Hide the startup message
+(setq inhibit-startup-message t)
 ;; turn off alarm bell
 (setq ring-bell-function 'ignore)
 (require 'package)
@@ -38,6 +44,11 @@
 (electric-pair-mode 1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+(elpy-enable)
+;; Enable Flycheck
+(when (require 'flycheck nil t)
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
 (load "~/.emacs.d/go.el")
 (load "~/.emacs.d/clj.el")
 (load "~/.emacs.d/tss.el")
