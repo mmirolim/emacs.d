@@ -5,7 +5,6 @@
 (require 'cc-mode)
 (require 'lsp-mode)
 (require 'lsp-ui)
-(require 'company-lsp)
 (require 'ccls)
 (require 'use-package)
 
@@ -24,11 +23,6 @@
     (lsp-ui-imenu-enable t)
     (lsp-ui-imenu-kind-position 'top))
 
-(use-package company-lsp
-  :ensure t
-  :commands company-lsp
-  :config (push 'company-lsp company-backends)) ;; add company-lsp as a backend
-
 (use-package ccls
   :ensure t
   :config
@@ -36,5 +30,5 @@
   (setq lsp-prefer-flymake nil)
   (setq-default flycheck-disabled-checkers '(c/c++-clang c/c++-cppcheck c/c++-gcc))
   :hook ((c-mode c++-mode objc-mode) .
-         (lambda () (require 'ccls) (lsp))))
-;;; go.el ends here
+         (lambda () (require 'ccls) (lsp) (yas-minor-mode 1))))
+;;; c_cpp.el ends here

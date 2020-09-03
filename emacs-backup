@@ -9,15 +9,14 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(column-number-mode t)
- '(custom-enabled-themes (quote (wombat)))
+ '(custom-enabled-themes '(wombat))
  '(desktop-save-mode 1)
  '(display-time-mode t)
- '(help-at-pt-display-when-idle (quote (flymake-overlay)) nil (help-at-pt))
+ '(help-at-pt-display-when-idle '(flymake-overlay) nil (help-at-pt))
  '(help-at-pt-timer-delay 0.9)
  '(markdown-command "pandoc")
  '(package-selected-packages
-   (quote
-    (elpy ## php-mode solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete)))
+   '(ein py-autopep8 elpy ## php-mode solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete))
  '(plantuml-jar-path "/usr/share/java/plantuml.jar")
  '(save-place-mode 1)
  '(set-frame-font 13)
@@ -49,6 +48,14 @@
 (when (require 'flycheck nil t)
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
   (add-hook 'elpy-mode-hook 'flycheck-mode))
+;; Enable autopep8 python
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+;; Use IPython for REPL
+(setq python-shell-interpreter "ipython"
+      python-shell-interpreter-args "-i --simple-prompt"
+      python-shell-prompt-detect-failure-warning nil)
+
 (load "~/.emacs.d/go.el")
 (load "~/.emacs.d/clj.el")
 (load "~/.emacs.d/tss.el")
@@ -89,7 +96,5 @@
   (setq ido-default-buffer-method 'selected-window)
   ;; stop ido from suggesting when naming new file
   (define-key (cdr ido-minor-mode-map-entry) [remap write-file] nil))
-;; TODO rm after fix in emacs, turn off TLS1.3 https://debbugs.gnu.org/cgi/bugreport.cgi?bug=34341
-(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 ;;; .emacs ends here
  

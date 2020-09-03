@@ -1,3 +1,14 @@
+.emacs.desktop
+.emacs.desktop.lock
+.lsp-session-v1
+.mc-lists.el
+ido.last
+smex-items
+request/*
+url/*
+transient/*
+places
+todo/*
 session.*
 *~
 *.sw*
