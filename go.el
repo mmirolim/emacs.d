@@ -16,29 +16,48 @@
 (setenv "GOPATH" "/home/mm/go")
 (setq exec-path (append exec-path '("/home/mm/go/bin")))
 
-;; Goflymake
-;; TODO remove using flycheck
-;;(add-to-list 'load-path (concat (getenv "GOPATH") "/src/github.com/dougm/goflymake"))
-;;(require 'go-flymake)
 ; Golint
 (add-to-list 'load-path (concat (getenv "GOPATH")
-"/src/golang.org/x/lint/misc/emacs"))
-(require 'golint)
-(defun my-go-mode-hook ()
-	;; Use goimports instead of go-fmt
-	(setq gofmt-command "goimports")
-	;; Call gofmt before saving
-	(add-hook 'before-save-hook 'gofmt-before-save)
-	;; Customize compile command to run go build
-	(if (not (string-match "go" compile-command))
-		(set (make-local-variable 'compile-command)
-			;; "go build -v && go test -v"))
-			;; go vet not working
-			"go build -v && go test -v && go vet"))
-	;; Godef jump key binding
-	(local-set-key (kbd "M-.") 'godef-jump))
+				"/src/golang.org/x/lint/misc/emacs"))
 
-(add-hook 'go-mode-hook 'my-go-mode-hook)
+(use-package lsp-mode
+  :ensure t
+  :commands (lsp lsp-deferred)
+  :hook (go-mode . lsp-deferred))
+
+(defun lsp-go-install-save-hooks ()
+  (add-hook 'before-save-hook #'lsp-format-buffer t t)
+  (add-hook 'before-save-hook #'lsp-organize-imports t t))
+(add-hook 'go-mode-hook #'lsp-go-install-save-hooks)
+
+(use-package lsp-ui
+  :ensure t
+  :commands lsp-ui-mode)
+
+;; Company mode is a standard completion package that works well with lsp-mode.
+(use-package company
+  :ensure t
+  :config
+  ;; Optionally enable completion-as-you-type behavior.
+  (setq company-idle-delay 0)
+  (setq company-minimum-prefix-length 1))
+
+(require 'golint)
+;; (defun my-go-mode-hook ()
+;; 	;; Use goimports instead of go-fmt
+;; 	(setq gofmt-command "goimports")
+;; 	;; Call gofmt before saving
+;; 	(add-hook 'before-save-hook 'gofmt-before-save)
+;; 	;; Customize compile command to run go build
+;; 	(if (not (string-match "go" compile-command))
+;; 		(set (make-local-variable 'compile-command)
+;; 			;; "go build -v && go test -v"))
+;; 			;; go vet not working
+;; 			"go build -v && go test -v && go vet"))
+;; 	;; Godef jump key binding
+;; 	(local-set-key (kbd "M-.") 'godef-jump))
+
+;; (add-hook 'go-mode-hook 'my-go-mode-hook)
 ; kbd to godoc
 (add-hook 'go-mode-hook '(lambda ()
 	(local-set-key (kbd "C-c C-k") 'godoc)))

@@ -2,6 +2,7 @@
 .emacs.desktop.lock
 .lsp-session-v1
 .mc-lists.el
+timelog
 ido.last
 smex-items
 request/*
