@@ -24,6 +24,7 @@
 ;; formats the buffer before saving
 (add-hook 'before-save-hook 'tide-format-before-save)
 (add-hook 'typescript-mode-hook #'setup-tide-mode)
+(add-hook 'typescript-mode-hook #'yas-minor-mode)
 
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
 (add-hook 'web-mode-hook

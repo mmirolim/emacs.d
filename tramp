@@ -1,29 +1,6 @@
-;; -*- emacs-lisp -*- <17/08/15 14:29:35 /home/me/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <21/05/26 00:34:09 /home/mm/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
-;; You can delete it, forcing Tramp to reapply the checks.
+;; Run `M-x tramp-cleanup-all-connections' instead.
 
-((["ssh" "root" "188.166.233.52" nil nil]
-  ("uname" "Linux 4.4.0-38-generic")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("file-exists" "test -e")
-  ("readlink" "\\readlink")
-  ("stat" nil)
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("id" "/usr/bin/id")
-  ("gid-string" "root")
-  ("gid-integer" 0)
-  ("uid-integer" 0)
-  ("tmpdir" "/tmp")
-  ("touch-t" t)
-  ("touch" "\\touch")
-  ("~" "/root")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t))
- (["scp" nil "github.com" nil nil]
+(((tramp-file-name "ssh" nil nil "ec2-35-173-35-218.compute-1.amazonaws.com" nil nil nil)
   nil))

@@ -30,10 +30,16 @@
   (add-hook 'before-save-hook #'lsp-organize-imports t t))
 (add-hook 'go-mode-hook #'lsp-go-install-save-hooks)
 
+;; optional - provides fancy overlay information
 (use-package lsp-ui
   :ensure t
-  :commands lsp-ui-mode)
-
+  :commands lsp-ui-mode
+  :config (progn
+            ;; disable inline documentation
+            ;; (setq lsp-ui-sideline-enable nil)
+            ;; disable showing docs on hover at the top of the window
+            (setq lsp-ui-doc-enable nil))
+  )
 ;; Company mode is a standard completion package that works well with lsp-mode.
 (use-package company
   :ensure t

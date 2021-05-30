@@ -16,7 +16,7 @@
  '(help-at-pt-timer-delay 0.9)
  '(markdown-command "pandoc")
  '(package-selected-packages
-   '(ein py-autopep8 elpy ## php-mode solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete))
+   '(command-log-mode jq-mode ob-restclient company-restclient restclient ein py-autopep8 elpy ## php-mode solidity-flycheck company-solidity solidity-mode web-mode rjsx-mode yasnippet-snippets magit let-alist ccls company-lsp lsp-ui ggtags arduino-mode racer flycheck-rust rust-auto-use rust-mode cargo csv-mode coffee-mode protobuf-mode expand-region flycheck-plantuml plantuml-mode go-rename ace-window flycheck-gometalinter flycheck yaml-mode js2-mode go-errcheck go-mode smex which-key clj-refactor aggressive-indent rainbow-delimiters syntax-subword cider paredit clojure-mode go-direx go-dlv go-scratch go-guru gotest go-eldoc undo-tree scala-mode2 neotree markdown-mode lua-mode goto-chg f ensime company company-go caml auto-complete))
  '(plantuml-jar-path "/usr/share/java/plantuml.jar")
  '(save-place-mode 1)
  '(set-frame-font 13)
@@ -62,7 +62,8 @@
 (load "~/.emacs.d/tss.el")
 (load "~/.emacs.d/rust.el")
 (load "~/.emacs.d/c_cpp.el")
-(load "~/.emacs.d/sol.el")
+(load "~/.emacs.d/python.el")
+;; (load "~/.emacs.d/sol.el")
 (global-set-key [f8] 'neotree-toggle)
 ;; smex configuration
 (smex-initialize)
