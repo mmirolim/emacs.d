@@ -1,0 +1,2 @@
+;;; Generated package description from solidity-flycheck.el  -*- no-byte-compile: t -*-
+(define-package "solidity-flycheck" "20210411.758" "Flycheck integration for solidity emacs mode" '((flycheck "32snapshot") (solidity-mode "0.1.9") (dash "2.17.0")) :commit "7f239128a15b2baf47be0f8c88f1f533f3114071" :authors '(("Lefteris Karapetsas " . "lefteris@refu.co")) :maintainer '("Lefteris Karapetsas " . "lefteris@refu.co") :keywords '("languages" "solidity" "flycheck"))
