@@ -11,8 +11,8 @@
 
 ;;; Code:
 ;; TODO should be able to get from ENV but does not work
-(setenv "GOPATH" "/home/mm/go")
-(setq exec-path (append exec-path '("/home/mm/go/bin")))
+;;(setenv "GOPATH" "/home/mm/go")
+;;(setq exec-path (append exec-path '("/home/mm/go/bin")))
 
 
 (use-package lsp-mode
@@ -35,6 +35,9 @@
             ;; disable showing docs on hover at the top of the window
             (setq lsp-ui-doc-enable nil))
   )
+
+(setq lsp-go-env '((GOFLAGS . "-tags=integration_test,integration_benchmark")))
+
 ;; Company mode is a standard completion package that works well with lsp-mode.
 (use-package company
   :ensure t
