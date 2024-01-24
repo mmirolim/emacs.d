@@ -36,7 +36,7 @@
             (setq lsp-ui-doc-enable nil))
   )
 
-(setq lsp-go-env '((GOFLAGS . "-tags=integration_test,integration_benchmark")))
+(setq lsp-go-env '((GOFLAGS . "-tags=integration_test,no_race,integration_benchmark")))
 
 ;; Company mode is a standard completion package that works well with lsp-mode.
 (use-package company
