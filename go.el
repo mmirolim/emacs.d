@@ -6,7 +6,7 @@
 (require 'go-guru)
 (require 'yasnippet)
 (require 'flycheck)
-(require 'go-direx)
+;;(require 'go-direx)
 (require 'company)
 
 ;;; Code:
